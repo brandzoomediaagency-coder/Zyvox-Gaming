@@ -45,7 +45,7 @@ export const CONFIG = Object.freeze({
   // Paste your GA4 Measurement ID (e.g. 'G-XXXXXXXXXX') to auto-load gtag.js and
   // record an `affiliate_click` event on every outbound Amazon click. Leave ''
   // to skip GA4 — clicks still fire a DOM event + (on localhost) a console log.
-  GA4_MEASUREMENT_ID: '',
+  GA4_MEASUREMENT_ID: 'G-HCHEPW7H8Z',
   // Optional first-party collector URL. Clicks are POSTed via navigator.sendBeacon.
   TRACKING_ENDPOINT: '',
   // Log every click to the console. Auto-enabled on localhost regardless.
