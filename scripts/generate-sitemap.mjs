@@ -23,6 +23,9 @@ const GUIDES = [
   'best-gaming-headset-india-2026.html',
 ];
 
+// Static pages (About, Contact, legal). Low priority, rarely change.
+const STATIC = ['about.html', 'contact.html', 'privacy.html', 'affiliate-disclosure.html', 'terms.html'];
+
 const urls = [
   { loc: `${base}/index.html`, priority: '1.0', changefreq: 'daily' },
   ...GUIDES.map((g) => ({ loc: `${base}/${g}`, priority: '0.9', changefreq: 'weekly' })),
@@ -31,6 +34,7 @@ const urls = [
     priority: '0.8',
     changefreq: 'weekly',
   })),
+  ...STATIC.map((s) => ({ loc: `${base}/${s}`, priority: '0.3', changefreq: 'yearly' })),
 ];
 
 const sitemap =
