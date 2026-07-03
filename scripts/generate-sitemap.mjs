@@ -24,7 +24,7 @@ const GUIDES = [
 ];
 
 // Static pages (About, Contact, legal). Low priority, rarely change.
-const STATIC = ['about.html', 'contact.html', 'privacy.html', 'affiliate-disclosure.html', 'terms.html'];
+const STATIC = ['faq.html', 'about.html', 'contact.html', 'privacy.html', 'affiliate-disclosure.html', 'terms.html'];
 
 const urls = [
   { loc: `${base}/index.html`, priority: '1.0', changefreq: 'daily' },
