@@ -1,0 +1,15 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (the app itself is dependency-free; this guards dev tooling)
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# Editors
+.vscode/
+.idea/
+
+# Logs / temp
+*.log
