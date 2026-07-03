@@ -54,7 +54,7 @@ export const CONFIG = Object.freeze({
   /* ----- Brand ----- */
   SITE_NAME: 'ZyvoxGaming',
   SITE_TAGLINE: 'Pro-Tested Gaming Gear, Curated For 2026',
-  SITE_URL: 'https://www.zyvoxgaming.example', // replace with your live domain
+  SITE_URL: 'https://zyvoxgamer.shop', // replace with your live domain
 
   /* ----- Pricing policy -----
    * Prices are NEVER hardcoded. They must be pulled live from the Amazon

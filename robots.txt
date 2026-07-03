@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Block nothing sensitive on a public affiliate storefront.
-Sitemap: https://www.zyvoxgaming.example/sitemap.xml
+Sitemap: https://zyvoxgamer.shop/sitemap.xml
