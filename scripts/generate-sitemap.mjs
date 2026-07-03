@@ -17,7 +17,11 @@ const today = new Date().toISOString().slice(0, 10);
 const xmlEscape = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
 // Buying-guide / roundup pages (add new guide filenames here).
-const GUIDES = ['best-gaming-mouse-india-2026.html'];
+const GUIDES = [
+  'best-gaming-mouse-india-2026.html',
+  'best-gaming-keyboard-india-2026.html',
+  'best-gaming-headset-india-2026.html',
+];
 
 const urls = [
   { loc: `${base}/index.html`, priority: '1.0', changefreq: 'daily' },
