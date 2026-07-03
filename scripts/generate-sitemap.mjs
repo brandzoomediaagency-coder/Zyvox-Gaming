@@ -16,8 +16,12 @@ const base = CONFIG.SITE_URL.replace(/\/+$/, '');
 const today = new Date().toISOString().slice(0, 10);
 const xmlEscape = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
+// Buying-guide / roundup pages (add new guide filenames here).
+const GUIDES = ['best-gaming-mouse-india-2026.html'];
+
 const urls = [
   { loc: `${base}/index.html`, priority: '1.0', changefreq: 'daily' },
+  ...GUIDES.map((g) => ({ loc: `${base}/${g}`, priority: '0.9', changefreq: 'weekly' })),
   ...PRODUCTS.map((p) => ({
     loc: `${base}/product.html?slug=${encodeURIComponent(p.slug)}`,
     priority: '0.8',

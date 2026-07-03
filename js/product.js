@@ -275,13 +275,13 @@ function injectJsonLd(product) {
 function updateMeta(product) {
   const url = `${CONFIG.SITE_URL}/product.html?slug=${product.slug}`;
   const imageUrl = getPrimaryImageUrl(product);
-  const ogTitle = `${shortName(product)} — In-Depth Review (2026)`;
+  const ogTitle = `${shortName(product)} — Review, Price & Specs (India 2026)`;
   const set = (selector, attr, value) => {
     const el = document.querySelector(selector);
     if (el) el.setAttribute(attr, value);
   };
 
-  document.title = `${product.title} — In-Depth Review (2026) | ${CONFIG.SITE_NAME}`;
+  document.title = `${product.title} — Review, Price & Specs in India (2026) | ${CONFIG.SITE_NAME}`;
   set('meta[name="description"]', 'content', product.review.summary);
   set('link[rel="canonical"]', 'href', url);
 
