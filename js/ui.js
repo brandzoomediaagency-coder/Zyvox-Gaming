@@ -7,6 +7,7 @@
 import { CONFIG } from './config.js';
 import { PRODUCTS, getProductsByBadge, getProductImages, getDetailUrl } from './data.js';
 import { escapeHtml, formatCount, starsHtml } from './util.js';
+import { mountSearch } from './search.js';
 
 /* ----- Shared header / nav / search behavior ----------------------------- */
 export function mountChrome() {
@@ -28,14 +29,8 @@ export function mountChrome() {
     });
   }
 
-  // Search is intentionally mocked (no backend). Surface a polite toast.
-  document.querySelectorAll('form[data-mock-search]').forEach((form) => {
-    form.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const q = form.querySelector('input')?.value?.trim();
-      toast(q ? `Search is a demo — "${q}" would query the catalog.` : 'Type a product to search.');
-    });
-  });
+  // Real-time client-side product search on every header search box.
+  mountSearch();
 
   // Wire every "Shop on Amazon" button to the store link from config, then let
   // affiliate.js tag + secure it (short links keep their baked-in tag; only
