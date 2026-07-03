@@ -16,7 +16,7 @@ import { getProductBySlug, PRODUCTS, getProductImages, getDetailUrl, getPrimaryI
 import { renderProductCard } from './ui.js';
 import { escapeHtml, formatCount, starsHtml, getQueryParam } from './util.js';
 
-const FEATURED_SLUG = 'logitech-g502-hero';
+const FEATURED_SLUG = PRODUCTS[0]?.slug || ''; // default PDP = first catalog product
 
 /* Map category → natural singular for human-readable, AEO-friendly headings. */
 const CATEGORY_SINGULAR = {
@@ -73,14 +73,9 @@ function buildSpecsDl(product) {
 function buildReview(product) {
   const r = product.review;
   const paras = r.paragraphs.map((p) => `<p class="leading-relaxed text-slate-300">${escapeHtml(p)}</p>`).join('');
-  const pros = r.pros.map((p) => `<li class="flex gap-2"><span class="text-green-400" aria-hidden="true">＋</span><span>${escapeHtml(p)}</span></li>`).join('');
-  const cons = r.cons.map((c) => `<li class="flex gap-2"><span class="text-rose-400" aria-hidden="true">－</span><span>${escapeHtml(c)}</span></li>`).join('');
-  return `
-    <h2 class="font-display text-xl font-bold text-white sm:text-2xl">${escapeHtml(reviewQuestion(product))}</h2>
-    <p class="mt-4 rounded-xl border border-orange/30 bg-orange/5 p-4 text-base font-medium leading-relaxed text-slate-100">
-      ${escapeHtml(r.summary)}
-    </p>
-    <div class="mt-5 space-y-4">${paras}</div>
+  const pros = (r.pros || []).map((p) => `<li class="flex gap-2"><span class="text-green-400" aria-hidden="true">＋</span><span>${escapeHtml(p)}</span></li>`).join('');
+  const cons = (r.cons || []).map((c) => `<li class="flex gap-2"><span class="text-rose-400" aria-hidden="true">－</span><span>${escapeHtml(c)}</span></li>`).join('');
+  const prosCons = (pros || cons) ? `
     <div class="mt-6 grid gap-4 sm:grid-cols-2">
       <div class="rounded-xl border border-steel/40 bg-ink/40 p-4">
         <h3 class="mb-2 text-sm font-bold uppercase tracking-wide text-green-400">What we liked</h3>
@@ -90,7 +85,13 @@ function buildReview(product) {
         <h3 class="mb-2 text-sm font-bold uppercase tracking-wide text-rose-400">Trade-offs</h3>
         <ul class="space-y-1.5 text-sm text-slate-300">${cons}</ul>
       </div>
-    </div>`;
+    </div>` : '';
+  return `
+    <h2 class="font-display text-xl font-bold text-white sm:text-2xl">${escapeHtml(reviewQuestion(product))}</h2>
+    <p class="mt-4 rounded-xl border border-orange/30 bg-orange/5 p-4 text-base font-medium leading-relaxed text-slate-100">
+      ${escapeHtml(r.summary)}
+    </p>
+    <div class="mt-5 space-y-4">${paras}</div>${prosCons}`;
 }
 
 function buildFaq(product) {
@@ -232,23 +233,15 @@ function buildJsonLd(product) {
         category: product.category,
         image: imageUrl,
         description: product.review.summary,
-        sku: product.asin,
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: product.rating,
-          reviewCount: product.reviewCount,
-          bestRating: 5,
-          worstRating: 1,
-        },
-        review: {
-          '@type': 'Review',
-          reviewRating: { '@type': 'Rating', ratingValue: product.rating, bestRating: 5 },
-          author: { '@type': 'Organization', name: CONFIG.SITE_NAME },
-          reviewBody: product.review.summary,
-        },
-        // NOTE: `offers` is intentionally omitted from the static markup because
-        // we never hardcode prices (Amazon policy). Inject an `offers` block
-        // server-side with the LIVE PA-API price + availability + product URL.
+        ...(product.asin ? { sku: product.asin } : {}),
+        // aggregateRating/review only when we have a real rating (never fabricate).
+        // With live PA-API, populate these + an `offers` block server-side.
+        ...(product.rating
+          ? {
+              aggregateRating: { '@type': 'AggregateRating', ratingValue: product.rating, reviewCount: product.reviewCount, bestRating: 5, worstRating: 1 },
+              review: { '@type': 'Review', reviewRating: { '@type': 'Rating', ratingValue: product.rating, bestRating: 5 }, author: { '@type': 'Organization', name: CONFIG.SITE_NAME }, reviewBody: product.review.summary },
+            }
+          : {}),
       },
       {
         '@type': 'FAQPage',
@@ -309,13 +302,14 @@ export function mountPDP() {
   setText('pdp-subtitle', product.review.summary);
   setText('pdp-brand', product.brand);
 
-  // Rating block
+  // Rating block (only show stars when we have a real rating; never fabricate)
   const ratingEl = document.getElementById('pdp-rating');
   if (ratingEl) {
-    ratingEl.innerHTML = `
-      ${starsHtml(product.rating, product.reviewCount)}
-      <span class="font-bold text-slate-100">${product.rating.toFixed(1)}</span>
-      <span class="text-slate-400">(${formatCount(product.reviewCount)} ratings)</span>`;
+    ratingEl.innerHTML = product.rating
+      ? `${starsHtml(product.rating, product.reviewCount)}
+         <span class="font-bold text-slate-100">${product.rating.toFixed(1)}</span>
+         ${product.reviewCount ? `<span class="text-slate-400">(${formatCount(product.reviewCount)} ratings)</span>` : ''}`
+      : `<span class="text-slate-400">★ See ratings &amp; reviews on Amazon</span>`;
   }
 
   // Prime indicator

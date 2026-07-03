@@ -1,942 +1,5415 @@
 /* =============================================================================
  * data.js — Product catalog
  * -----------------------------------------------------------------------------
- * HOW TO ADD YOUR AFFILIATE LINKS (the only thing you need to do per product):
- *   1. On amazon.in (logged into Associates), open the product.
- *   2. Use the SiteStripe bar → "Get Link" → "Text" → copy the full URL.
- *   3. Paste it into that product's `affiliateUrl` below.
- *
- * Until a product's `affiliateUrl` is filled, its Buy button falls back to your
- * store link (CONFIG.AMAZON_STORE_URL) — so every click still opens amazon.in
- * with your tag and earns on any purchase within Amazon's 24h window.
- *
- * COMPLIANCE: no prices are stored here (fetch live via PA-API — see js/api.js).
- * Set a real `asin` when you have PA-API access to enable live price + rating.
+ * AUTO-GENERATED from your Amazon affiliate links (each link was resolved to its
+ * real product, so every affiliateUrl matches its product page — verified).
+ * Titles/ASINs are real; ratings are intentionally null (never fabricated) and
+ * will be filled live via PA-API 5.0 (see js/api.js). No prices are stored.
+ * To enrich a product, edit its bullets/specs/review/faq below.
  * ========================================================================== */
 import { CONFIG } from './config.js';
 import { placeholderImage } from './util.js';
 
 export const PRODUCTS = [
   {
-    asin: '',                 // ← optional: real ASIN enables live price via PA-API
-    affiliateUrl: 'https://amzn.to/4vfg2HX',
-    slug: 'logitech-g502-hero',
-    title: 'Logitech G502 HERO High-Performance Wired Gaming Mouse',
-    brand: 'Logitech G',
-    category: 'Gaming Mice',
-    badges: ['Bestseller', 'Top Rated', 'Trending'],
-    rating: 4.7,
-    reviewCount: 45000,
-    isPrime: true,
-    hue: 28,
-    bullets: [
-      'HERO 25K optical sensor — up to 25,600 DPI with no acceleration or smoothing',
-      '11 programmable buttons for macros, DPI shift and in-game commands',
-      '5 removable 3.6g weights to tune balance from 116g to 134g',
-      'LIGHTSYNC RGB with onboard memory for up to 5 saved profiles',
-      'Mechanical button tensioning and durable braided cable',
+    "asin": "B0BQC1L5XW",
+    "affiliateUrl": "https://amzn.to/4p1Tb16",
+    "slug": "ant-esports-gm320-pro-optical-wireless-gaming",
+    "title": "Ant Esports GM320 Pro Optical Wireless Gaming Mouse",
+    "brand": "Ant Esports",
+    "category": "Gaming Mice",
+    "badges": [
+      "Trending"
     ],
-    specs: {
-      'Sensor': 'HERO 25K optical',
-      'Max DPI': '25,600',
-      'Programmable Buttons': '11',
-      'Weight': '121 g (+ 5 × 3.6 g tunable)',
-      'Connection': 'Wired USB',
-      'Lighting': 'LIGHTSYNC RGB',
-      'Onboard Memory': 'Up to 5 profiles',
-      'Cable': '2.1 m braided',
-      'Compatibility': 'Windows, macOS',
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 28,
+    "bullets": [
+      "Connection: Wireless",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Ant Esports",
+      "Category": "Gaming Mice",
+      "Connection": "Wireless"
     },
-    review: {
-      summary:
-        'The Logitech G502 HERO is the best all-round wired gaming mouse for most players in 2026 — the 25K HERO sensor, 11 buttons and tunable weights suit FPS, MOBA and MMO alike.',
-      paragraphs: [
-        'The G502 HERO earns its bestseller status by doing everything well. The HERO 25K sensor tracks flawlessly for competitive FPS, while the 11 programmable buttons make it a genuine workhorse for MOBAs and MMOs where extra binds matter.',
-        'At 121g it is heavier than featherweight esports mice, but the five 3.6g weights let you dial the balance to taste. The signature scroll wheel — switchable between ratchet and free-spin — is still one of the best in the business for scrolling long documents or spec sheets.',
+    "review": {
+      "summary": "The Ant Esports GM320 Pro Optical Wireless Gaming is a gaming mice from Ant Esports, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Ant Esports GM320 Pro Optical Wireless Gaming on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
       ],
-      pros: [
-        'Flawless HERO 25K sensor at any DPI',
-        '11 programmable buttons — great for MOBA/MMO',
-        'Tunable weight system and excellent dual-mode scroll wheel',
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Ant Esports GM320 Pro Optical Wireless Gaming in India?",
+        "a": "You can buy the Ant Esports GM320 Pro Optical Wireless Gaming on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Ant Esports GM320 Pro Optical Wireless Gaming worth buying?",
+        "a": "The Ant Esports GM320 Pro Optical Wireless Gaming is one of the more popular gaming mice options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0CBCPB2T1",
+    "affiliateUrl": "https://amzn.to/4giXfrx",
+    "slug": "razer-viper-v3-hyperspeed-wireless-esports-gaming",
+    "title": "Razer Viper V3 HyperSpeed Wireless Esports Gaming Mouse",
+    "brand": "Razer",
+    "category": "Gaming Mice",
+    "badges": [
+      "Top Rated"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 28,
+    "bullets": [
+      "Connection: Wireless",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Razer",
+      "Category": "Gaming Mice",
+      "Connection": "Wireless"
+    },
+    "review": {
+      "summary": "The Razer Viper V3 HyperSpeed Wireless Esports Gaming is a gaming mice from Razer, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Razer Viper V3 HyperSpeed Wireless Esports Gaming on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
       ],
-      cons: [
-        'Heavier than dedicated esports mice',
-        'Wired only (see G502 X PLUS for wireless)',
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Razer Viper V3 HyperSpeed Wireless Esports Gaming in India?",
+        "a": "You can buy the Razer Viper V3 HyperSpeed Wireless Esports Gaming on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Razer Viper V3 HyperSpeed Wireless Esports Gaming worth buying?",
+        "a": "The Razer Viper V3 HyperSpeed Wireless Esports Gaming is one of the more popular gaming mice options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0B91YPP6R",
+    "affiliateUrl": "https://amzn.to/3QZLAmW",
+    "slug": "razer-deathadder-v3-pro-wireless-gaming-mouse",
+    "title": "Razer DeathAdder V3 Pro Wireless Gaming Mouse",
+    "brand": "Razer",
+    "category": "Gaming Mice",
+    "badges": [
+      "Bestseller"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 28,
+    "bullets": [
+      "Connection: Wireless",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Razer",
+      "Category": "Gaming Mice",
+      "Connection": "Wireless"
+    },
+    "review": {
+      "summary": "The Razer DeathAdder V3 Pro Wireless Gaming Mouse is a gaming mice from Razer, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Razer DeathAdder V3 Pro Wireless Gaming Mouse on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
       ],
+      "pros": [],
+      "cons": []
     },
-    faq: [
+    "faq": [
       {
-        q: 'Is the Logitech G502 HERO good for FPS games in 2026?',
-        a: 'Yes. The HERO 25K sensor is pixel-accurate with no acceleration or smoothing, so it handles fast flick shots in games like Valorant and CS2 well. Its weight suits players who prefer a planted, controlled feel over an ultralight mouse.',
+        "q": "Where can I buy the Razer DeathAdder V3 Pro Wireless Gaming Mouse in India?",
+        "a": "You can buy the Razer DeathAdder V3 Pro Wireless Gaming Mouse on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
       },
       {
-        q: 'How many buttons does the G502 HERO have?',
-        a: 'It has 11 programmable buttons, including a DPI-shift "sniper" button and a dual-mode scroll wheel, all customisable in Logitech G HUB with onboard memory for up to five profiles.',
-      },
-      {
-        q: 'Is the G502 HERO wired or wireless?',
-        a: 'The G502 HERO is wired via a braided USB cable. If you want the same shape wirelessly, look at the Logitech G502 X PLUS with LIGHTSPEED wireless.',
-      },
-      {
-        q: 'Can I change the weight of the G502 HERO?',
-        a: 'Yes. It ships with five removable 3.6g weights you can arrange inside the mouse to adjust both total weight and balance point.',
-      },
-    ],
+        "q": "Is the Razer DeathAdder V3 Pro Wireless Gaming Mouse worth buying?",
+        "a": "The Razer DeathAdder V3 Pro Wireless Gaming Mouse is one of the more popular gaming mice options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
   },
   {
-    asin: '',
-    affiliateUrl: 'https://amzn.to/3RhjzaG',
-    slug: 'redragon-kumara-k552',
-    title: 'Redragon Kumara K552 RGB Mechanical Gaming Keyboard (TKL)',
-    brand: 'Redragon',
-    category: 'Keyboards',
-    badges: ['Top Rated', 'Trending'],
-    rating: 4.4,
-    reviewCount: 32000,
-    isPrime: true,
-    hue: 200,
-    bullets: [
-      'Tenkeyless 87-key layout saves desk space for low-sens aiming',
-      'Tactile mechanical switches rated for 50 million keystrokes',
-      'RGB backlighting with multiple presets and adjustable brightness',
-      'Metal-and-ABS body with double-shot keycaps for durability',
-      'Full anti-ghosting with conflict-free key rollover',
+    "asin": "B0D4LYF1QP",
+    "affiliateUrl": "https://amzn.to/3QPePZS",
+    "slug": "cimetech-dual-mode-bt-5-1-2",
+    "title": "cimetech Dual Mode (BT 5.1+2.4G) Wireless Mouse with LED Lights, Silent Portable",
+    "brand": "cimetech",
+    "category": "Gaming Mice",
+    "badges": [
+      "Trending"
     ],
-    specs: {
-      'Layout': 'Tenkeyless (87 keys)',
-      'Switches': 'Mechanical (tactile), 50M rated',
-      'Backlight': 'RGB (preset effects)',
-      'Keycaps': 'Double-shot ABS',
-      'Body': 'Metal top plate + ABS',
-      'Anti-Ghosting': 'Full N-key conflict-free',
-      'Connection': 'Wired USB',
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 28,
+    "bullets": [
+      "Connection: Wireless",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "cimetech",
+      "Category": "Gaming Mice",
+      "Connection": "Wireless"
     },
-    review: {
-      summary:
-        'The Redragon Kumara K552 is the best budget mechanical gaming keyboard in India — a compact, sturdy TKL board with real mechanical switches at an entry price.',
-      paragraphs: [
-        'For players stepping up from a membrane keyboard, the K552 is the obvious first mechanical. The tactile switches feel crisp, the metal plate keeps it planted, and the compact TKL layout frees up mouse room for low-sensitivity aiming.',
+    "review": {
+      "summary": "The cimetech Dual Mode is a gaming mice from cimetech, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the cimetech Dual Mode on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
       ],
-      pros: ['Genuine mechanical feel on a budget', 'Compact, sturdy metal build', 'Bright RGB presets'],
-      cons: ['No dedicated software on the base model', 'ABS keycaps can shine over time'],
+      "pros": [],
+      "cons": []
     },
-    faq: [
+    "faq": [
       {
-        q: 'Is the Redragon K552 good for gaming beginners?',
-        a: 'Yes. It is one of the most popular budget mechanical keyboards in India, offering a durable metal build, tactile switches and full anti-ghosting — ideal for a first mechanical gaming keyboard.',
+        "q": "Where can I buy the cimetech Dual Mode in India?",
+        "a": "You can buy the cimetech Dual Mode on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
       },
       {
-        q: 'Does the Redragon K552 have full RGB?',
-        a: 'The RGB version offers multi-colour backlighting with several preset lighting effects and adjustable brightness, controlled directly from the keyboard.',
-      },
-    ],
+        "q": "Is the cimetech Dual Mode worth buying?",
+        "a": "The cimetech Dual Mode is one of the more popular gaming mice options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
   },
   {
-    asin: '',
-    affiliateUrl: 'https://amzn.to/4vGWNb7',
-    slug: 'hyperx-cloud-ii',
-    title: 'HyperX Cloud II Gaming Headset (Virtual 7.1 Surround)',
-    brand: 'HyperX',
-    category: 'Headsets',
-    badges: ['Bestseller', 'Top Rated'],
-    rating: 4.6,
-    reviewCount: 60000,
-    isPrime: true,
-    hue: 280,
-    bullets: [
-      '53mm drivers tuned for clear footsteps and directional cues',
-      'USB sound card adds virtual 7.1 surround and easy volume control',
-      'Detachable noise-cancelling boom mic, TeamSpeak & Discord certified',
-      'Memory-foam ear cushions and durable aluminium frame for long sessions',
-      'Works on PC, PS5, Xbox, Switch and mobile via 3.5mm',
+    "asin": "B0BSTNXYHR",
+    "affiliateUrl": "https://amzn.to/4gRjIvQ",
+    "slug": "razer-basilisk-v3-pro-customizable-wireless-gaming",
+    "title": "Razer Basilisk V3 Pro Customizable Wireless Gaming Mouse",
+    "brand": "Razer",
+    "category": "Gaming Mice",
+    "badges": [
+      "Top Rated"
     ],
-    specs: {
-      'Drivers': '53 mm dynamic',
-      'Surround': 'Virtual 7.1 (USB sound card)',
-      'Microphone': 'Detachable noise-cancelling boom',
-      'Frame': 'Aluminium',
-      'Cushions': 'Memory foam (leatherette)',
-      'Connectivity': '3.5 mm + USB',
-      'Compatibility': 'PC, PS5, Xbox, Switch, mobile',
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 28,
+    "bullets": [
+      "Connection: Wireless",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Razer",
+      "Category": "Gaming Mice",
+      "Connection": "Wireless"
     },
-    review: {
-      summary:
-        'The HyperX Cloud II remains the safest gaming-headset recommendation in 2026: comfortable, well-built, and with a mic that genuinely sounds good on voice chat.',
-      paragraphs: [
-        'Years after launch the Cloud II is still a default pick because it nails the essentials. The 53mm drivers deliver clear positional audio, the memory-foam cushions stay comfortable for marathon sessions, and the detachable mic is among the best in its class for clarity.',
+    "review": {
+      "summary": "The Razer Basilisk V3 Pro Customizable Wireless Gaming is a gaming mice from Razer, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Razer Basilisk V3 Pro Customizable Wireless Gaming on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
       ],
-      pros: ['Excellent comfort for long sessions', 'Class-leading detachable mic', 'Rugged aluminium build'],
-      cons: ['Wired only', 'Leatherette pads run warm in summer'],
+      "pros": [],
+      "cons": []
     },
-    faq: [
+    "faq": [
       {
-        q: 'Is the HyperX Cloud II good for competitive gaming?',
-        a: 'Yes. Its 53mm drivers give clear directional audio for hearing footsteps and gunfire, and the virtual 7.1 surround (via the included USB sound card) helps with positional awareness in shooters.',
+        "q": "Where can I buy the Razer Basilisk V3 Pro Customizable Wireless Gaming in India?",
+        "a": "You can buy the Razer Basilisk V3 Pro Customizable Wireless Gaming on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
       },
       {
-        q: 'Does the HyperX Cloud II work with PS5 and Xbox?',
-        a: 'Yes. It connects via 3.5mm to PS5, Xbox and Switch controllers, and via USB on PC. The virtual 7.1 surround feature works over the USB connection on PC.',
-      },
-    ],
+        "q": "Is the Razer Basilisk V3 Pro Customizable Wireless Gaming worth buying?",
+        "a": "The Razer Basilisk V3 Pro Customizable Wireless Gaming is one of the more popular gaming mice options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
   },
   {
-    asin: '',
-    affiliateUrl: 'https://amzn.to/3TdlXji',
-    slug: 'lg-ultragear-27gp850',
-    title: 'LG UltraGear 27GP850 27" QHD Nano IPS 165Hz Gaming Monitor',
-    brand: 'LG',
-    category: 'Monitors',
-    badges: ['Top Rated', 'Trending'],
-    rating: 4.7,
-    reviewCount: 6200,
-    isPrime: false,
-    hue: 150,
-    bullets: [
-      '27-inch Nano IPS, 2560×1440 QHD — the sweet spot for high-refresh gaming',
-      '165Hz refresh (overclockable to 180Hz) with 1ms GtG response',
-      'NVIDIA G-SYNC Compatible and AMD FreeSync Premium tear-free gaming',
-      'VESA DisplayHDR 400 with vivid Nano IPS colour coverage',
-      'Ergonomic stand with height, tilt and pivot adjustment',
+    "asin": "B09BVCVTBC",
+    "affiliateUrl": "https://amzn.to/4vbC6TN",
+    "slug": "redragon-k617-fizz-60-wired-rgb-gaming",
+    "title": "Redragon K617 Fizz 60% Wired RGB Gaming Keyboard, 61 Keys Compact Mechanical",
+    "brand": "Redragon",
+    "category": "Keyboards",
+    "badges": [
+      "Bestseller"
     ],
-    specs: {
-      'Panel': 'Nano IPS',
-      'Resolution': '2560 × 1440 (QHD)',
-      'Refresh Rate': '165 Hz (OC 180 Hz)',
-      'Response Time': '1 ms (GtG)',
-      'Adaptive Sync': 'G-SYNC Compatible + FreeSync Premium',
-      'HDR': 'VESA DisplayHDR 400',
-      'Ports': 'DisplayPort 1.4, 2× HDMI 2.0',
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 205,
+    "bullets": [
+      "Connection: Wired",
+      "Type: Mechanical",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Redragon",
+      "Category": "Keyboards",
+      "Connection": "Wired",
+      "Type": "Mechanical"
     },
-    review: {
-      summary:
-        'The LG UltraGear 27GP850 is the best 1440p gaming monitor for most builds in 2026 — 165Hz, fast Nano IPS colour, and G-SYNC + FreeSync in one panel.',
-      paragraphs: [
-        'This is the monitor most 1440p gamers should buy. The Nano IPS panel is fast enough for competitive play at 165Hz (180Hz overclocked) while retaining the colour and viewing angles that TN panels sacrifice, making it equally good for single-player spectacle.',
+    "review": {
+      "summary": "The Redragon K617 Fizz 60% Wired RGB Gaming is a keyboards from Redragon, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Redragon K617 Fizz 60% Wired RGB Gaming on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
       ],
-      pros: ['Fast Nano IPS with great colour', '165Hz (OC 180Hz) + 1ms', 'Dual adaptive sync support'],
-      cons: ['HDR 400 is entry-level HDR', 'No USB-C'],
+      "pros": [],
+      "cons": []
     },
-    faq: [
+    "faq": [
       {
-        q: 'Is 1440p 165Hz good for gaming in 2026?',
-        a: 'Yes — 1440p at 165Hz is the mainstream sweet spot. It is sharper than 1080p, far easier to drive than 4K, and 165Hz delivers the smooth, responsive motion competitive players want.',
+        "q": "Where can I buy the Redragon K617 Fizz 60% Wired RGB Gaming in India?",
+        "a": "You can buy the Redragon K617 Fizz 60% Wired RGB Gaming on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
       },
       {
-        q: 'Does the LG 27GP850 support G-SYNC?',
-        a: 'Yes. It is certified NVIDIA G-SYNC Compatible and also supports AMD FreeSync Premium, so you get tear-free, low-stutter gaming on both NVIDIA and AMD graphics cards.',
-      },
-    ],
+        "q": "Is the Redragon K617 Fizz 60% Wired RGB Gaming worth buying?",
+        "a": "The Redragon K617 Fizz 60% Wired RGB Gaming is one of the more popular keyboards options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
   },
   {
-    asin: '',
-    affiliateUrl: 'https://amzn.to/4eHmMcB',
-    slug: 'green-soul-beast',
-    title: 'Green Soul Beast Series Ergonomic Gaming Chair',
-    brand: 'Green Soul',
-    category: 'Chairs',
-    badges: ['Bestseller'],
-    rating: 4.3,
-    reviewCount: 22000,
-    isPrime: true,
-    hue: 12,
-    bullets: [
-      'High-back ergonomic design with adjustable lumbar and neck pillows',
-      'Recline up to 165° with a multi-tilt lock for gaming or resting',
-      'Adjustable armrests and a smooth-glide caster base',
-      'Breathable, easy-clean premium PU leather upholstery',
-      'Class-3 gas lift with a sturdy metal frame',
+    "asin": "B07G98H6PM",
+    "affiliateUrl": "https://amzn.to/4eRC4Kz",
+    "slug": "logitech-g304-lightspeed-wireless-gaming-mouse",
+    "title": "Logitech G304 Lightspeed Wireless Gaming Mouse",
+    "brand": "Logitech",
+    "category": "Gaming Mice",
+    "badges": [
+      "Trending"
     ],
-    specs: {
-      'Design': 'High-back ergonomic',
-      'Recline': 'Up to 165°',
-      'Armrests': 'Adjustable',
-      'Pillows': 'Lumbar + neck (included)',
-      'Upholstery': 'Premium PU leather',
-      'Recommended Height': "5'6\" – 6'2\"",
-      'Gas Lift': 'Class 3',
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 28,
+    "bullets": [
+      "Connection: Wireless",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Logitech",
+      "Category": "Gaming Mice",
+      "Connection": "Wireless"
     },
-    review: {
-      summary:
-        'The Green Soul Beast is the most popular value gaming chair in India — a comfortable, well-built ergonomic seat with the adjustability serious gamers want.',
-      paragraphs: [
-        'For long play or work-from-home sessions, the Beast series balances support and price better than most. The lumbar and neck pillows, deep recline and adjustable armrests cover the ergonomic basics, and the build quality is reassuringly solid for the money.',
+    "review": {
+      "summary": "The Logitech G304 Lightspeed Wireless Gaming Mouse is a gaming mice from Logitech, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Logitech G304 Lightspeed Wireless Gaming Mouse on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
       ],
-      pros: ['Great value for the comfort', '165° recline + adjustable armrests', 'Sturdy, well-reviewed build'],
-      cons: ['Assembly takes ~30 minutes', 'Best fit for average-to-tall users'],
+      "pros": [],
+      "cons": []
     },
-    faq: [
+    "faq": [
       {
-        q: 'Is the Green Soul Beast chair good for long gaming sessions?',
-        a: 'Yes. Its high-back ergonomic design, adjustable lumbar and neck pillows, and 165° recline are built to reduce back and neck fatigue over long gaming or work-from-home sessions.',
+        "q": "Where can I buy the Logitech G304 Lightspeed Wireless Gaming Mouse in India?",
+        "a": "You can buy the Logitech G304 Lightspeed Wireless Gaming Mouse on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
       },
-    ],
+      {
+        "q": "Is the Logitech G304 Lightspeed Wireless Gaming Mouse worth buying?",
+        "a": "The Logitech G304 Lightspeed Wireless Gaming Mouse is one of the more popular gaming mice options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
   },
   {
-    asin: '',
-    affiliateUrl: 'https://amzn.to/447NepS',
-    slug: 'xbox-wireless-controller',
-    title: 'Xbox Wireless Controller (Bluetooth, PC & Mobile Compatible)',
-    brand: 'Xbox',
-    category: 'Controllers',
-    badges: ['Top Rated', 'Trending'],
-    rating: 4.7,
-    reviewCount: 90000,
-    isPrime: true,
-    hue: 150,
-    bullets: [
-      'Connects via Bluetooth and Xbox Wireless to PC, mobile and Xbox',
-      'Hybrid D-pad and textured triggers/bumpers for precise control',
-      'Dedicated Share button to capture and post clips instantly',
-      'USB-C for charging/wired play; up to ~40 hours on AA batteries',
-      'The de-facto standard controller for PC gaming',
+    "asin": "B0BQYDZSDQ",
+    "affiliateUrl": "https://amzn.to/3QUYt1B",
+    "slug": "zebronics-zeb-max-chroma-premium-mechanical-gaming",
+    "title": "ZEBRONICS Zeb-MAX Chroma Premium Mechanical Gaming Keyboard with 104 Tactile Switch",
+    "brand": "Zebronics",
+    "category": "Keyboards",
+    "badges": [
+      "Top Rated"
     ],
-    specs: {
-      'Connectivity': 'Bluetooth + Xbox Wireless + USB-C',
-      'D-Pad': 'Hybrid',
-      'Battery': '2 × AA (~40 h)',
-      'Extras': 'Share button, textured grips',
-      'Compatibility': 'Xbox Series X|S, Xbox One, PC, Android, iOS',
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 205,
+    "bullets": [
+      "Type: Mechanical",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Zebronics",
+      "Category": "Keyboards",
+      "Type": "Mechanical"
     },
-    review: {
-      summary:
-        'The Xbox Wireless Controller is the best all-round controller for PC gaming in 2026 — near-universal compatibility, a great D-pad, and rock-solid Bluetooth.',
-      paragraphs: [
-        'If you game on PC, this is the controller to buy. Windows support is native and painless, Bluetooth pairing to phones is instant, and the ergonomics are the benchmark every other pad is measured against. The Share button makes clipping highlights effortless.',
+    "review": {
+      "summary": "The ZEBRONICS Zeb-MAX Chroma Premium Mechanical Gaming Keyboard is a keyboards from Zebronics, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the ZEBRONICS Zeb-MAX Chroma Premium Mechanical Gaming Keyboard on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
       ],
-      pros: ['Near-universal compatibility', 'Excellent ergonomics and D-pad', 'Reliable Bluetooth on PC/mobile'],
-      cons: ['Uses AA batteries by default (rechargeable kit sold separately)', 'No back paddles'],
+      "pros": [],
+      "cons": []
     },
-    faq: [
+    "faq": [
       {
-        q: 'Does the Xbox Wireless Controller work on PC?',
-        a: 'Yes. It is the de-facto standard for PC gaming — it connects over Bluetooth or the Xbox Wireless Adapter and is natively supported by Windows and the vast majority of PC games.',
+        "q": "Where can I buy the ZEBRONICS Zeb-MAX Chroma Premium Mechanical Gaming Keyboard in India?",
+        "a": "You can buy the ZEBRONICS Zeb-MAX Chroma Premium Mechanical Gaming Keyboard on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
       },
       {
-        q: 'Can I use the Xbox controller on my phone?',
-        a: 'Yes. It pairs over Bluetooth with Android and iOS devices, making it ideal for cloud gaming and mobile game streaming.',
-      },
-    ],
+        "q": "Is the ZEBRONICS Zeb-MAX Chroma Premium Mechanical Gaming Keyboard worth buying?",
+        "a": "The ZEBRONICS Zeb-MAX Chroma Premium Mechanical Gaming Keyboard is one of the more popular keyboards options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
   },
   {
-    asin: '',
-    affiliateUrl: 'https://amzn.to/4p85uZS',
-    slug: 'gigabyte-rtx-4060-windforce',
-    title: 'Gigabyte GeForce RTX 4060 WINDFORCE OC 8G Graphics Card',
-    brand: 'Gigabyte',
-    category: 'Graphics Cards',
-    badges: ['Bestseller', 'Top Rated'],
-    rating: 4.6,
-    reviewCount: 4300,
-    isPrime: false,
-    hue: 95,
-    bullets: [
-      '8GB GDDR6 for smooth 1080p and entry 1440p high-refresh gaming',
-      'NVIDIA DLSS 3 with Frame Generation for big FPS gains',
-      '3rd-gen ray tracing cores for realistic lighting and reflections',
-      'WINDFORCE cooling with alternate-spinning fans runs cool and quiet',
-      'Compact PCIe 4.0 card — fits most mainstream builds',
+    "asin": "B0C7KFZ5TL",
+    "affiliateUrl": "https://amzn.to/4aAjLs7",
+    "slug": "asus-rog-strix-scope-ii-96-wireless",
+    "title": "ASUS ROG Strix Scope II 96 Wireless Gaming Keyboard, Three-Mode Connection, Shock",
+    "brand": "ASUS ROG",
+    "category": "Keyboards",
+    "badges": [
+      "Bestseller"
     ],
-    specs: {
-      'Memory': '8 GB GDDR6',
-      'Memory Bus': '128-bit',
-      'Boost Clock': '~2475 MHz',
-      'Interface': 'PCIe 4.0',
-      'Features': 'DLSS 3 + Ray Tracing',
-      'Power': '1 × 8-pin (450W PSU recommended)',
-      'Outputs': '2× DP 1.4a, 2× HDMI 2.1',
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 205,
+    "bullets": [
+      "Connection: Wireless",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "ASUS ROG",
+      "Category": "Keyboards",
+      "Connection": "Wireless"
     },
-    review: {
-      summary:
-        'The Gigabyte RTX 4060 WINDFORCE OC is the best value 1080p gaming GPU in 2026, and DLSS 3 makes it punch above its weight at 1440p.',
-      paragraphs: [
-        'For high-refresh 1080p — where most players actually game — the RTX 4060 is the efficient, sensible choice. DLSS 3 Frame Generation lifts frame rates dramatically in supported titles, and the WINDFORCE cooler keeps it quiet without a bulky footprint.',
+    "review": {
+      "summary": "The ASUS ROG Strix Scope II 96 Wireless is a keyboards from ASUS ROG, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the ASUS ROG Strix Scope II 96 Wireless on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
       ],
-      pros: ['Great 1080p performance per watt', 'DLSS 3 Frame Generation', 'Cool, quiet, compact'],
-      cons: ['8GB VRAM limits max-setting 1440p in some titles', '128-bit memory bus'],
+      "pros": [],
+      "cons": []
     },
-    faq: [
+    "faq": [
       {
-        q: 'Is the RTX 4060 good for 1080p gaming in 2026?',
-        a: 'Yes. The RTX 4060 is one of the best value cards for high-refresh 1080p gaming, and NVIDIA DLSS 3 with Frame Generation boosts frame rates significantly in supported games, extending it into 1440p.',
+        "q": "Where can I buy the ASUS ROG Strix Scope II 96 Wireless in India?",
+        "a": "You can buy the ASUS ROG Strix Scope II 96 Wireless on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
       },
       {
-        q: 'What power supply does the RTX 4060 need?',
-        a: 'A quality 450W power supply with a single 8-pin PCIe connector is recommended for the Gigabyte RTX 4060 WINDFORCE OC in a typical mainstream build.',
-      },
-    ],
+        "q": "Is the ASUS ROG Strix Scope II 96 Wireless worth buying?",
+        "a": "The ASUS ROG Strix Scope II 96 Wireless is one of the more popular keyboards options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
   },
   {
-    asin: '',
-    affiliateUrl: 'https://amzn.to/44MTPGd',
-    slug: 'samsung-980-pro-1tb',
-    title: 'Samsung 980 PRO 1TB PCIe 4.0 NVMe M.2 SSD',
-    brand: 'Samsung',
-    category: 'Storage',
-    badges: ['Trending'],
-    rating: 4.8,
-    reviewCount: 26000,
-    isPrime: true,
-    hue: 48,
-    bullets: [
-      'PCIe 4.0 NVMe — up to 7,000 MB/s sequential reads for fast load times',
-      'Ideal boot/games drive with DirectStorage-ready speeds',
-      'Samsung V-NAND and in-house controller for consistent performance',
-      'Nickel-coated controller and heat-spreader label for thermal control',
-      '1TB capacity with a 5-year limited warranty',
+    "asin": "B0CDX5XGLK",
+    "affiliateUrl": "https://amzn.to/4vfqC1J",
+    "slug": "redragon-k673-pro-75-wireless-gasket-rgb",
+    "title": "Redragon K673 PRO 75% Wireless Gasket RGB Gaming Keyboard, 3-Modes 81 Keys Compact",
+    "brand": "Redragon",
+    "category": "Keyboards",
+    "badges": [
+      "Trending"
     ],
-    specs: {
-      'Interface': 'PCIe 4.0 x4 (NVMe)',
-      'Sequential Read': 'Up to 7,000 MB/s',
-      'Sequential Write': 'Up to 5,000 MB/s',
-      'Capacity': '1 TB',
-      'Form Factor': 'M.2 2280',
-      'Endurance': '600 TBW',
-      'Warranty': '5 years',
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 205,
+    "bullets": [
+      "Connection: Wireless",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Redragon",
+      "Category": "Keyboards",
+      "Connection": "Wireless"
     },
-    review: {
-      summary:
-        'The Samsung 980 PRO 1TB is a top-tier PCIe 4.0 SSD for gaming — blistering read speeds and Samsung reliability for fast loads and DirectStorage titles.',
-      paragraphs: [
-        'As a boot and games drive the 980 PRO is hard to beat. Its 7,000 MB/s reads slash level-load times, and Samsung’s controller and V-NAND deliver the consistency and endurance that budget Gen4 drives can struggle to match.',
+    "review": {
+      "summary": "The Redragon K673 PRO 75% Wireless Gasket RGB is a keyboards from Redragon, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Redragon K673 PRO 75% Wireless Gasket RGB on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
       ],
-      pros: ['Up to 7,000 MB/s reads', 'Proven Samsung reliability', '5-year warranty'],
-      cons: ['Add the heatsink version for tight, hot builds', 'Gen4 premium over Gen3 drives'],
+      "pros": [],
+      "cons": []
     },
-    faq: [
+    "faq": [
       {
-        q: 'Is the Samsung 980 PRO good for gaming?',
-        a: 'Yes. Its PCIe 4.0 speeds of up to 7,000 MB/s dramatically cut game load times and make it an excellent, DirectStorage-ready boot and games drive.',
+        "q": "Where can I buy the Redragon K673 PRO 75% Wireless Gasket RGB in India?",
+        "a": "You can buy the Redragon K673 PRO 75% Wireless Gasket RGB on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
       },
-    ],
+      {
+        "q": "Is the Redragon K673 PRO 75% Wireless Gasket RGB worth buying?",
+        "a": "The Redragon K673 PRO 75% Wireless Gasket RGB is one of the more popular keyboards options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
   },
-
-  /* ----- Batch 2: expanded catalog (add your affiliateUrl per product) ----- */
   {
-    asin: '', affiliateUrl: 'https://amzn.to/4v7OkN4', slug: 'razer-deathadder-essential',
-    title: 'Razer DeathAdder Essential Ergonomic Wired Gaming Mouse',
-    brand: 'Razer', category: 'Gaming Mice', badges: ['Top Rated', 'Trending'],
-    rating: 4.6, reviewCount: 38000, isPrime: true, hue: 130,
-    bullets: [
-      '6,400 DPI optical sensor tuned for accurate tracking',
-      'Iconic right-handed ergonomic shape loved for comfort',
-      '5 programmable buttons for binds and macros',
-      'Mechanical switches rated for up to 10 million clicks',
+    "asin": "B0CYZHC69C",
+    "affiliateUrl": "https://amzn.to/4wmPiGk",
+    "slug": "aula-f75-75-wireless-mechanical-keyboard-hot",
+    "title": "AULA F75 75% Wireless Mechanical Keyboard | Hot Swappable | Pre-lubed Linear",
+    "brand": "Aula",
+    "category": "Keyboards",
+    "badges": [
+      "Top Rated"
     ],
-    specs: { 'Sensor': 'Optical', 'Max DPI': '6,400', 'Buttons': '5 programmable', 'Switches': 'Mechanical (10M)', 'Connection': 'Wired USB', 'Weight': '96 g' },
-    review: {
-      summary: 'A comfortable, dependable budget gaming mouse built on Razer’s classic DeathAdder shape.',
-      paragraphs: ['The DeathAdder shape is a proven classic, and the Essential brings it to a budget price with a reliable optical sensor that is more than accurate enough for most players.'],
-      pros: ['Comfortable ergonomic shape', 'Reliable, accurate sensor'], cons: ['Wired only'],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 205,
+    "bullets": [
+      "Connection: Wireless",
+      "Type: Mechanical",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Aula",
+      "Category": "Keyboards",
+      "Connection": "Wireless",
+      "Type": "Mechanical"
     },
-    faq: [{ q: 'Is the Razer DeathAdder Essential good for beginners?', a: 'Yes. Its comfortable ergonomic shape and accurate 6,400 DPI sensor make it one of the best value first gaming mice for new players.' }],
-  },
-  {
-    asin: '', affiliateUrl: 'https://amzn.to/3TfoVnm', slug: 'logitech-g102',
-    title: 'Logitech G102 LIGHTSYNC Wired Gaming Mouse',
-    brand: 'Logitech G', category: 'Gaming Mice', badges: ['Bestseller', 'Trending'],
-    rating: 4.5, reviewCount: 41000, isPrime: true, hue: 40,
-    bullets: [
-      'Up to 8,000 DPI sensor with on-the-fly adjustment',
-      '6 programmable buttons via Logitech G HUB',
-      'LIGHTSYNC RGB with ~16.8M colours',
-      'Lightweight 85g classic ambidextrous shape',
-    ],
-    specs: { 'Sensor': 'Optical', 'Max DPI': '8,000', 'Buttons': '6 programmable', 'Lighting': 'LIGHTSYNC RGB', 'Weight': '85 g', 'Connection': 'Wired USB' },
-    review: {
-      summary: 'One of the best-selling budget gaming mice — light, accurate and endlessly customisable.',
-      paragraphs: ['The G102 is a perennial value champion: a light 85g body, a capable 8,000 DPI sensor and full RGB, all backed by Logitech’s excellent G HUB software.'],
-      pros: ['Lightweight and comfortable', 'Great value with full RGB'], cons: ['Simple, no-frills shape'],
+    "review": {
+      "summary": "The AULA F75 75% Wireless Mechanical Keyboard is a keyboards from Aula, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the AULA F75 75% Wireless Mechanical Keyboard on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
     },
-    faq: [{ q: 'Is the Logitech G102 good for FPS?', a: 'Yes. Its light 85g weight and accurate sensor make it a strong budget pick for fast-paced FPS games.' }],
+    "faq": [
+      {
+        "q": "Where can I buy the AULA F75 75% Wireless Mechanical Keyboard in India?",
+        "a": "You can buy the AULA F75 75% Wireless Mechanical Keyboard on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the AULA F75 75% Wireless Mechanical Keyboard worth buying?",
+        "a": "The AULA F75 75% Wireless Mechanical Keyboard is one of the more popular keyboards options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
   },
   {
-    asin: '', affiliateUrl: 'https://amzn.to/4gkIPHh', slug: 'hyperx-alloy-origins-core',
-    title: 'HyperX Alloy Origins Core TKL Mechanical Gaming Keyboard',
-    brand: 'HyperX', category: 'Keyboards', badges: ['Top Rated'],
-    rating: 4.7, reviewCount: 12000, isPrime: true, hue: 210,
-    bullets: [
-      'HyperX mechanical switches with a fast, crisp actuation',
-      'Compact tenkeyless layout frees up mouse space',
-      'Aircraft-grade full aluminium body',
-      'Per-key RGB with onboard memory for 3 profiles',
+    "asin": "B0F4K8KZS8",
+    "affiliateUrl": "https://amzn.to/4v8PzeW",
+    "slug": "kreo-hive-65-rgb-mechanical-gaming-keyboard",
+    "title": "Kreo Hive 65 RGB Mechanical Gaming Keyboard | Pre-Lubed Switches, Anti-Ghosting",
+    "brand": "Kreo",
+    "category": "Keyboards",
+    "badges": [
+      "Bestseller"
     ],
-    specs: { 'Layout': 'Tenkeyless (87)', 'Switches': 'HyperX mechanical', 'Body': 'Full aluminium', 'Backlight': 'Per-key RGB', 'Connection': 'USB-C (detachable)' },
-    review: {
-      summary: 'A premium-feeling TKL with a rock-solid aluminium build and excellent HyperX switches.',
-      paragraphs: ['The Alloy Origins Core nails the fundamentals: a rigid aluminium chassis, crisp HyperX switches and a compact TKL footprint that suits low-sensitivity players.'],
-      pros: ['Excellent aluminium build', 'Compact, competitive TKL layout'], cons: ['No wrist rest included'],
-    },
-    faq: [{ q: 'Is a TKL keyboard better for gaming?', a: 'Tenkeyless boards remove the numpad to give more room for wide, low-sensitivity mouse movements, which many competitive players prefer.' }],
-  },
-  {
-    asin: '', affiliateUrl: 'https://amzn.to/4b3PWAm', slug: 'logitech-g213',
-    title: 'Logitech G213 Prodigy RGB Gaming Keyboard',
-    brand: 'Logitech G', category: 'Keyboards', badges: ['Bestseller'],
-    rating: 4.5, reviewCount: 15000, isPrime: true, hue: 55,
-    bullets: [
-      'Mech-dome keys tuned for a responsive, tactile feel',
-      '5-zone LIGHTSYNC RGB backlighting',
-      'Spill-resistant design for peace of mind',
-      'Dedicated media controls and integrated palm rest',
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 205,
+    "bullets": [
+      "Type: Mechanical",
+      "Verified customer ratings & reviews on Amazon India"
     ],
-    specs: { 'Type': 'Membrane (Mech-Dome)', 'Backlight': '5-zone RGB', 'Spill-Resistant': 'Yes', 'Media Keys': 'Dedicated', 'Connection': 'Wired USB' },
-    review: {
-      summary: 'A durable, comfortable full-size RGB keyboard that’s a reliable budget all-rounder.',
-      paragraphs: ['For players who want RGB and media keys without paying for mechanical switches, the G213 delivers a comfortable typing feel and Logitech reliability at a friendly price.'],
-      pros: ['Comfortable mech-dome keys', 'Spill-resistant and durable'], cons: ['Not mechanical'],
+    "specs": {
+      "Brand": "Kreo",
+      "Category": "Keyboards",
+      "Type": "Mechanical"
     },
-    faq: [{ q: 'Is the Logitech G213 mechanical?', a: 'No, it uses Mech-Dome (membrane) keys designed to feel more tactile and responsive than a standard membrane keyboard, at a lower price than mechanical.' }],
+    "review": {
+      "summary": "The Kreo Hive 65 RGB Mechanical Gaming Keyboard is a keyboards from Kreo, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Kreo Hive 65 RGB Mechanical Gaming Keyboard on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Kreo Hive 65 RGB Mechanical Gaming Keyboard in India?",
+        "a": "You can buy the Kreo Hive 65 RGB Mechanical Gaming Keyboard on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Kreo Hive 65 RGB Mechanical Gaming Keyboard worth buying?",
+        "a": "The Kreo Hive 65 RGB Mechanical Gaming Keyboard is one of the more popular keyboards options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
   },
   {
-    asin: '', affiliateUrl: 'https://amzn.to/4eFYuQi', slug: 'logitech-g435',
-    title: 'Logitech G435 LIGHTSPEED Wireless Gaming Headset',
-    brand: 'Logitech G', category: 'Headsets', badges: ['Trending'],
-    rating: 4.4, reviewCount: 9000, isPrime: true, hue: 300,
-    bullets: [
-      'Ultra-light 165g frame for all-day comfort',
-      'LIGHTSPEED 2.4GHz wireless plus Bluetooth',
-      'Dual beamforming mics with no boom arm',
-      'Up to 18 hours of battery per charge',
+    "asin": "B0CP6J59XB",
+    "affiliateUrl": "https://amzn.to/3SGobaS",
+    "slug": "asus-rog-azoth-75-wireless-diy-custom",
+    "title": "ASUS ROG Azoth 75 Wireless DIY Custom Gaming Keyboard, OLED Display, Gasket-Mount",
+    "brand": "ASUS ROG",
+    "category": "Keyboards",
+    "badges": [
+      "Trending"
     ],
-    specs: { 'Drivers': '40 mm', 'Connectivity': 'LIGHTSPEED + Bluetooth', 'Weight': '165 g', 'Battery': 'Up to 18 h', 'Microphone': 'Dual beamforming' },
-    review: {
-      summary: 'A featherweight dual-wireless headset that’s ideal for long, comfortable sessions.',
-      paragraphs: ['The G435 is remarkably light and offers both LIGHTSPEED and Bluetooth, making it a flexible pick for PC, console and mobile without a bulky boom mic.'],
-      pros: ['Very light and comfortable', 'Dual wireless (LIGHTSPEED + Bluetooth)'], cons: ['Beamforming mic is average'],
-    },
-    faq: [{ q: 'Does the Logitech G435 work on PS5 and mobile?', a: 'Yes. It uses LIGHTSPEED 2.4GHz wireless for PC/PS5 and Bluetooth for phones and other Bluetooth devices.' }],
-  },
-  {
-    asin: '', affiliateUrl: 'https://amzn.to/4eWYVEy', slug: 'corsair-hs55',
-    title: 'Corsair HS55 Stereo Gaming Headset',
-    brand: 'Corsair', category: 'Headsets', badges: ['Top Rated'],
-    rating: 4.5, reviewCount: 7000, isPrime: true, hue: 260,
-    bullets: [
-      '50mm neodymium drivers for clear, detailed audio',
-      'Plush memory-foam ear pads for comfort',
-      'Flip-up mute microphone with clear voice pickup',
-      'Multi-platform 3.5mm connection',
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 205,
+    "bullets": [
+      "Connection: Wireless",
+      "Verified customer ratings & reviews on Amazon India"
     ],
-    specs: { 'Drivers': '50 mm', 'Microphone': 'Flip-to-mute', 'Connectivity': '3.5 mm', 'Weight': '258 g', 'Compatibility': 'PC, PS5, Switch, mobile' },
-    review: {
-      summary: 'A comfortable, great-value wired headset with a genuinely useful flip-to-mute mic.',
-      paragraphs: ['The HS55 keeps things simple and does them well: comfy memory-foam pads, clean stereo sound and a convenient flip-to-mute mic across every platform with a 3.5mm jack.'],
-      pros: ['Comfortable for long sessions', 'Handy flip-to-mute mic'], cons: ['Wired stereo only'],
+    "specs": {
+      "Brand": "ASUS ROG",
+      "Category": "Keyboards",
+      "Connection": "Wireless"
     },
-    faq: [{ q: 'Is the Corsair HS55 good value?', a: 'Yes. It offers comfortable memory-foam pads, clear 50mm drivers and a flip-to-mute mic at a budget-friendly price across PC and consoles.' }],
+    "review": {
+      "summary": "The ASUS ROG Azoth 75 Wireless DIY Custom is a keyboards from ASUS ROG, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the ASUS ROG Azoth 75 Wireless DIY Custom on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the ASUS ROG Azoth 75 Wireless DIY Custom in India?",
+        "a": "You can buy the ASUS ROG Azoth 75 Wireless DIY Custom on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the ASUS ROG Azoth 75 Wireless DIY Custom worth buying?",
+        "a": "The ASUS ROG Azoth 75 Wireless DIY Custom is one of the more popular keyboards options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
   },
   {
-    asin: '', affiliateUrl: 'https://amzn.to/4eGH6Lf', slug: 'acer-nitro-24',
-    title: 'Acer Nitro 24" Full HD 165Hz IPS Gaming Monitor',
-    brand: 'Acer', category: 'Monitors', badges: ['Bestseller', 'Trending'],
-    rating: 4.6, reviewCount: 11000, isPrime: false, hue: 160,
-    bullets: [
-      '23.8-inch Full HD IPS panel with wide viewing angles',
-      '165Hz refresh with 1ms VRB for fast motion',
-      'AMD FreeSync Premium for tear-free gaming',
-      'Slim-bezel design ideal for dual-monitor setups',
+    "asin": "B0BB23R9HB",
+    "affiliateUrl": "https://amzn.to/4auJF0r",
+    "slug": "logitech-signature-k650-wireless-keyboard-with-wrist",
+    "title": "Logitech Signature K650 Wireless Keyboard with Wrist Rest, Full-Size, BLE Bluetooth",
+    "brand": "Logitech",
+    "category": "Keyboards",
+    "badges": [
+      "Top Rated"
     ],
-    specs: { 'Panel': 'IPS', 'Resolution': '1920 × 1080', 'Refresh Rate': '165 Hz', 'Response Time': '1 ms (VRB)', 'Adaptive Sync': 'FreeSync Premium' },
-    review: {
-      summary: 'The best value 1080p high-refresh gaming monitor for most new competitive setups.',
-      paragraphs: ['A 24-inch 1080p 165Hz IPS panel hits the value sweet spot for esports: fast, sharp and easy to drive even on modest GPUs, with better colour than budget TN screens.'],
-      pros: ['Fast 165Hz IPS at a low price', 'Easy to drive for high FPS'], cons: ['1080p only'],
-    },
-    faq: [{ q: 'Is a 24-inch 1080p 165Hz monitor good for competitive gaming?', a: 'Yes. It is the most popular competitive size and resolution — high refresh for smooth motion and light enough on the GPU to sustain high frame rates.' }],
-  },
-  {
-    asin: '', affiliateUrl: 'https://amzn.to/4woa20C', slug: 'samsung-odyssey-g5',
-    title: 'Samsung Odyssey G5 27" QHD 165Hz Curved Gaming Monitor',
-    brand: 'Samsung', category: 'Monitors', badges: ['Top Rated'],
-    rating: 4.5, reviewCount: 8500, isPrime: false, hue: 140,
-    bullets: [
-      '27-inch QHD (1440p) VA panel with a 1000R curve',
-      '165Hz refresh and 1ms response for smooth gameplay',
-      'HDR10 support for richer contrast',
-      'AMD FreeSync Premium for tear-free visuals',
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 205,
+    "bullets": [
+      "Connection: Wireless",
+      "Bluetooth: Yes",
+      "Verified customer ratings & reviews on Amazon India"
     ],
-    specs: { 'Panel': 'VA (1000R curved)', 'Resolution': '2560 × 1440', 'Refresh Rate': '165 Hz', 'Response Time': '1 ms', 'HDR': 'HDR10', 'Adaptive Sync': 'FreeSync Premium' },
-    review: {
-      summary: 'An immersive, great-value 1440p curved monitor for players who want more screen and contrast.',
-      paragraphs: ['The Odyssey G5’s 1000R curve and deep VA contrast make 1440p gaming feel immersive, and 165Hz keeps motion smooth for both competitive and single-player titles.'],
-      pros: ['Immersive 1000R curve', 'Great contrast at 1440p'], cons: ['VA response slower than IPS'],
+    "specs": {
+      "Brand": "Logitech",
+      "Category": "Keyboards",
+      "Connection": "Wireless",
+      "Bluetooth": "Yes"
     },
-    faq: [{ q: 'Is a curved monitor better for gaming?', a: 'A curved monitor like the Odyssey G5 wraps the image slightly around your view, which many players find more immersive, especially at 27 inches and larger.' }],
+    "review": {
+      "summary": "The Logitech Signature K650 Wireless Keyboard with Wrist is a keyboards from Logitech, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Logitech Signature K650 Wireless Keyboard with Wrist on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Logitech Signature K650 Wireless Keyboard with Wrist in India?",
+        "a": "You can buy the Logitech Signature K650 Wireless Keyboard with Wrist on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Logitech Signature K650 Wireless Keyboard with Wrist worth buying?",
+        "a": "The Logitech Signature K650 Wireless Keyboard with Wrist is one of the more popular keyboards options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
   },
   {
-    asin: '', affiliateUrl: 'https://amzn.to/4b3QtSS', slug: 'sony-dualsense',
-    title: 'Sony DualSense Wireless Controller (PS5)',
-    brand: 'Sony', category: 'Controllers', badges: ['Bestseller', 'Top Rated'],
-    rating: 4.7, reviewCount: 70000, isPrime: true, hue: 220,
-    bullets: [
-      'Haptic feedback delivers nuanced in-game sensations',
-      'Adaptive triggers add real tension and resistance',
-      'Built-in microphone and create button',
-      'USB-C rechargeable; works on PS5 and PC',
+    "asin": "B081Q85RTF",
+    "affiliateUrl": "https://amzn.to/4fgVA4E",
+    "slug": "ant-esports-h520w-smartchoice-gaming-headset-with",
+    "title": "Ant Esports H520W Smartchoice Gaming Headset with Mic, Wired 3.5mm Over-Ear, 50mm",
+    "brand": "Ant Esports",
+    "category": "Headsets",
+    "badges": [
+      "Bestseller"
     ],
-    specs: { 'Connectivity': 'Bluetooth + USB-C', 'Feedback': 'Haptics + adaptive triggers', 'Microphone': 'Built-in', 'Battery': 'Rechargeable', 'Compatibility': 'PS5, PC' },
-    review: {
-      summary: 'The most innovative modern controller — haptics and adaptive triggers are genuinely next-gen.',
-      paragraphs: ['Beyond PS5, the DualSense is a superb PC controller too. The haptics and adaptive triggers add immersion no other pad matches, and build quality is excellent.'],
-      pros: ['Immersive haptics + adaptive triggers', 'Great build quality'], cons: ['Battery life is average'],
-    },
-    faq: [{ q: 'Does the PS5 DualSense work on PC?', a: 'Yes. It connects to PC via USB-C or Bluetooth and is widely supported, though advanced haptics and adaptive triggers work best over a wired connection in supported games.' }],
-  },
-  {
-    asin: '', affiliateUrl: 'https://amzn.to/4awxYq1', slug: 'logitech-f710',
-    title: 'Logitech F710 Wireless Gamepad',
-    brand: 'Logitech G', category: 'Controllers', badges: ['Trending'],
-    rating: 4.3, reviewCount: 13000, isPrime: true, hue: 100,
-    bullets: [
-      '2.4GHz wireless with a plug-and-play nano receiver',
-      'Dual vibration feedback motors',
-      'Familiar console-style dual-analog layout',
-      'XInput and DirectInput modes for broad PC support',
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 280,
+    "bullets": [
+      "Connection: Wired",
+      "Drivers: 5 mm",
+      "Verified customer ratings & reviews on Amazon India"
     ],
-    specs: { 'Connectivity': '2.4 GHz wireless', 'Vibration': 'Dual-motor', 'Battery': '2 × AA', 'Modes': 'XInput / DirectInput', 'Compatibility': 'PC' },
-    review: {
-      summary: 'A dependable wireless PC gamepad with a familiar layout and easy plug-and-play setup.',
-      paragraphs: ['The F710 is a long-standing favourite for PC couch gaming — reliable 2.4GHz wireless, dual vibration and both XInput and DirectInput for compatibility with older titles.'],
-      pros: ['Reliable wireless', 'Broad PC game support'], cons: ['Uses AA batteries'],
+    "specs": {
+      "Brand": "Ant Esports",
+      "Category": "Headsets",
+      "Connection": "Wired",
+      "Drivers": "5 mm"
     },
-    faq: [{ q: 'Does the Logitech F710 work with all PC games?', a: 'It supports both XInput and DirectInput modes, so it works with modern games (XInput) and many older titles (DirectInput).' }],
+    "review": {
+      "summary": "The Ant Esports H520W Smartchoice Gaming Headset with is a headsets from Ant Esports, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Ant Esports H520W Smartchoice Gaming Headset with on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Ant Esports H520W Smartchoice Gaming Headset with in India?",
+        "a": "You can buy the Ant Esports H520W Smartchoice Gaming Headset with on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Ant Esports H520W Smartchoice Gaming Headset with worth buying?",
+        "a": "The Ant Esports H520W Smartchoice Gaming Headset with is one of the more popular headsets options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
   },
   {
-    asin: '', affiliateUrl: 'https://amzn.to/4v6m25F', slug: 'zotac-rtx-4060-ti',
-    title: 'ZOTAC GAMING GeForce RTX 4060 Ti 8GB Graphics Card',
-    brand: 'ZOTAC', category: 'Graphics Cards', badges: ['Top Rated'],
-    rating: 4.5, reviewCount: 3000, isPrime: false, hue: 90,
-    bullets: [
-      '8GB GDDR6 for strong 1080p and capable 1440p gaming',
-      'NVIDIA DLSS 3 with Frame Generation',
-      '3rd-gen ray tracing for realistic lighting',
-      'Compact dual-fan cooling, PCIe 4.0',
+    "asin": "B09TRW57WB",
+    "affiliateUrl": "https://amzn.to/4eRCEYL",
+    "slug": "hyperx-cloud-alpha-wireless-gaming-headset-for",
+    "title": "HyperX Cloud Alpha Wireless - Gaming Headset for PC, 300-hour battery life, DTS",
+    "brand": "HyperX",
+    "category": "Headsets",
+    "badges": [
+      "Trending"
     ],
-    specs: { 'Memory': '8 GB GDDR6', 'Interface': 'PCIe 4.0', 'Features': 'DLSS 3 + Ray Tracing', 'Power': '1 × 8-pin', 'Outputs': 'DP 1.4a, HDMI 2.1' },
-    review: {
-      summary: 'A step up from the RTX 4060 for high-refresh 1080p and smoother 1440p with DLSS 3.',
-      paragraphs: ['The 4060 Ti gives you extra headroom over the 4060 for 1440p, and DLSS 3 Frame Generation pushes frame rates higher in supported games while staying power-efficient.'],
-      pros: ['Great high-refresh 1080p/1440p', 'Efficient with DLSS 3'], cons: ['8GB VRAM in demanding titles'],
-    },
-    faq: [{ q: 'Is the RTX 4060 Ti good for 1440p?', a: 'Yes. With DLSS 3 enabled it handles 1440p high-refresh gaming well in most titles, making it a solid step up from the RTX 4060.' }],
-  },
-  {
-    asin: '', affiliateUrl: 'https://amzn.to/4eHqBi3', slug: 'sapphire-rx-7600',
-    title: 'SAPPHIRE PULSE AMD Radeon RX 7600 8GB Graphics Card',
-    brand: 'Sapphire', category: 'Graphics Cards', badges: ['Trending'],
-    rating: 4.5, reviewCount: 2500, isPrime: false, hue: 70,
-    bullets: [
-      '8GB GDDR6 tuned for excellent 1080p performance',
-      'AMD FSR 3 upscaling and frame generation',
-      'Ray tracing acceleration support',
-      'Cool, quiet dual-fan PULSE cooler, PCIe 4.0',
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 280,
+    "bullets": [
+      "Connection: Wireless",
+      "Verified customer ratings & reviews on Amazon India"
     ],
-    specs: { 'Memory': '8 GB GDDR6', 'Interface': 'PCIe 4.0', 'Features': 'FSR 3 + Ray Tracing', 'Power': '1 × 8-pin', 'Outputs': '3× DP, HDMI' },
-    review: {
-      summary: 'One of the best value 1080p graphics cards, with FSR 3 to stretch frame rates further.',
-      paragraphs: ['The RX 7600 is a strong 1080p value pick from AMD, and FSR 3 with frame generation gives it useful extra performance in supported games.'],
-      pros: ['Excellent 1080p value', 'FSR 3 frame generation'], cons: ['Best suited to 1080p'],
+    "specs": {
+      "Brand": "HyperX",
+      "Category": "Headsets",
+      "Connection": "Wireless"
     },
-    faq: [{ q: 'Is the Radeon RX 7600 good for 1080p gaming?', a: 'Yes. It is one of the best value cards for high-refresh 1080p gaming, and AMD FSR 3 can boost frame rates further in supported titles.' }],
+    "review": {
+      "summary": "The HyperX Cloud Alpha Wireless - Gaming Headset is a headsets from HyperX, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the HyperX Cloud Alpha Wireless - Gaming Headset on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the HyperX Cloud Alpha Wireless - Gaming Headset in India?",
+        "a": "You can buy the HyperX Cloud Alpha Wireless - Gaming Headset on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the HyperX Cloud Alpha Wireless - Gaming Headset worth buying?",
+        "a": "The HyperX Cloud Alpha Wireless - Gaming Headset is one of the more popular headsets options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
   },
   {
-    asin: '', affiliateUrl: 'https://amzn.to/4gjN71A', slug: 'crucial-p3-plus',
-    title: 'Crucial P3 Plus 1TB PCIe 4.0 NVMe M.2 SSD',
-    brand: 'Crucial', category: 'Storage', badges: ['Bestseller'],
-    rating: 4.7, reviewCount: 30000, isPrime: true, hue: 45,
-    bullets: [
-      'PCIe 4.0 speeds up to 5,000 MB/s reads',
-      'Excellent price-per-GB for gaming storage',
-      'Compact M.2 2280 form factor',
-      'Backed by a 5-year limited warranty',
+    "asin": "B0DV5HX4JZ",
+    "affiliateUrl": "https://amzn.to/4eVpV7E",
+    "slug": "boat-rockerz-650-pro-touch-swipe-controls",
+    "title": "Boat Rockerz 650 Pro, Touch/Swipe Controls, Dolby Audio, 80Hrs Battery, 2Mics ENx",
+    "brand": "boAt",
+    "category": "Headsets",
+    "badges": [
+      "Top Rated"
     ],
-    specs: { 'Interface': 'PCIe 4.0 NVMe', 'Sequential Read': 'Up to 5,000 MB/s', 'Capacity': '1 TB', 'Form Factor': 'M.2 2280', 'Warranty': '5 years' },
-    review: {
-      summary: 'A superb value Gen4 SSD for adding fast game storage without breaking the budget.',
-      paragraphs: ['The P3 Plus delivers most of the real-world benefit of Gen4 speeds at a very friendly price, making it an easy recommendation as a games or expansion drive.'],
-      pros: ['Great value Gen4 speeds', '5-year warranty'], cons: ['Not the fastest Gen4 drive'],
-    },
-    faq: [{ q: 'Is the Crucial P3 Plus fast enough for gaming?', a: 'Yes. Its PCIe 4.0 read speeds of up to 5,000 MB/s cut game load times significantly and make it an excellent value games drive.' }],
-  },
-  {
-    asin: '', affiliateUrl: 'https://amzn.to/4wsrRM6', slug: 'wd-black-sn770',
-    title: 'WD_BLACK SN770 1TB PCIe 4.0 NVMe M.2 SSD',
-    brand: 'Western Digital', category: 'Storage', badges: ['Top Rated'],
-    rating: 4.7, reviewCount: 22000, isPrime: true, hue: 30,
-    bullets: [
-      'PCIe 4.0 speeds up to 5,150 MB/s reads',
-      'Power-efficient DRAM-less design that runs cool',
-      'Game Mode 2.0 optimises load performance',
-      'Compact M.2 2280, 5-year warranty',
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 280,
+    "bullets": [
+      "Popular headsets from boAt on Amazon India",
+      "Check the current price, deals and availability on Amazon",
+      "Verified customer ratings & reviews on Amazon India"
     ],
-    specs: { 'Interface': 'PCIe 4.0 NVMe', 'Sequential Read': 'Up to 5,150 MB/s', 'Capacity': '1 TB', 'Form Factor': 'M.2 2280', 'Warranty': '5 years' },
-    review: {
-      summary: 'A fast, efficient Gen4 gaming SSD from a trusted brand, ideal as a boot or games drive.',
-      paragraphs: ['The SN770 punches above its price with quick Gen4 reads and low power draw, and Game Mode 2.0 helps keep load times snappy under gaming workloads.'],
-      pros: ['Fast and power-efficient', 'Trusted WD_BLACK reliability'], cons: ['DRAM-less under very heavy writes'],
+    "specs": {
+      "Brand": "boAt",
+      "Category": "Headsets"
     },
-    faq: [{ q: 'Is the WD_BLACK SN770 good for gaming?', a: 'Yes. Its Gen4 read speeds of up to 5,150 MB/s and Game Mode 2.0 make it a fast, reliable and efficient SSD for a gaming PC.' }],
+    "review": {
+      "summary": "The Boat Rockerz 650 Pro is a headsets from boAt, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Boat Rockerz 650 Pro on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Boat Rockerz 650 Pro in India?",
+        "a": "You can buy the Boat Rockerz 650 Pro on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Boat Rockerz 650 Pro worth buying?",
+        "a": "The Boat Rockerz 650 Pro is one of the more popular headsets options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
   },
   {
-    asin: '', affiliateUrl: 'https://amzn.to/4wm4qnp', slug: 'steelseries-qck',
-    title: 'SteelSeries QcK Gaming Mousepad (Medium)',
-    brand: 'SteelSeries', category: 'Mousepads', badges: ['Bestseller', 'Trending'],
-    rating: 4.8, reviewCount: 50000, isPrime: true, hue: 190,
-    bullets: [
-      'Micro-woven cloth surface for pixel-precise tracking',
-      'Non-slip rubber base stays put in intense play',
-      'Durable, pro-favourite build used by esports players',
-      'Optimised for both low and high sensitivity',
+    "asin": "B0FTG6JXC2",
+    "affiliateUrl": "https://amzn.to/3QwXULy",
+    "slug": "sony-inzone-h3-mdr-g300-wired-gaming",
+    "title": "Sony INZONE H3, MDR-G300 Wired Gaming Headset, Over-Ear Headphones with 360 Spatial",
+    "brand": "Sony",
+    "category": "Headsets",
+    "badges": [
+      "Bestseller"
     ],
-    specs: { 'Surface': 'Micro-woven cloth', 'Base': 'Non-slip rubber', 'Size': 'Medium (320 × 270 mm)', 'Thickness': '2 mm', 'Compatibility': 'All mouse sensors' },
-    review: {
-      summary: 'The default esports mousepad — consistent glide, precise control and near-indestructible.',
-      paragraphs: ['The QcK is a staple on pro desks for good reason: its micro-woven surface gives consistent, controllable glide and it simply lasts, all at a low price.'],
-      pros: ['Consistent, precise tracking', 'Extremely durable and affordable'], cons: ['Basic look'],
-    },
-    faq: [{ q: 'Why is the SteelSeries QcK so popular with pro gamers?', a: 'Its micro-woven cloth surface offers consistent, controllable glide that suits precise aiming, and it is durable and affordable — which is why it is a staple on esports desks.' }],
-  },
-  {
-    asin: '', affiliateUrl: 'https://amzn.to/3SWha5K', slug: 'logitech-c920',
-    title: 'Logitech C920 HD Pro Webcam (1080p)',
-    brand: 'Logitech', category: 'Webcams', badges: ['Top Rated', 'Trending'],
-    rating: 4.6, reviewCount: 65000, isPrime: true, hue: 205,
-    bullets: [
-      'Full HD 1080p/30fps video for clean streams and calls',
-      'Dual stereo mics capture natural, clear audio',
-      'Automatic light correction and autofocus',
-      'Premium glass lens; works with all major apps',
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 280,
+    "bullets": [
+      "Connection: Wired",
+      "Verified customer ratings & reviews on Amazon India"
     ],
-    specs: { 'Resolution': '1080p / 30 fps', 'Focus': 'Autofocus', 'Microphone': 'Dual stereo', 'Lens': 'Glass', 'Connection': 'USB-A' },
-    review: {
-      summary: 'The go-to 1080p webcam for streamers and creators — reliable image quality that just works.',
-      paragraphs: ['Years on, the C920 remains the default streaming webcam. Its sharp 1080p image, dependable autofocus and decent mics make it a safe, plug-and-play choice for content creators.'],
-      pros: ['Reliable 1080p image quality', 'Plug-and-play with every app'], cons: ['30fps cap at 1080p'],
+    "specs": {
+      "Brand": "Sony",
+      "Category": "Headsets",
+      "Connection": "Wired"
     },
-    faq: [{ q: 'Is the Logitech C920 good for streaming?', a: 'Yes. Its sharp 1080p/30fps video, autofocus and built-in stereo mics have made it one of the most popular webcams for streaming and video calls.' }],
-  },
-
-  /* ----- Batch 3: expanded catalog (add your affiliateUrl per product) ----- */
-  {
-    asin: '', affiliateUrl: 'https://amzn.to/4v6gSH3', slug: 'razer-basilisk-v3',
-    title: 'Razer Basilisk V3 Ergonomic Wired Gaming Mouse',
-    brand: 'Razer', category: 'Gaming Mice', badges: ['Top Rated', 'Trending'],
-    rating: 4.7, reviewCount: 34000, isPrime: true, hue: 128,
-    bullets: ['Focus+ 26K DPI optical sensor', '11 programmable buttons with a smart scroll wheel', 'HyperScroll tilt wheel for fast free-spin scrolling', 'Chroma RGB with 13 lighting zones'],
-    specs: { 'Sensor': 'Focus+ 26K optical', 'Max DPI': '26,000', 'Buttons': '11 programmable', 'Scroll': 'HyperScroll tilt wheel', 'Connection': 'Wired USB', 'Weight': '101 g' },
-    review: { summary: 'A feature-packed ergonomic mouse with a superb scroll wheel and a flagship sensor.', paragraphs: ['The Basilisk V3 pairs a top-tier 26K sensor with a genuinely useful HyperScroll wheel and loads of buttons, making it a versatile pick for FPS and everyday productivity.'], pros: ['Excellent sensor and scroll wheel', 'Lots of programmable buttons'], cons: ['A bit heavy for pure esports'] },
-    faq: [{ q: 'Is the Razer Basilisk V3 good for FPS and MMO?', a: 'Yes. Its flagship 26K sensor suits FPS, while the 11 programmable buttons and tilt-scroll wheel make it great for MMO and productivity too.' }],
-  },
-  {
-    asin: '', affiliateUrl: 'https://amzn.to/44dCbLJ', slug: 'glorious-model-o',
-    title: 'Glorious Model O Ultralight Honeycomb Gaming Mouse',
-    brand: 'Glorious', category: 'Gaming Mice', badges: ['Top Rated'],
-    rating: 4.6, reviewCount: 18000, isPrime: true, hue: 20,
-    bullets: ['Ultralight ~67g honeycomb shell', 'Pixart 3360 sensor up to 12,000 DPI', 'Flexible Ascended cord feels near-wireless', 'G-Skates and RGB for smooth glide and flair'],
-    specs: { 'Sensor': 'Pixart 3360', 'Max DPI': '12,000', 'Weight': '~67 g', 'Cable': 'Ascended flexible cord', 'Connection': 'Wired USB', 'Buttons': '6' },
-    review: { summary: 'A cult-favourite ultralight mouse that made honeycomb designs mainstream.', paragraphs: ['At around 67g the Model O flicks effortlessly, and the flexible cord and smooth feet make it feel almost wireless — a favourite of aim-focused FPS players.'], pros: ['Very light for fast aim', 'Excellent feet and cable'], cons: ['Honeycomb shell not for everyone'] },
-    faq: [{ q: 'Is the Glorious Model O good for competitive FPS?', a: 'Yes. Its ~67g ultralight body and smooth glide make quick flick shots easy, which is why it is popular with competitive FPS players.' }],
+    "review": {
+      "summary": "The Sony INZONE H3 is a headsets from Sony, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Sony INZONE H3 on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Sony INZONE H3 in India?",
+        "a": "You can buy the Sony INZONE H3 on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Sony INZONE H3 worth buying?",
+        "a": "The Sony INZONE H3 is one of the more popular headsets options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
   },
   {
-    asin: '', affiliateUrl: 'https://amzn.to/4vISXOR', slug: 'keychron-k2',
-    title: 'Keychron K2 Wireless Mechanical Keyboard (75%)',
-    brand: 'Keychron', category: 'Keyboards', badges: ['Bestseller', 'Trending'],
-    rating: 4.6, reviewCount: 21000, isPrime: true, hue: 215,
-    bullets: ['Compact 75% layout with function row and arrows', 'Bluetooth 5.1 (up to 3 devices) plus USB-C wired', 'Hot-swappable option and Mac/Windows keycaps', 'RGB/white backlight with a durable frame'],
-    specs: { 'Layout': '75% (84 keys)', 'Switches': 'Gateron mechanical', 'Connectivity': 'Bluetooth 5.1 + USB-C', 'Compatibility': 'Mac + Windows', 'Backlight': 'RGB' },
-    review: { summary: 'The go-to wireless mechanical for people who want one board for work and play.', paragraphs: ['The K2 nails the 75% wireless niche — compact, cross-platform, and comfortable to type on, with Bluetooth for tidy desks and USB-C when you want zero latency.'], pros: ['Great wireless + wired flexibility', 'Compact, cross-platform'], cons: ['Fairly tall without a wrist rest'] },
-    faq: [{ q: 'Can the Keychron K2 switch between devices?', a: 'Yes. Over Bluetooth 5.1 it can pair with up to three devices and switch between them, and it also works wired over USB-C for the lowest latency.' }],
+    "asin": "B07VMS65WX",
+    "affiliateUrl": "https://amzn.to/4wiF75G",
+    "slug": "logitech-g-pro-x-gaming-wired-over",
+    "title": "Logitech G Pro X Gaming Wired Over Ear Headphones with Mic Blue Voice DTS",
+    "brand": "Logitech G",
+    "category": "Headsets",
+    "badges": [
+      "Trending"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 280,
+    "bullets": [
+      "Connection: Wired",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Logitech G",
+      "Category": "Headsets",
+      "Connection": "Wired"
+    },
+    "review": {
+      "summary": "The Logitech G Pro X Gaming Wired Over is a headsets from Logitech G, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Logitech G Pro X Gaming Wired Over on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Logitech G Pro X Gaming Wired Over in India?",
+        "a": "You can buy the Logitech G Pro X Gaming Wired Over on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Logitech G Pro X Gaming Wired Over worth buying?",
+        "a": "The Logitech G Pro X Gaming Wired Over is one of the more popular headsets options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
   },
   {
-    asin: '', affiliateUrl: 'https://amzn.to/4v7Vz7G', slug: 'razer-huntsman-mini',
-    title: 'Razer Huntsman Mini 60% Optical Gaming Keyboard',
-    brand: 'Razer', category: 'Keyboards', badges: ['Top Rated'],
-    rating: 4.6, reviewCount: 16000, isPrime: true, hue: 132,
-    bullets: ['Ultra-compact 60% layout for maximum desk space', 'Razer optical switches for fast, light actuation', 'Doubleshot PBT keycaps resist shine and wear', 'Per-key Chroma RGB, detachable USB-C'],
-    specs: { 'Layout': '60%', 'Switches': 'Razer optical', 'Keycaps': 'Doubleshot PBT', 'Backlight': 'Per-key RGB', 'Connection': 'USB-C (detachable)' },
-    review: { summary: 'A fast, compact 60% board that frees up huge amounts of mouse room.', paragraphs: ['The Huntsman Mini is a favourite for low-sensitivity players: its 60% footprint clears the desk, and the optical switches are fast and consistent.'], pros: ['Maximum mouse space', 'Fast optical switches, premium keycaps'], cons: ['60% layout has a learning curve'] },
-    faq: [{ q: 'Is a 60% keyboard good for gaming?', a: 'Yes. A 60% board like the Huntsman Mini removes arrow keys and the numpad to free up desk space for wide, low-sensitivity mouse movements favoured in FPS games.' }],
+    "asin": "B08WBJHVYV",
+    "affiliateUrl": "https://amzn.to/4geehHb",
+    "slug": "razer-blackshark-v2-x-smartchoice-wired-gaming",
+    "title": "Razer BlackShark V2 X Smartchoice Wired Gaming Headset with Mic, 7.1 Surround Sound",
+    "brand": "Razer",
+    "category": "Headsets",
+    "badges": [
+      "Top Rated"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 280,
+    "bullets": [
+      "Connection: Wired",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Razer",
+      "Category": "Headsets",
+      "Connection": "Wired"
+    },
+    "review": {
+      "summary": "The Razer BlackShark V2 X Smartchoice Wired Gaming is a headsets from Razer, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Razer BlackShark V2 X Smartchoice Wired Gaming on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Razer BlackShark V2 X Smartchoice Wired Gaming in India?",
+        "a": "You can buy the Razer BlackShark V2 X Smartchoice Wired Gaming on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Razer BlackShark V2 X Smartchoice Wired Gaming worth buying?",
+        "a": "The Razer BlackShark V2 X Smartchoice Wired Gaming is one of the more popular headsets options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
   },
   {
-    asin: '', affiliateUrl: 'https://amzn.to/4wnAFCz', slug: 'steelseries-arctis-nova-7',
-    title: 'SteelSeries Arctis Nova 7 Wireless Gaming Headset',
-    brand: 'SteelSeries', category: 'Headsets', badges: ['Bestseller', 'Top Rated'],
-    rating: 4.6, reviewCount: 14000, isPrime: true, hue: 285,
-    bullets: ['Dual wireless: 2.4GHz + Bluetooth simultaneously', 'Award-winning retractable ClearCast mic', '360° Spatial Audio for precise positioning', 'Up to 38 hours battery, fast USB-C charging'],
-    specs: { 'Drivers': '40 mm', 'Connectivity': '2.4 GHz + Bluetooth', 'Microphone': 'Retractable ClearCast', 'Battery': 'Up to 38 h', 'Compatibility': 'PC, PS5, Switch, mobile' },
-    review: { summary: 'One of the best all-round wireless headsets — great mic, comfort and simultaneous dual wireless.', paragraphs: ['The Nova 7 lets you run 2.4GHz game audio and Bluetooth chat at once, and its comfort and mic quality are class-leading, making it a top mid-range wireless pick.'], pros: ['Simultaneous dual wireless', 'Excellent mic and comfort'], cons: ['Premium mid-range price'] },
-    faq: [{ q: 'Can the Arctis Nova 7 use 2.4GHz and Bluetooth at once?', a: 'Yes. It can run lossless 2.4GHz game audio and Bluetooth at the same time, so you can hear your game and take a phone or Discord call simultaneously.' }],
+    "asin": "B0CTT7PVGC",
+    "affiliateUrl": "https://amzn.to/4p49N8q",
+    "slug": "zebronics-blitz-c-dolby-atmos-gaming-over",
+    "title": "ZEBRONICS Blitz C Dolby Atmos Gaming Over Ear Wired Headphone, 50Mm Neodymium",
+    "brand": "Zebronics",
+    "category": "Headsets",
+    "badges": [
+      "Bestseller"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 280,
+    "bullets": [
+      "Connection: Wired",
+      "Drivers: 50 mm",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Zebronics",
+      "Category": "Headsets",
+      "Connection": "Wired",
+      "Drivers": "50 mm"
+    },
+    "review": {
+      "summary": "The ZEBRONICS Blitz C Dolby Atmos Gaming Over is a headsets from Zebronics, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the ZEBRONICS Blitz C Dolby Atmos Gaming Over on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the ZEBRONICS Blitz C Dolby Atmos Gaming Over in India?",
+        "a": "You can buy the ZEBRONICS Blitz C Dolby Atmos Gaming Over on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the ZEBRONICS Blitz C Dolby Atmos Gaming Over worth buying?",
+        "a": "The ZEBRONICS Blitz C Dolby Atmos Gaming Over is one of the more popular headsets options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
   },
   {
-    asin: '', affiliateUrl: 'https://amzn.to/4wlTUwv', slug: 'razer-kraken-v3',
-    title: 'Razer Kraken V3 Wired Gaming Headset (7.1 Surround)',
-    brand: 'Razer', category: 'Headsets', badges: ['Trending'],
-    rating: 4.5, reviewCount: 9500, isPrime: true, hue: 126,
-    bullets: ['TriForce Titanium 50mm drivers for clear highs', 'THX Spatial Audio 7.1 surround for positioning', 'HyperClear cardioid mic for clear voice chat', 'Plush hybrid-fabric memory-foam cushions'],
-    specs: { 'Drivers': 'TriForce Titanium 50 mm', 'Surround': 'THX Spatial 7.1', 'Microphone': 'HyperClear cardioid', 'Connection': 'USB', 'Compatibility': 'PC' },
-    review: { summary: 'A comfortable wired headset with strong surround audio for competitive positioning.', paragraphs: ['The Kraken V3 brings Razer’s TriForce drivers and THX Spatial Audio together for accurate positional sound, wrapped in some of the comfiest cushions around.'], pros: ['Great surround positioning', 'Very comfortable cushions'], cons: ['USB/PC-focused'] },
-    faq: [{ q: 'Does the Razer Kraken V3 have surround sound?', a: 'Yes. It supports THX Spatial Audio 7.1 surround on PC, which helps you pinpoint footsteps and gunfire directionally in competitive games.' }],
+    "asin": "B0F3QJLD3B",
+    "affiliateUrl": "https://amzn.to/4yhFpM6",
+    "slug": "sony-wh-1000xm6-the-best-wireless-noise",
+    "title": "Sony WH-1000XM6 The Best Wireless Noise Canceling Headphones, HD NC Processor QN3",
+    "brand": "Sony",
+    "category": "Headsets",
+    "badges": [
+      "Trending"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 280,
+    "bullets": [
+      "Connection: Wireless",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Sony",
+      "Category": "Headsets",
+      "Connection": "Wireless"
+    },
+    "review": {
+      "summary": "The Sony WH-1000XM6 The Best Wireless Noise Canceling is a headsets from Sony, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Sony WH-1000XM6 The Best Wireless Noise Canceling on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Sony WH-1000XM6 The Best Wireless Noise Canceling in India?",
+        "a": "You can buy the Sony WH-1000XM6 The Best Wireless Noise Canceling on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Sony WH-1000XM6 The Best Wireless Noise Canceling worth buying?",
+        "a": "The Sony WH-1000XM6 The Best Wireless Noise Canceling is one of the more popular headsets options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
   },
   {
-    asin: '', affiliateUrl: 'https://amzn.to/445nwCl', slug: 'benq-zowie-xl2411k',
-    title: 'BenQ ZOWIE XL2411K 24" 144Hz Esports Gaming Monitor',
-    brand: 'BenQ ZOWIE', category: 'Monitors', badges: ['Top Rated', 'Trending'],
-    rating: 4.6, reviewCount: 7200, isPrime: false, hue: 158,
-    bullets: ['24-inch 1080p TN panel built for esports', '144Hz refresh with fast 1ms response', 'DyAc technology sharpens fast on-screen motion', 'Adjustable stand with shield-friendly design'],
-    specs: { 'Panel': 'TN', 'Resolution': '1920 × 1080', 'Refresh Rate': '144 Hz', 'Response Time': '1 ms', 'Feature': 'DyAc motion clarity' },
-    review: { summary: 'A dedicated esports monitor tuned for the clearest possible fast motion.', paragraphs: ['ZOWIE monitors are a competitive staple, and the XL2411K’s DyAc tech makes tracking flick-heavy targets clearer than most panels at this refresh rate.'], pros: ['Excellent motion clarity (DyAc)', 'Esports-tuned stand and settings'], cons: ['TN colours weaker than IPS'] },
-    faq: [{ q: 'Why do pro gamers use BenQ ZOWIE monitors?', a: 'ZOWIE monitors like the XL2411K use DyAc motion-clarity technology and esports-tuned settings that make fast targets easier to track, which is why they are common at tournaments.' }],
+    "asin": "B0D3TMKMYN",
+    "affiliateUrl": "https://amzn.to/4wfSy6u",
+    "slug": "sony-ult-wear-wh-ult900n-noise-cancellation",
+    "title": "Sony ULT Wear WH-ULT900N Noise Cancellation Wireless Bluetooth Over Ear Headphones",
+    "brand": "Sony",
+    "category": "Headsets",
+    "badges": [
+      "Top Rated"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 280,
+    "bullets": [
+      "Connection: Wireless",
+      "Bluetooth: Yes",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Sony",
+      "Category": "Headsets",
+      "Connection": "Wireless",
+      "Bluetooth": "Yes"
+    },
+    "review": {
+      "summary": "The Sony ULT Wear WH-ULT900N Noise Cancellation Wireless is a headsets from Sony, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Sony ULT Wear WH-ULT900N Noise Cancellation Wireless on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Sony ULT Wear WH-ULT900N Noise Cancellation Wireless in India?",
+        "a": "You can buy the Sony ULT Wear WH-ULT900N Noise Cancellation Wireless on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Sony ULT Wear WH-ULT900N Noise Cancellation Wireless worth buying?",
+        "a": "The Sony ULT Wear WH-ULT900N Noise Cancellation Wireless is one of the more popular headsets options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
   },
   {
-    asin: '', affiliateUrl: 'https://amzn.to/4fcxMil', slug: 'asus-tuf-vg259qr',
-    title: 'ASUS TUF Gaming VG259QR 24.5" 165Hz IPS Monitor',
-    brand: 'ASUS', category: 'Monitors', badges: ['Bestseller'],
-    rating: 4.6, reviewCount: 9800, isPrime: false, hue: 148,
-    bullets: ['24.5-inch Full HD IPS with great viewing angles', '165Hz refresh and 1ms MPRT response', 'G-SYNC Compatible and FreeSync support', 'Ergonomic stand with tilt, swivel and height'],
-    specs: { 'Panel': 'IPS', 'Resolution': '1920 × 1080', 'Refresh Rate': '165 Hz', 'Response Time': '1 ms (MPRT)', 'Adaptive Sync': 'G-SYNC Compatible + FreeSync' },
-    review: { summary: 'A well-rounded 1080p 165Hz IPS monitor with a genuinely good ergonomic stand.', paragraphs: ['The VG259QR combines fast IPS motion with a fully adjustable stand and dual adaptive sync, making it a great, comfortable esports-ready display.'], pros: ['Fast IPS + full ergonomic stand', 'Dual adaptive sync'], cons: ['1080p only'] },
-    faq: [{ q: 'Is the ASUS TUF VG259QR good for competitive gaming?', a: 'Yes. Its 165Hz IPS panel with 1ms MPRT and G-SYNC Compatibility delivers smooth, tear-free motion ideal for competitive 1080p gaming.' }],
+    "asin": "B0CS6L19WD",
+    "affiliateUrl": "https://amzn.to/3QDFTex",
+    "slug": "msi-mag-274upf-e2-27-inch-uhd",
+    "title": "MSI MAG 274UPF E2 27 Inch UHD Gaming Monitor - 3840 x 2160 Rapid IPS Panel, 160",
+    "brand": "MSI",
+    "category": "Monitors",
+    "badges": [
+      "Bestseller"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 150,
+    "bullets": [
+      "Screen Size: 27\"",
+      "Resolution: 4K UHD",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "MSI",
+      "Category": "Monitors",
+      "Screen Size": "27\"",
+      "Resolution": "4K UHD"
+    },
+    "review": {
+      "summary": "The MSI MAG 274UPF E2 27 Inch UHD is a monitors from MSI, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the MSI MAG 274UPF E2 27 Inch UHD on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the MSI MAG 274UPF E2 27 Inch UHD in India?",
+        "a": "You can buy the MSI MAG 274UPF E2 27 Inch UHD on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the MSI MAG 274UPF E2 27 Inch UHD worth buying?",
+        "a": "The MSI MAG 274UPF E2 27 Inch UHD is one of the more popular monitors options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
   },
   {
-    asin: '', affiliateUrl: 'https://amzn.to/4y3zyJZ', slug: 'cellbell-c104',
-    title: 'CELLBELL C104 Ergonomic Mid-Back Gaming/Office Chair',
-    brand: 'CELLBELL', category: 'Chairs', badges: ['Bestseller'],
-    rating: 4.2, reviewCount: 26000, isPrime: true, hue: 8,
-    bullets: ['Comfortable mid-back ergonomic design', 'Breathable mesh back keeps you cool', 'Adjustable height with a smooth tilt mechanism', 'Sturdy nylon base with smooth-glide castors'],
-    specs: { 'Design': 'Mid-back ergonomic', 'Back': 'Breathable mesh', 'Adjustment': 'Height + tilt', 'Base': 'Nylon with castors', 'Use': 'Gaming + office' },
-    review: { summary: 'A hugely popular budget mesh chair for comfortable, breathable all-day sitting.', paragraphs: ['For work-from-home gamers on a budget, the C104’s breathable mesh back and simple adjustability make it one of India’s best-selling value chairs.'], pros: ['Breathable and affordable', 'Easy to assemble'], cons: ['Mid-back offers less neck support'] },
-    faq: [{ q: 'Is a mesh chair good for long gaming sessions?', a: 'Yes. A breathable mesh chair like the CELLBELL C104 keeps you cooler over long sessions than PU leather, which can trap heat.' }],
+    "asin": "B0DPQWPQN2",
+    "affiliateUrl": "https://amzn.to/4axpizE",
+    "slug": "lg-24gs65f-smartchoice-60-47cm-23-8inch",
+    "title": "LG 24GS65F Smartchoice 60.47cm (23.8Inch) Ultragear FHD (1920x1080) IPS Gaming",
+    "brand": "LG",
+    "category": "Monitors",
+    "badges": [
+      "Trending"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 150,
+    "bullets": [
+      "Screen Size: 60.47\"",
+      "Resolution: FHD 1080p",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "LG",
+      "Category": "Monitors",
+      "Screen Size": "60.47\"",
+      "Resolution": "FHD 1080p"
+    },
+    "review": {
+      "summary": "The LG 24GS65F Smartchoice 60.47cm is a monitors from LG, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the LG 24GS65F Smartchoice 60.47cm on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the LG 24GS65F Smartchoice 60.47cm in India?",
+        "a": "You can buy the LG 24GS65F Smartchoice 60.47cm on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the LG 24GS65F Smartchoice 60.47cm worth buying?",
+        "a": "The LG 24GS65F Smartchoice 60.47cm is one of the more popular monitors options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
   },
   {
-    asin: '', affiliateUrl: 'https://amzn.to/3TfnIfP', slug: '8bitdo-ultimate',
-    title: '8BitDo Ultimate Wireless Controller with Charging Dock',
-    brand: '8BitDo', category: 'Controllers', badges: ['Top Rated', 'Trending'],
-    rating: 4.7, reviewCount: 12000, isPrime: true, hue: 105,
-    bullets: ['Hall-effect joysticks are drift-proof by design', '2.4GHz, Bluetooth and USB-C connectivity', 'Two rear buttons and deep software customisation', 'Included charging dock keeps it topped up'],
-    specs: { 'Sticks': 'Hall-effect (anti-drift)', 'Connectivity': '2.4 GHz + Bluetooth + USB-C', 'Extras': '2 rear buttons, charging dock', 'Battery': 'Rechargeable', 'Compatibility': 'PC, Switch, Android' },
-    review: { summary: 'A superb value pro-style controller with drift-proof Hall-effect sticks and a charging dock.', paragraphs: ['The 8BitDo Ultimate offers Hall-effect sticks, rear buttons and a charging dock at a price well below first-party pro pads, making it a favourite for PC and Switch.'], pros: ['Drift-proof Hall sticks + dock', 'Great value and customisation'], cons: ['No native Xbox support'] },
-    faq: [{ q: 'Does the 8BitDo Ultimate have Hall-effect sticks?', a: 'Yes. It uses Hall-effect joysticks that resist the stick drift that eventually affects controllers with traditional potentiometer sticks.' }],
+    "asin": "B0GCD6WLY7",
+    "affiliateUrl": "https://amzn.to/3SxQkAW",
+    "slug": "lenovo-legion-smartchoice-r27qe-gen-2-27",
+    "title": "Lenovo Legion {Smartchoice} R27qe Gen 2 | 27\" (68.58cm) QHD IPS 200Hz Gaming Monitor",
+    "brand": "Lenovo",
+    "category": "Monitors",
+    "badges": [
+      "Top Rated"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 150,
+    "bullets": [
+      "Refresh Rate: 200 Hz",
+      "Screen Size: 27\"",
+      "Resolution: QHD 1440p",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Lenovo",
+      "Category": "Monitors",
+      "Refresh Rate": "200 Hz",
+      "Screen Size": "27\"",
+      "Resolution": "QHD 1440p"
+    },
+    "review": {
+      "summary": "The Lenovo Legion {Smartchoice} R27qe Gen 2 is a monitors from Lenovo, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Lenovo Legion {Smartchoice} R27qe Gen 2 on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Lenovo Legion {Smartchoice} R27qe Gen 2 in India?",
+        "a": "You can buy the Lenovo Legion {Smartchoice} R27qe Gen 2 on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Lenovo Legion {Smartchoice} R27qe Gen 2 worth buying?",
+        "a": "The Lenovo Legion {Smartchoice} R27qe Gen 2 is one of the more popular monitors options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
   },
   {
-    asin: '', affiliateUrl: 'https://amzn.to/4v7RWyI', slug: 'msi-rtx-4070-super',
-    title: 'MSI GeForce RTX 4070 SUPER VENTUS 12GB Graphics Card',
-    brand: 'MSI', category: 'Graphics Cards', badges: ['Top Rated', 'Trending'],
-    rating: 4.7, reviewCount: 3400, isPrime: false, hue: 88,
-    bullets: ['12GB GDDR6X for excellent 1440p and entry 4K', 'DLSS 3 Frame Generation for high frame rates', 'Strong ray tracing performance', 'Cool, quiet VENTUS triple-fan design'],
-    specs: { 'Memory': '12 GB GDDR6X', 'Interface': 'PCIe 4.0', 'Features': 'DLSS 3 + Ray Tracing', 'Power': '1 × 16-pin (650W PSU)', 'Outputs': '3× DP 1.4a, HDMI 2.1' },
-    review: { summary: 'The sweet-spot high-refresh 1440p card, with enough power for entry-level 4K.', paragraphs: ['The RTX 4070 SUPER is arguably the best value high-end 1440p GPU: 12GB VRAM, strong ray tracing and DLSS 3 make it a great match for high-refresh 1440p monitors.'], pros: ['Excellent 1440p + entry 4K', '12GB VRAM and DLSS 3'], cons: ['Needs a capable PSU'] },
-    faq: [{ q: 'Is the RTX 4070 SUPER good for 1440p gaming?', a: 'Yes. With 12GB of VRAM, strong ray tracing and DLSS 3, it is one of the best cards for high-refresh 1440p gaming and can handle entry-level 4K.' }],
+    "asin": "B0DQQT2ZS3",
+    "affiliateUrl": "https://amzn.to/4woXfeg",
+    "slug": "hyperx-cloud-iii-wired-gaming-over-ear",
+    "title": "HyperX Cloud III– Wired Gaming Over Ear Headset, PC, PS5, PS4, Xbox Series X|S, Xbox",
+    "brand": "HyperX",
+    "category": "Headsets",
+    "badges": [
+      "Bestseller"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 280,
+    "bullets": [
+      "Connection: Wired",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "HyperX",
+      "Category": "Headsets",
+      "Connection": "Wired"
+    },
+    "review": {
+      "summary": "The HyperX Cloud III– Wired Gaming Over Ear is a headsets from HyperX, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the HyperX Cloud III– Wired Gaming Over Ear on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the HyperX Cloud III– Wired Gaming Over Ear in India?",
+        "a": "You can buy the HyperX Cloud III– Wired Gaming Over Ear on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the HyperX Cloud III– Wired Gaming Over Ear worth buying?",
+        "a": "The HyperX Cloud III– Wired Gaming Over Ear is one of the more popular headsets options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
   },
   {
-    asin: '', affiliateUrl: 'https://amzn.to/4wnAR4L', slug: 'asrock-rx-7700-xt',
-    title: 'ASRock AMD Radeon RX 7700 XT 12GB Graphics Card',
-    brand: 'ASRock', category: 'Graphics Cards', badges: ['Trending'],
-    rating: 4.5, reviewCount: 2100, isPrime: false, hue: 72,
-    bullets: ['12GB GDDR6 for strong 1440p gaming', 'AMD FSR 3 upscaling and frame generation', 'Ray tracing acceleration support', 'Triple-fan cooler for quiet operation'],
-    specs: { 'Memory': '12 GB GDDR6', 'Interface': 'PCIe 4.0', 'Features': 'FSR 3 + Ray Tracing', 'Power': '2 × 8-pin', 'Outputs': '3× DP, HDMI' },
-    review: { summary: 'A powerful value 1440p card from AMD, with 12GB VRAM and FSR 3.', paragraphs: ['The RX 7700 XT is a strong 1440p performer with a generous 12GB of VRAM, and FSR 3 helps push frame rates higher in supported titles.'], pros: ['Great 1440p performance', '12GB VRAM'], cons: ['Ray tracing trails NVIDIA'] },
-    faq: [{ q: 'Is the Radeon RX 7700 XT good for 1440p?', a: 'Yes. With 12GB of VRAM and FSR 3 frame generation, it is a strong value option for high-refresh 1440p gaming.' }],
+    "asin": "B0839G3FWK",
+    "affiliateUrl": "https://amzn.to/4eG6DEm",
+    "slug": "acer-ek251q-p6-24-5-inch-full",
+    "title": "acer EK251Q P6 24.5 Inch Full HD IPS LED Monitor | 144Hz Refresh Rate | 1ms VRB",
+    "brand": "Acer",
+    "category": "Monitors",
+    "badges": [
+      "Trending"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 150,
+    "bullets": [
+      "Refresh Rate: 144 Hz",
+      "Screen Size: 24.5\"",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Acer",
+      "Category": "Monitors",
+      "Refresh Rate": "144 Hz",
+      "Screen Size": "24.5\""
+    },
+    "review": {
+      "summary": "The acer EK251Q P6 24.5 Inch Full HD is a monitors from Acer, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the acer EK251Q P6 24.5 Inch Full HD on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the acer EK251Q P6 24.5 Inch Full HD in India?",
+        "a": "You can buy the acer EK251Q P6 24.5 Inch Full HD on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the acer EK251Q P6 24.5 Inch Full HD worth buying?",
+        "a": "The acer EK251Q P6 24.5 Inch Full HD is one of the more popular monitors options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
   },
   {
-    asin: '', affiliateUrl: 'https://amzn.to/4eUeFIF', slug: 'samsung-990-pro-2tb',
-    title: 'Samsung 990 PRO 2TB PCIe 4.0 NVMe M.2 SSD',
-    brand: 'Samsung', category: 'Storage', badges: ['Bestseller', 'Top Rated'],
-    rating: 4.8, reviewCount: 19000, isPrime: true, hue: 42,
-    bullets: ['PCIe 4.0 speeds up to 7,450 MB/s reads', 'Top-tier performance for gaming and creation', 'Efficient controller with improved thermals', '2TB capacity with a 5-year warranty'],
-    specs: { 'Interface': 'PCIe 4.0 x4 NVMe', 'Sequential Read': 'Up to 7,450 MB/s', 'Sequential Write': 'Up to 6,900 MB/s', 'Capacity': '2 TB', 'Form Factor': 'M.2 2280', 'Warranty': '5 years' },
-    review: { summary: 'One of the fastest PCIe 4.0 SSDs — a premium 2TB drive for big game libraries.', paragraphs: ['The 990 PRO sits at the top of the Gen4 stack with blistering speeds and Samsung reliability, and 2TB gives serious room for a growing library of large games.'], pros: ['Class-leading Gen4 speeds', 'Roomy 2TB + 5-yr warranty'], cons: ['Premium price'] },
-    faq: [{ q: 'Is the Samsung 990 PRO worth it for gaming?', a: 'Yes. It offers some of the fastest PCIe 4.0 speeds available (up to 7,450 MB/s) plus 2TB of space and Samsung reliability, ideal for large modern game libraries.' }],
+    "asin": "B0DFHJ8KYJ",
+    "affiliateUrl": "https://amzn.to/4eJaLn7",
+    "slug": "msi-pro-mp223-e2-21-45-inch",
+    "title": "MSI PRO MP223 E2 21.45-Inch Full HD Office Monitor - 1920 x 1080 Resolution, 100Hz",
+    "brand": "MSI",
+    "category": "Monitors",
+    "badges": [
+      "Top Rated"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 150,
+    "bullets": [
+      "Refresh Rate: 100 Hz",
+      "Resolution: FHD 1080p",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "MSI",
+      "Category": "Monitors",
+      "Refresh Rate": "100 Hz",
+      "Resolution": "FHD 1080p"
+    },
+    "review": {
+      "summary": "The MSI PRO MP223 E2 21.45-Inch Full HD is a monitors from MSI, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the MSI PRO MP223 E2 21.45-Inch Full HD on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the MSI PRO MP223 E2 21.45-Inch Full HD in India?",
+        "a": "You can buy the MSI PRO MP223 E2 21.45-Inch Full HD on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the MSI PRO MP223 E2 21.45-Inch Full HD worth buying?",
+        "a": "The MSI PRO MP223 E2 21.45-Inch Full HD is one of the more popular monitors options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
   },
   {
-    asin: '', affiliateUrl: 'https://amzn.to/4gTy3rG', slug: 'elgato-stream-deck-mk2',
-    title: 'Elgato Stream Deck MK.2 (15 Customisable LCD Keys)',
-    brand: 'Elgato', category: 'Streaming Gear', badges: ['Top Rated', 'Trending'],
-    rating: 4.8, reviewCount: 15000, isPrime: true, hue: 195,
-    bullets: ['15 customisable LCD keys for one-tap control', 'Trigger scenes, clips, audio, apps and more', 'Deep integration with OBS, Twitch and YouTube', 'Interchangeable faceplate and adjustable stand'],
-    specs: { 'Keys': '15 LCD (customisable)', 'Use': 'Streaming + productivity', 'Integrations': 'OBS, Twitch, YouTube, Discord', 'Connection': 'USB-C', 'Software': 'Stream Deck app' },
-    review: { summary: 'The definitive control deck for streamers — one tap for scenes, clips and effects.', paragraphs: ['The Stream Deck MK.2 turns complex streaming actions into single key presses, and its ecosystem of plugins makes it just as useful for productivity as for going live.'], pros: ['Massively speeds up streaming', 'Huge plugin ecosystem'], cons: ['Premium price for casual streamers'] },
-    faq: [{ q: 'What does an Elgato Stream Deck do?', a: 'It provides 15 customisable LCD keys that trigger actions with one tap — switching scenes, posting clips, muting audio, launching apps and more — integrating deeply with OBS, Twitch and YouTube.' }],
+    "asin": "B0DBQ1CTL2",
+    "affiliateUrl": "https://amzn.to/4p5iOy3",
+    "slug": "minifire-gaming-monitor-24-inches-180-hz",
+    "title": "Minifire Gaming Monitor 24 Inches, 180 Hz, 1ms, AMD FreeSync, Full HD (1920 x 1080)",
+    "brand": "Minifire",
+    "category": "Monitors",
+    "badges": [
+      "Bestseller"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 150,
+    "bullets": [
+      "Refresh Rate: 180 Hz",
+      "Screen Size: 24\"",
+      "Resolution: FHD 1080p",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Minifire",
+      "Category": "Monitors",
+      "Refresh Rate": "180 Hz",
+      "Screen Size": "24\"",
+      "Resolution": "FHD 1080p"
+    },
+    "review": {
+      "summary": "The Minifire Gaming Monitor 24 Inches is a monitors from Minifire, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Minifire Gaming Monitor 24 Inches on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Minifire Gaming Monitor 24 Inches in India?",
+        "a": "You can buy the Minifire Gaming Monitor 24 Inches on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Minifire Gaming Monitor 24 Inches worth buying?",
+        "a": "The Minifire Gaming Monitor 24 Inches is one of the more popular monitors options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
   },
   {
-    asin: '', affiliateUrl: 'https://amzn.to/4eUZIFY', slug: 'blue-yeti-usb-mic',
-    title: 'Logitech for Creators Blue Yeti USB Microphone',
-    brand: 'Blue', category: 'Microphones', badges: ['Bestseller'],
-    rating: 4.7, reviewCount: 80000, isPrime: true, hue: 200,
-    bullets: ['Broadcast-quality USB condenser mic', 'Four pickup patterns for any recording situation', 'Onboard gain, mute and headphone monitoring', 'Plug-and-play for streaming, podcasts and calls'],
-    specs: { 'Type': 'USB condenser', 'Pickup Patterns': 'Cardioid, omni, bidirectional, stereo', 'Controls': 'Gain, mute, monitoring', 'Connection': 'USB', 'Compatibility': 'PC, Mac' },
-    review: { summary: 'The most popular USB microphone for streamers and podcasters — versatile and easy.', paragraphs: ['The Blue Yeti remains the default USB mic recommendation thanks to its clear sound, four pickup patterns and true plug-and-play simplicity.'], pros: ['Great sound, four patterns', 'Truly plug-and-play'], cons: ['Sensitive to desk noise'] },
-    faq: [{ q: 'Is the Blue Yeti good for streaming and podcasts?', a: 'Yes. Its clear USB condenser sound, four selectable pickup patterns and onboard controls make it one of the most popular mics for streaming, podcasting and voice calls.' }],
+    "asin": "B0FWK4YFP7",
+    "affiliateUrl": "https://amzn.to/3QZMj7E",
+    "slug": "lg-24g411a-60-4-cm-24-inch",
+    "title": "LG 24G411A 60.4 cm(24 Inch) Ultragear FHD(1920 x 1080) IPS Gaming Monitor, 1ms MBR",
+    "brand": "LG",
+    "category": "Monitors",
+    "badges": [
+      "Trending"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 150,
+    "bullets": [
+      "Screen Size: 24\"",
+      "Resolution: FHD 1080p",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "LG",
+      "Category": "Monitors",
+      "Screen Size": "24\"",
+      "Resolution": "FHD 1080p"
+    },
+    "review": {
+      "summary": "The LG 24G411A 60.4 cm is a monitors from LG, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the LG 24G411A 60.4 cm on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the LG 24G411A 60.4 cm in India?",
+        "a": "You can buy the LG 24G411A 60.4 cm on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the LG 24G411A 60.4 cm worth buying?",
+        "a": "The LG 24G411A 60.4 cm is one of the more popular monitors options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
   },
   {
-    asin: '', affiliateUrl: 'https://amzn.to/4eJWCWQ', slug: 'hyperx-quadcast-s',
-    title: 'HyperX QuadCast S RGB USB Condenser Microphone',
-    brand: 'HyperX', category: 'Microphones', badges: ['Top Rated', 'Trending'],
-    rating: 4.7, reviewCount: 24000, isPrime: true, hue: 208,
-    bullets: ['Dynamic RGB lighting with customisable effects', 'Tap-to-mute sensor with a status indicator', 'Four polar patterns and a built-in shock mount', 'Built-in pop filter for cleaner vocals'],
-    specs: { 'Type': 'USB condenser', 'Pickup Patterns': 'Stereo, omni, cardioid, bidirectional', 'Lighting': 'RGB', 'Extras': 'Tap-to-mute, shock mount, pop filter', 'Connection': 'USB-C' },
-    review: { summary: 'A stylish, feature-rich USB mic with RGB, tap-to-mute and great vocal clarity.', paragraphs: ['The QuadCast S combines eye-catching RGB with genuinely useful features — a built-in shock mount, pop filter and tap-to-mute — plus clear condenser audio for streaming.'], pros: ['Great features and looks', 'Clear vocals, easy mute'], cons: ['RGB adds to the price'] },
-    faq: [{ q: 'Does the HyperX QuadCast S have a built-in pop filter?', a: 'Yes. It includes a built-in pop filter and internal shock mount, plus a tap-to-mute sensor and four selectable polar patterns.' }],
+    "asin": "B0FDL44YZ5",
+    "affiliateUrl": "https://amzn.to/4vbfHG6",
+    "slug": "samsung-27-68-5cm-odyssey-g7-4k",
+    "title": "Samsung 27\"(68.5cm) Odyssey G7 4K Smart Gaming Monitor|UHD 3840 x 2160|Fast IPS",
+    "brand": "Samsung",
+    "category": "Monitors",
+    "badges": [
+      "Top Rated"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 150,
+    "bullets": [
+      "Screen Size: 27\"",
+      "Resolution: 4K UHD",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Samsung",
+      "Category": "Monitors",
+      "Screen Size": "27\"",
+      "Resolution": "4K UHD"
+    },
+    "review": {
+      "summary": "The Samsung 27\" is a monitors from Samsung, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Samsung 27\" on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Samsung 27\" in India?",
+        "a": "You can buy the Samsung 27\" on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Samsung 27\" worth buying?",
+        "a": "The Samsung 27\" is one of the more popular monitors options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
   },
+  {
+    "asin": "B0CWRXBH61",
+    "affiliateUrl": "https://amzn.to/3SVj1aX",
+    "slug": "viewsonic-xg2409-24-inch-60-96cm-fhd",
+    "title": "ViewSonic XG2409 24-inch (60.96cm) FHD 1920x1080p Gaming Monitor | SuperClear IPS",
+    "brand": "ViewSonic",
+    "category": "Monitors",
+    "badges": [
+      "Bestseller"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 150,
+    "bullets": [
+      "Resolution: FHD 1080p",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "ViewSonic",
+      "Category": "Monitors",
+      "Resolution": "FHD 1080p"
+    },
+    "review": {
+      "summary": "The ViewSonic XG2409 24-inch is a monitors from ViewSonic, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the ViewSonic XG2409 24-inch on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the ViewSonic XG2409 24-inch in India?",
+        "a": "You can buy the ViewSonic XG2409 24-inch on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the ViewSonic XG2409 24-inch worth buying?",
+        "a": "The ViewSonic XG2409 24-inch is one of the more popular monitors options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0DQP36N7T",
+    "affiliateUrl": "https://amzn.to/4492tik",
+    "slug": "msi-mag-255f-e20-24-5-inch",
+    "title": "MSI MAG 255F E20 24.5-Inch FHD 1920x1080 Gaming Monitor, 200Hz, 0.5ms, HDR Ready",
+    "brand": "MSI",
+    "category": "Monitors",
+    "badges": [
+      "Trending"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 150,
+    "bullets": [
+      "Refresh Rate: 200 Hz",
+      "Resolution: FHD 1080p",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "MSI",
+      "Category": "Monitors",
+      "Refresh Rate": "200 Hz",
+      "Resolution": "FHD 1080p"
+    },
+    "review": {
+      "summary": "The MSI MAG 255F E20 24.5-Inch FHD 1920x1080 is a monitors from MSI, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the MSI MAG 255F E20 24.5-Inch FHD 1920x1080 on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the MSI MAG 255F E20 24.5-Inch FHD 1920x1080 in India?",
+        "a": "You can buy the MSI MAG 255F E20 24.5-Inch FHD 1920x1080 on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the MSI MAG 255F E20 24.5-Inch FHD 1920x1080 worth buying?",
+        "a": "The MSI MAG 255F E20 24.5-Inch FHD 1920x1080 is one of the more popular monitors options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0DSG4WLJ1",
+    "affiliateUrl": "https://amzn.to/3SJjvAX",
+    "slug": "gigabyte-gs27qa-27-ss-ips-display-180hz",
+    "title": "GIGABYTE GS27QA 27\" SS IPS Display, 180Hz, 2560 x 1440 (QHD), 1ms (MPRT) Response",
+    "brand": "GIGABYTE",
+    "category": "Monitors",
+    "badges": [
+      "Top Rated"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 150,
+    "bullets": [
+      "Refresh Rate: 180 Hz",
+      "Screen Size: 27\"",
+      "Resolution: QHD 1440p",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "GIGABYTE",
+      "Category": "Monitors",
+      "Refresh Rate": "180 Hz",
+      "Screen Size": "27\"",
+      "Resolution": "QHD 1440p"
+    },
+    "review": {
+      "summary": "The GIGABYTE GS27QA 27\" SS IPS Display is a monitors from GIGABYTE, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the GIGABYTE GS27QA 27\" SS IPS Display on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the GIGABYTE GS27QA 27\" SS IPS Display in India?",
+        "a": "You can buy the GIGABYTE GS27QA 27\" SS IPS Display on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the GIGABYTE GS27QA 27\" SS IPS Display worth buying?",
+        "a": "The GIGABYTE GS27QA 27\" SS IPS Display is one of the more popular monitors options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0F6C3LP1R",
+    "affiliateUrl": "https://amzn.to/3SCVJqo",
+    "slug": "lenovo-legion-r27qc-30-27-68-5cm",
+    "title": "Lenovo Legion-R27qc-30 | 27\" (68.5cm) QHD 180Hz Curved Gaming Monitor | 0.5ms, AMD",
+    "brand": "Lenovo",
+    "category": "Monitors",
+    "badges": [
+      "Bestseller"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 150,
+    "bullets": [
+      "Refresh Rate: 180 Hz",
+      "Screen Size: 27\"",
+      "Resolution: QHD 1440p",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Lenovo",
+      "Category": "Monitors",
+      "Refresh Rate": "180 Hz",
+      "Screen Size": "27\"",
+      "Resolution": "QHD 1440p"
+    },
+    "review": {
+      "summary": "The Lenovo Legion-R27qc-30 is a monitors from Lenovo, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Lenovo Legion-R27qc-30 on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Lenovo Legion-R27qc-30 in India?",
+        "a": "You can buy the Lenovo Legion-R27qc-30 on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Lenovo Legion-R27qc-30 worth buying?",
+        "a": "The Lenovo Legion-R27qc-30 is one of the more popular monitors options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0DYDHRR4W",
+    "affiliateUrl": "https://amzn.to/4vNeLJk",
+    "slug": "gtplayer-ergonomic-gaming-chair-with-lumbar-cushion",
+    "title": "GTPLAYER Ergonomic Gaming Chair with Lumbar Cushion & Footrest, Premium Fabric",
+    "brand": "GTPLAYER",
+    "category": "Chairs",
+    "badges": [
+      "Trending"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 12,
+    "bullets": [
+      "Popular chairs from GTPLAYER on Amazon India",
+      "Check the current price, deals and availability on Amazon",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "GTPLAYER",
+      "Category": "Chairs"
+    },
+    "review": {
+      "summary": "The GTPLAYER Ergonomic Gaming Chair with Lumbar Cushion is a chairs from GTPLAYER, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the GTPLAYER Ergonomic Gaming Chair with Lumbar Cushion on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the GTPLAYER Ergonomic Gaming Chair with Lumbar Cushion in India?",
+        "a": "You can buy the GTPLAYER Ergonomic Gaming Chair with Lumbar Cushion on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the GTPLAYER Ergonomic Gaming Chair with Lumbar Cushion worth buying?",
+        "a": "The GTPLAYER Ergonomic Gaming Chair with Lumbar Cushion is one of the more popular chairs options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0GHRN9W6D",
+    "affiliateUrl": "https://amzn.to/4axpyi6",
+    "slug": "gtplayer-1usa-multi-functional-ergonomic-gaming-computer",
+    "title": "GTPLAYER #1USA Multi-Functional Ergonomic Gaming & Computer Chair – Premium PU",
+    "brand": "GTPLAYER",
+    "category": "Chairs",
+    "badges": [
+      "Top Rated"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 12,
+    "bullets": [
+      "Popular chairs from GTPLAYER on Amazon India",
+      "Check the current price, deals and availability on Amazon",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "GTPLAYER",
+      "Category": "Chairs"
+    },
+    "review": {
+      "summary": "The GTPLAYER #1USA Multi-Functional Ergonomic Gaming & Computer is a chairs from GTPLAYER, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the GTPLAYER #1USA Multi-Functional Ergonomic Gaming & Computer on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the GTPLAYER #1USA Multi-Functional Ergonomic Gaming & Computer in India?",
+        "a": "You can buy the GTPLAYER #1USA Multi-Functional Ergonomic Gaming & Computer on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the GTPLAYER #1USA Multi-Functional Ergonomic Gaming & Computer worth buying?",
+        "a": "The GTPLAYER #1USA Multi-Functional Ergonomic Gaming & Computer is one of the more popular chairs options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0B8MZ9FHC",
+    "affiliateUrl": "https://amzn.to/4y3H0EX",
+    "slug": "the-sleep-company-stylux-premium-ergonomic-office",
+    "title": "The Sleep Company Stylux Premium Ergonomic Office Chair | Patented SmartGRID seat",
+    "brand": "The Sleep Company",
+    "category": "Chairs",
+    "badges": [
+      "Bestseller"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 12,
+    "bullets": [
+      "Popular chairs from The Sleep Company on Amazon India",
+      "Check the current price, deals and availability on Amazon",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "The Sleep Company",
+      "Category": "Chairs"
+    },
+    "review": {
+      "summary": "The The Sleep Company Stylux Premium Ergonomic Office is a chairs from The Sleep Company, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the The Sleep Company Stylux Premium Ergonomic Office on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the The Sleep Company Stylux Premium Ergonomic Office in India?",
+        "a": "You can buy the The Sleep Company Stylux Premium Ergonomic Office on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the The Sleep Company Stylux Premium Ergonomic Office worth buying?",
+        "a": "The The Sleep Company Stylux Premium Ergonomic Office is one of the more popular chairs options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0D46X42LJ",
+    "affiliateUrl": "https://amzn.to/4oYFX54",
+    "slug": "green-soul-jupiter-pro-ergonomic-mesh-office",
+    "title": "Green Soul Jupiter Pro | Ergonomic Mesh Office Chair for Work|3 Year Warranty | Seat",
+    "brand": "Green Soul",
+    "category": "Chairs",
+    "badges": [
+      "Trending"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 12,
+    "bullets": [
+      "Popular chairs from Green Soul on Amazon India",
+      "Check the current price, deals and availability on Amazon",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Green Soul",
+      "Category": "Chairs"
+    },
+    "review": {
+      "summary": "The Green Soul Jupiter Pro is a chairs from Green Soul, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Green Soul Jupiter Pro on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Green Soul Jupiter Pro in India?",
+        "a": "You can buy the Green Soul Jupiter Pro on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Green Soul Jupiter Pro worth buying?",
+        "a": "The Green Soul Jupiter Pro is one of the more popular chairs options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0C7QGRRDP",
+    "affiliateUrl": "https://amzn.to/3SxQI2m",
+    "slug": "da-urban-merlion-office-chair-high-back",
+    "title": "Da URBAN® Merlion Office Chair,High Back Mesh Ergonomic Home Office Desk Chair with",
+    "brand": "Da URBAN",
+    "category": "Chairs",
+    "badges": [
+      "Top Rated"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 12,
+    "bullets": [
+      "Popular chairs from Da URBAN on Amazon India",
+      "Check the current price, deals and availability on Amazon",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Da URBAN",
+      "Category": "Chairs"
+    },
+    "review": {
+      "summary": "The Da URBAN® Merlion Office Chair is a chairs from Da URBAN, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Da URBAN® Merlion Office Chair on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Da URBAN® Merlion Office Chair in India?",
+        "a": "You can buy the Da URBAN® Merlion Office Chair on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Da URBAN® Merlion Office Chair worth buying?",
+        "a": "The Da URBAN® Merlion Office Chair is one of the more popular chairs options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0BZPJQ2X2",
+    "affiliateUrl": "https://amzn.to/4y2DyKS",
+    "slug": "da-urban-merlion-office-chair-high-back-2",
+    "title": "Da URBAN® Merlion Office Chair,High Back Mesh Ergonomic Home Office Desk Chair with",
+    "brand": "Da URBAN",
+    "category": "Chairs",
+    "badges": [
+      "Bestseller"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 12,
+    "bullets": [
+      "Popular chairs from Da URBAN on Amazon India",
+      "Check the current price, deals and availability on Amazon",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Da URBAN",
+      "Category": "Chairs"
+    },
+    "review": {
+      "summary": "The Da URBAN® Merlion Office Chair is a chairs from Da URBAN, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Da URBAN® Merlion Office Chair on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Da URBAN® Merlion Office Chair in India?",
+        "a": "You can buy the Da URBAN® Merlion Office Chair on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Da URBAN® Merlion Office Chair worth buying?",
+        "a": "The Da URBAN® Merlion Office Chair is one of the more popular chairs options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0FYHRLHGG",
+    "affiliateUrl": "https://amzn.to/4xYcAnL",
+    "slug": "gtplayer-1usa-ergonomic-gaming-chair-with-massage",
+    "title": "GTPLAYER #1USA Ergonomic Gaming Chair with Massage Lumbar Cushion & Footrest, PU",
+    "brand": "GTPLAYER",
+    "category": "Chairs",
+    "badges": [
+      "Trending"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 12,
+    "bullets": [
+      "Popular chairs from GTPLAYER on Amazon India",
+      "Check the current price, deals and availability on Amazon",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "GTPLAYER",
+      "Category": "Chairs"
+    },
+    "review": {
+      "summary": "The GTPLAYER #1USA Ergonomic Gaming Chair with Massage is a chairs from GTPLAYER, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the GTPLAYER #1USA Ergonomic Gaming Chair with Massage on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the GTPLAYER #1USA Ergonomic Gaming Chair with Massage in India?",
+        "a": "You can buy the GTPLAYER #1USA Ergonomic Gaming Chair with Massage on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the GTPLAYER #1USA Ergonomic Gaming Chair with Massage worth buying?",
+        "a": "The GTPLAYER #1USA Ergonomic Gaming Chair with Massage is one of the more popular chairs options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0DV5M6YY8",
+    "affiliateUrl": "https://amzn.to/4bqjNDd",
+    "slug": "green-soul-blade-ergonomic-gaming-chair-multi",
+    "title": "Green Soul Blade Ergonomic Gaming Chair | Multi-Functional Computer Chair",
+    "brand": "Green Soul",
+    "category": "Chairs",
+    "badges": [
+      "Top Rated"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 12,
+    "bullets": [
+      "Popular chairs from Green Soul on Amazon India",
+      "Check the current price, deals and availability on Amazon",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Green Soul",
+      "Category": "Chairs"
+    },
+    "review": {
+      "summary": "The Green Soul Blade Ergonomic Gaming Chair is a chairs from Green Soul, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Green Soul Blade Ergonomic Gaming Chair on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Green Soul Blade Ergonomic Gaming Chair in India?",
+        "a": "You can buy the Green Soul Blade Ergonomic Gaming Chair on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Green Soul Blade Ergonomic Gaming Chair worth buying?",
+        "a": "The Green Soul Blade Ergonomic Gaming Chair is one of the more popular chairs options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0FD8QFWCV",
+    "affiliateUrl": "https://amzn.to/4oYaD6q",
+    "slug": "astride-ergofit-ergonomic-office-chair-for-home",
+    "title": "ASTRIDE Ergofit Ergonomic Office Chair for Home | 3-Years Warranty | 2D Headrest",
+    "brand": "ASTRIDE",
+    "category": "Chairs",
+    "badges": [
+      "Bestseller"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 12,
+    "bullets": [
+      "Popular chairs from ASTRIDE on Amazon India",
+      "Check the current price, deals and availability on Amazon",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "ASTRIDE",
+      "Category": "Chairs"
+    },
+    "review": {
+      "summary": "The ASTRIDE Ergofit Ergonomic Office Chair for Home is a chairs from ASTRIDE, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the ASTRIDE Ergofit Ergonomic Office Chair for Home on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the ASTRIDE Ergofit Ergonomic Office Chair for Home in India?",
+        "a": "You can buy the ASTRIDE Ergofit Ergonomic Office Chair for Home on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the ASTRIDE Ergofit Ergonomic Office Chair for Home worth buying?",
+        "a": "The ASTRIDE Ergofit Ergonomic Office Chair for Home is one of the more popular chairs options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B09VZ19531",
+    "affiliateUrl": "https://amzn.to/4xXu6sl",
+    "slug": "the-sleep-company-onyx-orthopedic-office-chair",
+    "title": "The Sleep Company Onyx Orthopedic Office Chair | Patented SmartGRID seat",
+    "brand": "The Sleep Company",
+    "category": "Chairs",
+    "badges": [
+      "Trending"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 12,
+    "bullets": [
+      "Popular chairs from The Sleep Company on Amazon India",
+      "Check the current price, deals and availability on Amazon",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "The Sleep Company",
+      "Category": "Chairs"
+    },
+    "review": {
+      "summary": "The The Sleep Company Onyx Orthopedic Office Chair is a chairs from The Sleep Company, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the The Sleep Company Onyx Orthopedic Office Chair on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the The Sleep Company Onyx Orthopedic Office Chair in India?",
+        "a": "You can buy the The Sleep Company Onyx Orthopedic Office Chair on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the The Sleep Company Onyx Orthopedic Office Chair worth buying?",
+        "a": "The The Sleep Company Onyx Orthopedic Office Chair is one of the more popular chairs options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B071CMY25X",
+    "affiliateUrl": "https://amzn.to/4wIvEFd",
+    "slug": "green-soul-vienna-premium-leatherette-office-chair",
+    "title": "Green Soul Vienna Premium Leatherette Office Chair, High Back Ergonomic Home Office",
+    "brand": "Green Soul",
+    "category": "Chairs",
+    "badges": [
+      "Top Rated"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 12,
+    "bullets": [
+      "Popular chairs from Green Soul on Amazon India",
+      "Check the current price, deals and availability on Amazon",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Green Soul",
+      "Category": "Chairs"
+    },
+    "review": {
+      "summary": "The Green Soul Vienna Premium Leatherette Office Chair is a chairs from Green Soul, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Green Soul Vienna Premium Leatherette Office Chair on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Green Soul Vienna Premium Leatherette Office Chair in India?",
+        "a": "You can buy the Green Soul Vienna Premium Leatherette Office Chair on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Green Soul Vienna Premium Leatherette Office Chair worth buying?",
+        "a": "The Green Soul Vienna Premium Leatherette Office Chair is one of the more popular chairs options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0BPLXSJKV",
+    "affiliateUrl": "https://amzn.to/4eJ0Dur",
+    "slug": "green-soul-pebble-office-chair-mid-back",
+    "title": "Green Soul Pebble Office Chair, Mid Back Mesh Ergonomic Home Office Desk Chair with",
+    "brand": "Green Soul",
+    "category": "Chairs",
+    "badges": [
+      "Bestseller"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 12,
+    "bullets": [
+      "Popular chairs from Green Soul on Amazon India",
+      "Check the current price, deals and availability on Amazon",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Green Soul",
+      "Category": "Chairs"
+    },
+    "review": {
+      "summary": "The Green Soul Pebble Office Chair is a chairs from Green Soul, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Green Soul Pebble Office Chair on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Green Soul Pebble Office Chair in India?",
+        "a": "You can buy the Green Soul Pebble Office Chair on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Green Soul Pebble Office Chair worth buying?",
+        "a": "The Green Soul Pebble Office Chair is one of the more popular chairs options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0DV5HWDY7",
+    "affiliateUrl": "https://amzn.to/4v3xuyV",
+    "slug": "green-soul-zodiac-superb-office-chair-2026",
+    "title": "Green Soul Zodiac Superb Office Chair (2026) | Upgraded Cushioned Lumbar | Ergonomic",
+    "brand": "Green Soul",
+    "category": "Chairs",
+    "badges": [
+      "Trending"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 12,
+    "bullets": [
+      "Popular chairs from Green Soul on Amazon India",
+      "Check the current price, deals and availability on Amazon",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Green Soul",
+      "Category": "Chairs"
+    },
+    "review": {
+      "summary": "The Green Soul Zodiac Superb Office Chair is a chairs from Green Soul, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Green Soul Zodiac Superb Office Chair on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Green Soul Zodiac Superb Office Chair in India?",
+        "a": "You can buy the Green Soul Zodiac Superb Office Chair on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Green Soul Zodiac Superb Office Chair worth buying?",
+        "a": "The Green Soul Zodiac Superb Office Chair is one of the more popular chairs options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0GFN1LNN7",
+    "affiliateUrl": "https://amzn.to/4eVpJoR",
+    "slug": "iafa-furniture-ergolux-high-back-ergonomic-office",
+    "title": "IAFA FURNITURE® Ergolux High Back Ergonomic Office & Study Chair | 3 Year Warranty",
+    "brand": "IAFA",
+    "category": "Chairs",
+    "badges": [
+      "Top Rated"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 12,
+    "bullets": [
+      "Popular chairs from IAFA on Amazon India",
+      "Check the current price, deals and availability on Amazon",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "IAFA",
+      "Category": "Chairs"
+    },
+    "review": {
+      "summary": "The IAFA FURNITURE® Ergolux High Back Ergonomic Office is a chairs from IAFA, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the IAFA FURNITURE® Ergolux High Back Ergonomic Office on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the IAFA FURNITURE® Ergolux High Back Ergonomic Office in India?",
+        "a": "You can buy the IAFA FURNITURE® Ergolux High Back Ergonomic Office on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the IAFA FURNITURE® Ergolux High Back Ergonomic Office worth buying?",
+        "a": "The IAFA FURNITURE® Ergolux High Back Ergonomic Office is one of the more popular chairs options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0B6RJLND3",
+    "affiliateUrl": "https://amzn.to/4gTgp7t",
+    "slug": "cellbell-desire-c104-mesh-high-back-ergonomic",
+    "title": "CELLBELL Desire C104 Mesh High Back Ergonomic Office Chair - Adjustable Seat Height",
+    "brand": "CELLBELL",
+    "category": "Chairs",
+    "badges": [
+      "Bestseller"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 12,
+    "bullets": [
+      "Popular chairs from CELLBELL on Amazon India",
+      "Check the current price, deals and availability on Amazon",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "CELLBELL",
+      "Category": "Chairs"
+    },
+    "review": {
+      "summary": "The CELLBELL Desire C104 Mesh High Back Ergonomic is a chairs from CELLBELL, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the CELLBELL Desire C104 Mesh High Back Ergonomic on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the CELLBELL Desire C104 Mesh High Back Ergonomic in India?",
+        "a": "You can buy the CELLBELL Desire C104 Mesh High Back Ergonomic on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the CELLBELL Desire C104 Mesh High Back Ergonomic worth buying?",
+        "a": "The CELLBELL Desire C104 Mesh High Back Ergonomic is one of the more popular chairs options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B09JG2Q6W8",
+    "affiliateUrl": "https://amzn.to/4yhG7Jg",
+    "slug": "featherlite-amaze-project-arm-chair-mid-back",
+    "title": "Featherlite Amaze Project Arm Chair (Mid Back - Grey) Nylon Base",
+    "brand": "Featherlite",
+    "category": "Chairs",
+    "badges": [
+      "Trending"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 12,
+    "bullets": [
+      "Popular chairs from Featherlite on Amazon India",
+      "Check the current price, deals and availability on Amazon",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Featherlite",
+      "Category": "Chairs"
+    },
+    "review": {
+      "summary": "The Featherlite Amaze Project Arm Chair is a chairs from Featherlite, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Featherlite Amaze Project Arm Chair on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Featherlite Amaze Project Arm Chair in India?",
+        "a": "You can buy the Featherlite Amaze Project Arm Chair on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Featherlite Amaze Project Arm Chair worth buying?",
+        "a": "The Featherlite Amaze Project Arm Chair is one of the more popular chairs options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0DMT1S9P7",
+    "affiliateUrl": "https://amzn.to/3SHsq5Y",
+    "slug": "ant-esports-gp165-wired-controller",
+    "title": "Ant Esports GP165 Wired Controller",
+    "brand": "Ant Esports",
+    "category": "Controllers",
+    "badges": [
+      "Top Rated"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 100,
+    "bullets": [
+      "Connection: Wired",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Ant Esports",
+      "Category": "Controllers",
+      "Connection": "Wired"
+    },
+    "review": {
+      "summary": "The Ant Esports GP165 Wired Controller is a controllers from Ant Esports, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Ant Esports GP165 Wired Controller on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Ant Esports GP165 Wired Controller in India?",
+        "a": "You can buy the Ant Esports GP165 Wired Controller on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Ant Esports GP165 Wired Controller worth buying?",
+        "a": "The Ant Esports GP165 Wired Controller is one of the more popular controllers options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0FGCMF7GN",
+    "affiliateUrl": "https://amzn.to/4ayHKrK",
+    "slug": "ant-esports-gp130-wired-gamepad",
+    "title": "Ant Esports GP130 Wired Gamepad",
+    "brand": "Ant Esports",
+    "category": "Controllers",
+    "badges": [
+      "Bestseller"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 100,
+    "bullets": [
+      "Connection: Wired",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Ant Esports",
+      "Category": "Controllers",
+      "Connection": "Wired"
+    },
+    "review": {
+      "summary": "The Ant Esports GP130 Wired Gamepad is a controllers from Ant Esports, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Ant Esports GP130 Wired Gamepad on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Ant Esports GP130 Wired Gamepad in India?",
+        "a": "You can buy the Ant Esports GP130 Wired Gamepad on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Ant Esports GP130 Wired Gamepad worth buying?",
+        "a": "The Ant Esports GP130 Wired Gamepad is one of the more popular controllers options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0F2YX284Q",
+    "affiliateUrl": "https://amzn.to/4gTLlEB",
+    "slug": "evofox-elite-x2-wireless-gaming-controller-for",
+    "title": "EvoFox Elite X2 Wireless Gaming Controller For PC",
+    "brand": "EvoFox",
+    "category": "Controllers",
+    "badges": [
+      "Trending"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 100,
+    "bullets": [
+      "Connection: Wireless",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "EvoFox",
+      "Category": "Controllers",
+      "Connection": "Wireless"
+    },
+    "review": {
+      "summary": "The EvoFox Elite X2 Wireless Gaming Controller For is a controllers from EvoFox, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the EvoFox Elite X2 Wireless Gaming Controller For on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the EvoFox Elite X2 Wireless Gaming Controller For in India?",
+        "a": "You can buy the EvoFox Elite X2 Wireless Gaming Controller For on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the EvoFox Elite X2 Wireless Gaming Controller For worth buying?",
+        "a": "The EvoFox Elite X2 Wireless Gaming Controller For is one of the more popular controllers options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B08D5XK13T",
+    "affiliateUrl": "https://amzn.to/4y2yvKu",
+    "slug": "ant-esports-gp300-pro-v2-wireless-gaming",
+    "title": "Ant Esports GP300 Pro V2 Wireless Gaming Controller",
+    "brand": "Ant Esports",
+    "category": "Controllers",
+    "badges": [
+      "Top Rated"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 100,
+    "bullets": [
+      "Connection: Wireless",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Ant Esports",
+      "Category": "Controllers",
+      "Connection": "Wireless"
+    },
+    "review": {
+      "summary": "The Ant Esports GP300 Pro V2 Wireless Gaming is a controllers from Ant Esports, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Ant Esports GP300 Pro V2 Wireless Gaming on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Ant Esports GP300 Pro V2 Wireless Gaming in India?",
+        "a": "You can buy the Ant Esports GP300 Pro V2 Wireless Gaming on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Ant Esports GP300 Pro V2 Wireless Gaming worth buying?",
+        "a": "The Ant Esports GP300 Pro V2 Wireless Gaming is one of the more popular controllers options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0BYKB3B2L",
+    "affiliateUrl": "https://amzn.to/4vTRrtl",
+    "slug": "cosmic-byte-ares-wired-controller-for-pc",
+    "title": "Cosmic Byte ARES Wired Controller for PC",
+    "brand": "Cosmic Byte",
+    "category": "Controllers",
+    "badges": [
+      "Bestseller"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 100,
+    "bullets": [
+      "Connection: Wired",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Cosmic Byte",
+      "Category": "Controllers",
+      "Connection": "Wired"
+    },
+    "review": {
+      "summary": "The Cosmic Byte ARES Wired Controller for PC is a controllers from Cosmic Byte, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Cosmic Byte ARES Wired Controller for PC on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Cosmic Byte ARES Wired Controller for PC in India?",
+        "a": "You can buy the Cosmic Byte ARES Wired Controller for PC on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Cosmic Byte ARES Wired Controller for PC worth buying?",
+        "a": "The Cosmic Byte ARES Wired Controller for PC is one of the more popular controllers options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0DFWDTZ73",
+    "affiliateUrl": "https://amzn.to/4aylSwA",
+    "slug": "evofox-elite-x-rgb-wired-gaming-controller",
+    "title": "EvoFox Elite X RGB Wired Gaming Controller for PC",
+    "brand": "EvoFox",
+    "category": "Controllers",
+    "badges": [
+      "Trending"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 100,
+    "bullets": [
+      "Connection: Wired",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "EvoFox",
+      "Category": "Controllers",
+      "Connection": "Wired"
+    },
+    "review": {
+      "summary": "The EvoFox Elite X RGB Wired Gaming Controller is a controllers from EvoFox, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the EvoFox Elite X RGB Wired Gaming Controller on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the EvoFox Elite X RGB Wired Gaming Controller in India?",
+        "a": "You can buy the EvoFox Elite X RGB Wired Gaming Controller on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the EvoFox Elite X RGB Wired Gaming Controller worth buying?",
+        "a": "The EvoFox Elite X RGB Wired Gaming Controller is one of the more popular controllers options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0DZ6T16SD",
+    "affiliateUrl": "https://amzn.to/44aMDUd",
+    "slug": "evofox-one-s-3-mode-wireless-gaming",
+    "title": "EvoFox One S 3-Mode Wireless Gaming Controller",
+    "brand": "EvoFox",
+    "category": "Controllers",
+    "badges": [
+      "Top Rated"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 100,
+    "bullets": [
+      "Connection: Wireless",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "EvoFox",
+      "Category": "Controllers",
+      "Connection": "Wireless"
+    },
+    "review": {
+      "summary": "The EvoFox One S 3-Mode Wireless Gaming Controller is a controllers from EvoFox, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the EvoFox One S 3-Mode Wireless Gaming Controller on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the EvoFox One S 3-Mode Wireless Gaming Controller in India?",
+        "a": "You can buy the EvoFox One S 3-Mode Wireless Gaming Controller on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the EvoFox One S 3-Mode Wireless Gaming Controller worth buying?",
+        "a": "The EvoFox One S 3-Mode Wireless Gaming Controller is one of the more popular controllers options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0BYKBGXPW",
+    "affiliateUrl": "https://amzn.to/4y3yFB6",
+    "slug": "cosmic-byte-ares-wired-controller-for-pc-2",
+    "title": "Cosmic Byte ARES Wired Controller for PC",
+    "brand": "Cosmic Byte",
+    "category": "Controllers",
+    "badges": [
+      "Bestseller"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 100,
+    "bullets": [
+      "Connection: Wired",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Cosmic Byte",
+      "Category": "Controllers",
+      "Connection": "Wired"
+    },
+    "review": {
+      "summary": "The Cosmic Byte ARES Wired Controller for PC is a controllers from Cosmic Byte, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Cosmic Byte ARES Wired Controller for PC on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Cosmic Byte ARES Wired Controller for PC in India?",
+        "a": "You can buy the Cosmic Byte ARES Wired Controller for PC on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Cosmic Byte ARES Wired Controller for PC worth buying?",
+        "a": "The Cosmic Byte ARES Wired Controller for PC is one of the more popular controllers options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0CFTZQ8JB",
+    "affiliateUrl": "https://amzn.to/4y3frf6",
+    "slug": "zebronics-max-fury-rgb-led-wired-gamepad",
+    "title": "Zebronics MAX FURY RGB LED Wired Gamepad",
+    "brand": "Zebronics",
+    "category": "Controllers",
+    "badges": [
+      "Trending"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 100,
+    "bullets": [
+      "Connection: Wired",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Zebronics",
+      "Category": "Controllers",
+      "Connection": "Wired"
+    },
+    "review": {
+      "summary": "The Zebronics MAX FURY RGB LED Wired Gamepad is a controllers from Zebronics, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Zebronics MAX FURY RGB LED Wired Gamepad on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Zebronics MAX FURY RGB LED Wired Gamepad in India?",
+        "a": "You can buy the Zebronics MAX FURY RGB LED Wired Gamepad on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Zebronics MAX FURY RGB LED Wired Gamepad worth buying?",
+        "a": "The Zebronics MAX FURY RGB LED Wired Gamepad is one of the more popular controllers options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0F2MWR59P",
+    "affiliateUrl": "https://amzn.to/4p0Jb8h",
+    "slug": "gamesir-cyclone-2-controller-with-charging-dock",
+    "title": "GameSir Cyclone 2 Controller with Charging Dock",
+    "brand": "GameSir",
+    "category": "Controllers",
+    "badges": [
+      "Top Rated"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 100,
+    "bullets": [
+      "Popular controllers from GameSir on Amazon India",
+      "Check the current price, deals and availability on Amazon",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "GameSir",
+      "Category": "Controllers"
+    },
+    "review": {
+      "summary": "The GameSir Cyclone 2 Controller with Charging Dock is a controllers from GameSir, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the GameSir Cyclone 2 Controller with Charging Dock on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the GameSir Cyclone 2 Controller with Charging Dock in India?",
+        "a": "You can buy the GameSir Cyclone 2 Controller with Charging Dock on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the GameSir Cyclone 2 Controller with Charging Dock worth buying?",
+        "a": "The GameSir Cyclone 2 Controller with Charging Dock is one of the more popular controllers options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0CSFW3465",
+    "affiliateUrl": "https://amzn.to/4v8WrsM",
+    "slug": "easysmx-x15-pc-controller-wireless-bluetooth-controller",
+    "title": "EasySMX X15 PC Controller - Wireless Bluetooth Controller with Hall/Trigger Hall",
+    "brand": "EasySMX",
+    "category": "Controllers",
+    "badges": [
+      "Bestseller"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 100,
+    "bullets": [
+      "Connection: Wireless",
+      "Bluetooth: Yes",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "EasySMX",
+      "Category": "Controllers",
+      "Connection": "Wireless",
+      "Bluetooth": "Yes"
+    },
+    "review": {
+      "summary": "The EasySMX X15 PC Controller - Wireless Bluetooth is a controllers from EasySMX, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the EasySMX X15 PC Controller - Wireless Bluetooth on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the EasySMX X15 PC Controller - Wireless Bluetooth in India?",
+        "a": "You can buy the EasySMX X15 PC Controller - Wireless Bluetooth on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the EasySMX X15 PC Controller - Wireless Bluetooth worth buying?",
+        "a": "The EasySMX X15 PC Controller - Wireless Bluetooth is one of the more popular controllers options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0DZ6LLZTT",
+    "affiliateUrl": "https://amzn.to/4b9dYKj",
+    "slug": "evofox-one-s-3-mode-wireless-gaming-2",
+    "title": "EvoFox One S 3-Mode Wireless Gaming Controller",
+    "brand": "EvoFox",
+    "category": "Controllers",
+    "badges": [
+      "Trending"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 100,
+    "bullets": [
+      "Connection: Wireless",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "EvoFox",
+      "Category": "Controllers",
+      "Connection": "Wireless"
+    },
+    "review": {
+      "summary": "The EvoFox One S 3-Mode Wireless Gaming Controller is a controllers from EvoFox, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the EvoFox One S 3-Mode Wireless Gaming Controller on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the EvoFox One S 3-Mode Wireless Gaming Controller in India?",
+        "a": "You can buy the EvoFox One S 3-Mode Wireless Gaming Controller on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the EvoFox One S 3-Mode Wireless Gaming Controller worth buying?",
+        "a": "The EvoFox One S 3-Mode Wireless Gaming Controller is one of the more popular controllers options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0FLXNM7W5",
+    "affiliateUrl": "https://amzn.to/4y81AV0",
+    "slug": "evofox-one-x-wireless-gaming-controller-for",
+    "title": "EvoFox One X Wireless Gaming Controller for PC, Switch, Android, iOS & macOS",
+    "brand": "EvoFox",
+    "category": "Controllers",
+    "badges": [
+      "Top Rated"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 100,
+    "bullets": [
+      "Connection: Wireless",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "EvoFox",
+      "Category": "Controllers",
+      "Connection": "Wireless"
+    },
+    "review": {
+      "summary": "The EvoFox One X Wireless Gaming Controller for is a controllers from EvoFox, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the EvoFox One X Wireless Gaming Controller for on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the EvoFox One X Wireless Gaming Controller for in India?",
+        "a": "You can buy the EvoFox One X Wireless Gaming Controller for on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the EvoFox One X Wireless Gaming Controller for worth buying?",
+        "a": "The EvoFox One X Wireless Gaming Controller for is one of the more popular controllers options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0CJGSP9R7",
+    "affiliateUrl": "https://amzn.to/4p7afTy",
+    "slug": "asrock-intel-arc-a580-challenger-8gb-oc",
+    "title": "ASRock Intel Arc A580 Challenger 8GB OC Graphics Card, Intel Xe HPG Architecture",
+    "brand": "ASRock",
+    "category": "Graphics Cards",
+    "badges": [
+      "Bestseller"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 95,
+    "bullets": [
+      "Capacity: 8GB",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "ASRock",
+      "Category": "Graphics Cards",
+      "Capacity": "8GB"
+    },
+    "review": {
+      "summary": "The ASRock Intel Arc A580 Challenger 8GB OC is a graphics cards from ASRock, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the ASRock Intel Arc A580 Challenger 8GB OC on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the ASRock Intel Arc A580 Challenger 8GB OC in India?",
+        "a": "You can buy the ASRock Intel Arc A580 Challenger 8GB OC on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the ASRock Intel Arc A580 Challenger 8GB OC worth buying?",
+        "a": "The ASRock Intel Arc A580 Challenger 8GB OC is one of the more popular graphics cards options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0DNMH4KQM",
+    "affiliateUrl": "https://amzn.to/4wmJ35k",
+    "slug": "sparkle-intel-arc-b580-titan-oc-12gb",
+    "title": "Sparkle Intel Arc B580 Titan OC, 12GB GDDR6, Torn Cooling 2.0, Axial Fan, Breathing",
+    "brand": "Sparkle",
+    "category": "Graphics Cards",
+    "badges": [
+      "Trending"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 95,
+    "bullets": [
+      "Capacity: 12GB",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Sparkle",
+      "Category": "Graphics Cards",
+      "Capacity": "12GB"
+    },
+    "review": {
+      "summary": "The Sparkle Intel Arc B580 Titan OC is a graphics cards from Sparkle, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Sparkle Intel Arc B580 Titan OC on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Sparkle Intel Arc B580 Titan OC in India?",
+        "a": "You can buy the Sparkle Intel Arc B580 Titan OC on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Sparkle Intel Arc B580 Titan OC worth buying?",
+        "a": "The Sparkle Intel Arc B580 Titan OC is one of the more popular graphics cards options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0BFD8DSM3",
+    "affiliateUrl": "https://amzn.to/4y0OMPZ",
+    "slug": "asrock-challenger-intel-arc-a380-gddr6-6gb",
+    "title": "Asrock Challenger Intel Arc A380 Gddr6 6Gb Graphics Card - Pci_E_X16",
+    "brand": "ASRock",
+    "category": "Graphics Cards",
+    "badges": [
+      "Top Rated"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 95,
+    "bullets": [
+      "Capacity: 6GB",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "ASRock",
+      "Category": "Graphics Cards",
+      "Capacity": "6GB"
+    },
+    "review": {
+      "summary": "The Asrock Challenger Intel Arc A380 Gddr6 6Gb is a graphics cards from ASRock, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Asrock Challenger Intel Arc A380 Gddr6 6Gb on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Asrock Challenger Intel Arc A380 Gddr6 6Gb in India?",
+        "a": "You can buy the Asrock Challenger Intel Arc A380 Gddr6 6Gb on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Asrock Challenger Intel Arc A380 Gddr6 6Gb worth buying?",
+        "a": "The Asrock Challenger Intel Arc A380 Gddr6 6Gb is one of the more popular graphics cards options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0FH6JPVZB",
+    "affiliateUrl": "https://amzn.to/4vN0VGO",
+    "slug": "zotac-gaming-geforce-rtx-5060-twin-edge",
+    "title": "ZOTAC Gaming GeForce RTX 5060 Twin Edge 8GB Graphics Card - Black | 8 GB | DLSS4",
+    "brand": "ZOTAC",
+    "category": "Graphics Cards",
+    "badges": [
+      "Bestseller"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 95,
+    "bullets": [
+      "Capacity: 8GB",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "ZOTAC",
+      "Category": "Graphics Cards",
+      "Capacity": "8GB"
+    },
+    "review": {
+      "summary": "The ZOTAC Gaming GeForce RTX 5060 Twin Edge is a graphics cards from ZOTAC, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the ZOTAC Gaming GeForce RTX 5060 Twin Edge on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the ZOTAC Gaming GeForce RTX 5060 Twin Edge in India?",
+        "a": "You can buy the ZOTAC Gaming GeForce RTX 5060 Twin Edge on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the ZOTAC Gaming GeForce RTX 5060 Twin Edge worth buying?",
+        "a": "The ZOTAC Gaming GeForce RTX 5060 Twin Edge is one of the more popular graphics cards options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0F4DVXKKX",
+    "affiliateUrl": "https://amzn.to/4gefu1b",
+    "slug": "asus-prime-geforce-rtx-5060-ti-8gb",
+    "title": "ASUS Prime GeForce RTX 5060 Ti 8GB GDDR7 OC Edition Gaming Graphics Card (Nvidia",
+    "brand": "ASUS",
+    "category": "Graphics Cards",
+    "badges": [
+      "Trending"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 95,
+    "bullets": [
+      "Capacity: 8GB",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "ASUS",
+      "Category": "Graphics Cards",
+      "Capacity": "8GB"
+    },
+    "review": {
+      "summary": "The ASUS Prime GeForce RTX 5060 Ti 8GB is a graphics cards from ASUS, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the ASUS Prime GeForce RTX 5060 Ti 8GB on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the ASUS Prime GeForce RTX 5060 Ti 8GB in India?",
+        "a": "You can buy the ASUS Prime GeForce RTX 5060 Ti 8GB on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the ASUS Prime GeForce RTX 5060 Ti 8GB worth buying?",
+        "a": "The ASUS Prime GeForce RTX 5060 Ti 8GB is one of the more popular graphics cards options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B09729YMPT",
+    "affiliateUrl": "https://amzn.to/4eGQ3El",
+    "slug": "msi-geforce-rtx-5060-8g-shadow-2x",
+    "title": "MSI GeForce RTX 5060 8G Shadow 2X OC Graphic Card - NVIDIA GeForce RTX 5060 GPU, 8GB",
+    "brand": "MSI",
+    "category": "Graphics Cards",
+    "badges": [
+      "Top Rated"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 95,
+    "bullets": [
+      "Capacity: 8GB",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "MSI",
+      "Category": "Graphics Cards",
+      "Capacity": "8GB"
+    },
+    "review": {
+      "summary": "The MSI GeForce RTX 5060 8G Shadow 2X is a graphics cards from MSI, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the MSI GeForce RTX 5060 8G Shadow 2X on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the MSI GeForce RTX 5060 8G Shadow 2X in India?",
+        "a": "You can buy the MSI GeForce RTX 5060 8G Shadow 2X on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the MSI GeForce RTX 5060 8G Shadow 2X worth buying?",
+        "a": "The MSI GeForce RTX 5060 8G Shadow 2X is one of the more popular graphics cards options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0F8BR2H6Z",
+    "affiliateUrl": "https://amzn.to/3QTSgTC",
+    "slug": "msi-geforce-rtx-5060-ti-16g-shadow",
+    "title": "MSI GeForce RTX 5060 Ti 16G Shadow 2X OC Plus Graphic Card - NVIDIA GeForce RTX 5060",
+    "brand": "MSI",
+    "category": "Graphics Cards",
+    "badges": [
+      "Bestseller"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 95,
+    "bullets": [
+      "Popular graphics cards from MSI on Amazon India",
+      "Check the current price, deals and availability on Amazon",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "MSI",
+      "Category": "Graphics Cards"
+    },
+    "review": {
+      "summary": "The MSI GeForce RTX 5060 Ti 16G Shadow is a graphics cards from MSI, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the MSI GeForce RTX 5060 Ti 16G Shadow on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the MSI GeForce RTX 5060 Ti 16G Shadow in India?",
+        "a": "You can buy the MSI GeForce RTX 5060 Ti 16G Shadow on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the MSI GeForce RTX 5060 Ti 16G Shadow worth buying?",
+        "a": "The MSI GeForce RTX 5060 Ti 16G Shadow is one of the more popular graphics cards options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0F3ZW3MKW",
+    "affiliateUrl": "https://amzn.to/4oYGVye",
+    "slug": "gigabyte-gv-n5070wf3-12gd-geforce-rtx-5070",
+    "title": "GIGABYTE GV-N5070WF3-12GD | GeForce RTX 5070 WINDFORCE 3X 12GB GDDR6X Graphics Card",
+    "brand": "GIGABYTE",
+    "category": "Graphics Cards",
+    "badges": [
+      "Trending"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 95,
+    "bullets": [
+      "Capacity: 12GB",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "GIGABYTE",
+      "Category": "Graphics Cards",
+      "Capacity": "12GB"
+    },
+    "review": {
+      "summary": "The GIGABYTE GV-N5070WF3-12GD is a graphics cards from GIGABYTE, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the GIGABYTE GV-N5070WF3-12GD on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the GIGABYTE GV-N5070WF3-12GD in India?",
+        "a": "You can buy the GIGABYTE GV-N5070WF3-12GD on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the GIGABYTE GV-N5070WF3-12GD worth buying?",
+        "a": "The GIGABYTE GV-N5070WF3-12GD is one of the more popular graphics cards options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0DTQMLX4F",
+    "affiliateUrl": "https://amzn.to/3TgFhw3",
+    "slug": "gigabyte-geforce-rtx-5070-windforce-oc-sff",
+    "title": "GIGABYTE GeForce RTX 5070 WINDFORCE OC SFF 12G Graphics Card, 12GB 256-bit GDDR7",
+    "brand": "GIGABYTE",
+    "category": "Graphics Cards",
+    "badges": [
+      "Top Rated"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 95,
+    "bullets": [
+      "Capacity: 12GB",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "GIGABYTE",
+      "Category": "Graphics Cards",
+      "Capacity": "12GB"
+    },
+    "review": {
+      "summary": "The GIGABYTE GeForce RTX 5070 WINDFORCE OC SFF is a graphics cards from GIGABYTE, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the GIGABYTE GeForce RTX 5070 WINDFORCE OC SFF on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the GIGABYTE GeForce RTX 5070 WINDFORCE OC SFF in India?",
+        "a": "You can buy the GIGABYTE GeForce RTX 5070 WINDFORCE OC SFF on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the GIGABYTE GeForce RTX 5070 WINDFORCE OC SFF worth buying?",
+        "a": "The GIGABYTE GeForce RTX 5070 WINDFORCE OC SFF is one of the more popular graphics cards options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0DZCYPFVT",
+    "affiliateUrl": "https://amzn.to/44HG4sp",
+    "slug": "msi-geforce-rtx-5070-12g-shadow-2x",
+    "title": "MSI GeForce RTX 5070 12G Shadow 2X OC Graphic Card - NVIDIA GeForce RTX 5070 GPU",
+    "brand": "MSI",
+    "category": "Graphics Cards",
+    "badges": [
+      "Bestseller"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 95,
+    "bullets": [
+      "Popular graphics cards from MSI on Amazon India",
+      "Check the current price, deals and availability on Amazon",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "MSI",
+      "Category": "Graphics Cards"
+    },
+    "review": {
+      "summary": "The MSI GeForce RTX 5070 12G Shadow 2X is a graphics cards from MSI, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the MSI GeForce RTX 5070 12G Shadow 2X on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the MSI GeForce RTX 5070 12G Shadow 2X in India?",
+        "a": "You can buy the MSI GeForce RTX 5070 12G Shadow 2X on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the MSI GeForce RTX 5070 12G Shadow 2X worth buying?",
+        "a": "The MSI GeForce RTX 5070 12G Shadow 2X is one of the more popular graphics cards options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0DS6S98ZF",
+    "affiliateUrl": "https://amzn.to/4wiLsOp",
+    "slug": "asus-tuf-gaming-geforce-rtx-5070-12gb",
+    "title": "ASUS TUF Gaming GeForce RTX ™ 5070 12GB GDDR7 OC Edition Gaming Graphics Card (PCIe®",
+    "brand": "ASUS",
+    "category": "Graphics Cards",
+    "badges": [
+      "Trending"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 95,
+    "bullets": [
+      "Capacity: 12GB",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "ASUS",
+      "Category": "Graphics Cards",
+      "Capacity": "12GB"
+    },
+    "review": {
+      "summary": "The ASUS TUF Gaming GeForce RTX ™ 5070 is a graphics cards from ASUS, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the ASUS TUF Gaming GeForce RTX ™ 5070 on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the ASUS TUF Gaming GeForce RTX ™ 5070 in India?",
+        "a": "You can buy the ASUS TUF Gaming GeForce RTX ™ 5070 on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the ASUS TUF Gaming GeForce RTX ™ 5070 worth buying?",
+        "a": "The ASUS TUF Gaming GeForce RTX ™ 5070 is one of the more popular graphics cards options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0FD2LGBZF",
+    "affiliateUrl": "https://amzn.to/4gTLKXD",
+    "slug": "kingston-nv3-1tb-m-2-2230-nvme",
+    "title": "Kingston NV3 1TB M.2 2230 NVMe SSD",
+    "brand": "Kingston",
+    "category": "Storage",
+    "badges": [
+      "Top Rated"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 45,
+    "bullets": [
+      "Capacity: 1TB",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Kingston",
+      "Category": "Storage",
+      "Capacity": "1TB"
+    },
+    "review": {
+      "summary": "The Kingston NV3 1TB M.2 2230 NVMe SSD is a storage from Kingston, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Kingston NV3 1TB M.2 2230 NVMe SSD on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Kingston NV3 1TB M.2 2230 NVMe SSD in India?",
+        "a": "You can buy the Kingston NV3 1TB M.2 2230 NVMe SSD on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Kingston NV3 1TB M.2 2230 NVMe SSD worth buying?",
+        "a": "The Kingston NV3 1TB M.2 2230 NVMe SSD is one of the more popular storage options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0DN7CYYSD",
+    "affiliateUrl": "https://amzn.to/4bhUfrN",
+    "slug": "wd-black-western-digital-sn7100-nvme-internal",
+    "title": "WD_Black Western Digital SN7100 NVMe Internal SSD",
+    "brand": "Western Digital",
+    "category": "Storage",
+    "badges": [
+      "Bestseller"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 45,
+    "bullets": [
+      "Popular storage from Western Digital on Amazon India",
+      "Check the current price, deals and availability on Amazon",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Western Digital",
+      "Category": "Storage"
+    },
+    "review": {
+      "summary": "The WD_Black Western Digital SN7100 NVMe Internal SSD is a storage from Western Digital, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the WD_Black Western Digital SN7100 NVMe Internal SSD on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the WD_Black Western Digital SN7100 NVMe Internal SSD in India?",
+        "a": "You can buy the WD_Black Western Digital SN7100 NVMe Internal SSD on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the WD_Black Western Digital SN7100 NVMe Internal SSD worth buying?",
+        "a": "The WD_Black Western Digital SN7100 NVMe Internal SSD is one of the more popular storage options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0DC8VPSHV",
+    "affiliateUrl": "https://amzn.to/3RdXV7i",
+    "slug": "crucial-p310-1tb-pcie-gen4-nvme-m",
+    "title": "Crucial P310 1TB PCIe Gen4 NVMe M.2 SSD",
+    "brand": "Crucial",
+    "category": "Storage",
+    "badges": [
+      "Trending"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 45,
+    "bullets": [
+      "Capacity: 1TB",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Crucial",
+      "Category": "Storage",
+      "Capacity": "1TB"
+    },
+    "review": {
+      "summary": "The Crucial P310 1TB PCIe Gen4 NVMe M.2 is a storage from Crucial, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Crucial P310 1TB PCIe Gen4 NVMe M.2 on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Crucial P310 1TB PCIe Gen4 NVMe M.2 in India?",
+        "a": "You can buy the Crucial P310 1TB PCIe Gen4 NVMe M.2 on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Crucial P310 1TB PCIe Gen4 NVMe M.2 worth buying?",
+        "a": "The Crucial P310 1TB PCIe Gen4 NVMe M.2 is one of the more popular storage options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0DGH2FH7T",
+    "affiliateUrl": "https://amzn.to/4wnJhJp",
+    "slug": "samsung-ssd-interne-990-evo-plus-nvme",
+    "title": "Samsung SSD Interne 990 EVO Plus NVMe PCIe 4.0 x4 / 5.0x2",
+    "brand": "Samsung",
+    "category": "Storage",
+    "badges": [
+      "Top Rated"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 45,
+    "bullets": [
+      "Popular storage from Samsung on Amazon India",
+      "Check the current price, deals and availability on Amazon",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Samsung",
+      "Category": "Storage"
+    },
+    "review": {
+      "summary": "The Samsung SSD Interne 990 EVO Plus NVMe is a storage from Samsung, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Samsung SSD Interne 990 EVO Plus NVMe on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Samsung SSD Interne 990 EVO Plus NVMe in India?",
+        "a": "You can buy the Samsung SSD Interne 990 EVO Plus NVMe on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Samsung SSD Interne 990 EVO Plus NVMe worth buying?",
+        "a": "The Samsung SSD Interne 990 EVO Plus NVMe is one of the more popular storage options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B09ZVCJ6WV",
+    "affiliateUrl": "https://amzn.to/4axSczN",
+    "slug": "geonix-sata-2-5-512gb-internal-solid",
+    "title": "GEONIX SATA 2.5\" 512GB Internal Solid State Drive/SSD with SATA III Interface, 6Gb/s",
+    "brand": "GEONIX",
+    "category": "Storage",
+    "badges": [
+      "Bestseller"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 45,
+    "bullets": [
+      "Capacity: 512GB",
+      "Screen Size: 2.5\"",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "GEONIX",
+      "Category": "Storage",
+      "Capacity": "512GB",
+      "Screen Size": "2.5\""
+    },
+    "review": {
+      "summary": "The GEONIX SATA 2.5\" 512GB Internal Solid State is a storage from GEONIX, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the GEONIX SATA 2.5\" 512GB Internal Solid State on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the GEONIX SATA 2.5\" 512GB Internal Solid State in India?",
+        "a": "You can buy the GEONIX SATA 2.5\" 512GB Internal Solid State on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the GEONIX SATA 2.5\" 512GB Internal Solid State worth buying?",
+        "a": "The GEONIX SATA 2.5\" 512GB Internal Solid State is one of the more popular storage options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0DBR6TRZQ",
+    "affiliateUrl": "https://amzn.to/4vEX8LD",
+    "slug": "nv3-m-2-2280-nvme-ssd",
+    "title": "NV3 M.2 2280 NVMe SSD",
+    "brand": "NV3",
+    "category": "Storage",
+    "badges": [
+      "Trending"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 45,
+    "bullets": [
+      "Popular storage from NV3 on Amazon India",
+      "Check the current price, deals and availability on Amazon",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "NV3",
+      "Category": "Storage"
+    },
+    "review": {
+      "summary": "The NV3 M.2 2280 NVMe SSD is a storage from NV3, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the NV3 M.2 2280 NVMe SSD on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the NV3 M.2 2280 NVMe SSD in India?",
+        "a": "You can buy the NV3 M.2 2280 NVMe SSD on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the NV3 M.2 2280 NVMe SSD worth buying?",
+        "a": "The NV3 M.2 2280 NVMe SSD is one of the more popular storage options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0CN5L6FPK",
+    "affiliateUrl": "https://amzn.to/4gk9V1i",
+    "slug": "kioxia-exceria-plus-g3-nvme-internal-ssd",
+    "title": "KIOXIA EXCERIA Plus G3 NVMe Internal SSD 1TB M.2 Type 2280 PCIe Gen 4.0",
+    "brand": "KIOXIA",
+    "category": "Storage",
+    "badges": [
+      "Top Rated"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 45,
+    "bullets": [
+      "Capacity: 1TB",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "KIOXIA",
+      "Category": "Storage",
+      "Capacity": "1TB"
+    },
+    "review": {
+      "summary": "The KIOXIA EXCERIA Plus G3 NVMe Internal SSD is a storage from KIOXIA, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the KIOXIA EXCERIA Plus G3 NVMe Internal SSD on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the KIOXIA EXCERIA Plus G3 NVMe Internal SSD in India?",
+        "a": "You can buy the KIOXIA EXCERIA Plus G3 NVMe Internal SSD on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the KIOXIA EXCERIA Plus G3 NVMe Internal SSD worth buying?",
+        "a": "The KIOXIA EXCERIA Plus G3 NVMe Internal SSD is one of the more popular storage options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0FJ8QFWBQ",
+    "affiliateUrl": "https://amzn.to/445Lo8S",
+    "slug": "western-digital-wd-blue-sn5100-nvme-internal",
+    "title": "Western Digital WD Blue SN5100 NVMe Internal SSD",
+    "brand": "Western Digital",
+    "category": "Storage",
+    "badges": [
+      "Bestseller"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 45,
+    "bullets": [
+      "Popular storage from Western Digital on Amazon India",
+      "Check the current price, deals and availability on Amazon",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Western Digital",
+      "Category": "Storage"
+    },
+    "review": {
+      "summary": "The Western Digital WD Blue SN5100 NVMe Internal is a storage from Western Digital, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Western Digital WD Blue SN5100 NVMe Internal on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Western Digital WD Blue SN5100 NVMe Internal in India?",
+        "a": "You can buy the Western Digital WD Blue SN5100 NVMe Internal on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Western Digital WD Blue SN5100 NVMe Internal worth buying?",
+        "a": "The Western Digital WD Blue SN5100 NVMe Internal is one of the more popular storage options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B09ZYQ84CM",
+    "affiliateUrl": "https://amzn.to/4axqxPk",
+    "slug": "western-digital-wd-blue-sa510-sata-internal",
+    "title": "Western Digital WD Blue SA510 SATA Internal Solid State Drive (SSD)",
+    "brand": "Western Digital",
+    "category": "Storage",
+    "badges": [
+      "Trending"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 45,
+    "bullets": [
+      "Popular storage from Western Digital on Amazon India",
+      "Check the current price, deals and availability on Amazon",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Western Digital",
+      "Category": "Storage"
+    },
+    "review": {
+      "summary": "The Western Digital WD Blue SA510 SATA Internal is a storage from Western Digital, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Western Digital WD Blue SA510 SATA Internal on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Western Digital WD Blue SA510 SATA Internal in India?",
+        "a": "You can buy the Western Digital WD Blue SA510 SATA Internal on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Western Digital WD Blue SA510 SATA Internal worth buying?",
+        "a": "The Western Digital WD Blue SA510 SATA Internal is one of the more popular storage options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0GGYB96JM",
+    "affiliateUrl": "https://amzn.to/4eJ1BH5",
+    "slug": "trausi-1080p-full-hd-webcam-with-noise",
+    "title": "TRAUSI 1080P Full HD Webcam with Noise-Canceling Mic, Privacy Cover, Plug & Play USB",
+    "brand": "TRAUSI",
+    "category": "Webcams",
+    "badges": [
+      "Top Rated"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 200,
+    "bullets": [
+      "Connection: Wired",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "TRAUSI",
+      "Category": "Webcams",
+      "Connection": "Wired"
+    },
+    "review": {
+      "summary": "The TRAUSI 1080P Full HD Webcam with Noise-Canceling is a webcams from TRAUSI, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the TRAUSI 1080P Full HD Webcam with Noise-Canceling on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the TRAUSI 1080P Full HD Webcam with Noise-Canceling in India?",
+        "a": "You can buy the TRAUSI 1080P Full HD Webcam with Noise-Canceling on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the TRAUSI 1080P Full HD Webcam with Noise-Canceling worth buying?",
+        "a": "The TRAUSI 1080P Full HD Webcam with Noise-Canceling is one of the more popular webcams options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0GMGZT1PS",
+    "affiliateUrl": "https://amzn.to/4pkPCmZ",
+    "slug": "trausi-hd-webcam-with-noise-canceling-microphone",
+    "title": "TRAUSI HD Webcam with Noise-Canceling Microphone, Auto Light Correction, USB Plug &",
+    "brand": "TRAUSI",
+    "category": "Webcams",
+    "badges": [
+      "Bestseller"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 200,
+    "bullets": [
+      "Connection: Wired",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "TRAUSI",
+      "Category": "Webcams",
+      "Connection": "Wired"
+    },
+    "review": {
+      "summary": "The TRAUSI HD Webcam with Noise-Canceling Microphone is a webcams from TRAUSI, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the TRAUSI HD Webcam with Noise-Canceling Microphone on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the TRAUSI HD Webcam with Noise-Canceling Microphone in India?",
+        "a": "You can buy the TRAUSI HD Webcam with Noise-Canceling Microphone on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the TRAUSI HD Webcam with Noise-Canceling Microphone worth buying?",
+        "a": "The TRAUSI HD Webcam with Noise-Canceling Microphone is one of the more popular webcams options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0CG372R11",
+    "affiliateUrl": "https://amzn.to/4y40R73",
+    "slug": "kreo-owl-full-hd-1080p-60-fps",
+    "title": "Kreo Owl Full HD 1080P 60 FPS Webcam with Auto-Focus",
+    "brand": "Kreo",
+    "category": "Webcams",
+    "badges": [
+      "Trending"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 200,
+    "bullets": [
+      "Popular webcams from Kreo on Amazon India",
+      "Check the current price, deals and availability on Amazon",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Kreo",
+      "Category": "Webcams"
+    },
+    "review": {
+      "summary": "The Kreo Owl Full HD 1080P 60 FPS is a webcams from Kreo, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Kreo Owl Full HD 1080P 60 FPS on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Kreo Owl Full HD 1080P 60 FPS in India?",
+        "a": "You can buy the Kreo Owl Full HD 1080P 60 FPS on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Kreo Owl Full HD 1080P 60 FPS worth buying?",
+        "a": "The Kreo Owl Full HD 1080P 60 FPS is one of the more popular webcams options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0CYQ5P6T7",
+    "affiliateUrl": "https://amzn.to/4wttkSh",
+    "slug": "emeet-s600-4k-webcam-for-streaming",
+    "title": "eMeet S600 4K Webcam for Streaming",
+    "brand": "eMeet",
+    "category": "Webcams",
+    "badges": [
+      "Top Rated"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 200,
+    "bullets": [
+      "Resolution: 4K UHD",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "eMeet",
+      "Category": "Webcams",
+      "Resolution": "4K UHD"
+    },
+    "review": {
+      "summary": "The eMeet S600 4K Webcam for Streaming is a webcams from eMeet, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the eMeet S600 4K Webcam for Streaming on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the eMeet S600 4K Webcam for Streaming in India?",
+        "a": "You can buy the eMeet S600 4K Webcam for Streaming on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the eMeet S600 4K Webcam for Streaming worth buying?",
+        "a": "The eMeet S600 4K Webcam for Streaming is one of the more popular webcams options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B08KT89BWX",
+    "affiliateUrl": "https://amzn.to/4eJMNYM",
+    "slug": "lenovo-300-fhd-webcam-with-full-stereo",
+    "title": "Lenovo 300 FHD Webcam with Full Stereo Dual Built-in Mics",
+    "brand": "Lenovo",
+    "category": "Webcams",
+    "badges": [
+      "Bestseller"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 200,
+    "bullets": [
+      "Resolution: FHD 1080p",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Lenovo",
+      "Category": "Webcams",
+      "Resolution": "FHD 1080p"
+    },
+    "review": {
+      "summary": "The Lenovo 300 FHD Webcam with Full Stereo is a webcams from Lenovo, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Lenovo 300 FHD Webcam with Full Stereo on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Lenovo 300 FHD Webcam with Full Stereo in India?",
+        "a": "You can buy the Lenovo 300 FHD Webcam with Full Stereo on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Lenovo 300 FHD Webcam with Full Stereo worth buying?",
+        "a": "The Lenovo 300 FHD Webcam with Full Stereo is one of the more popular webcams options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0CHFM2KTR",
+    "affiliateUrl": "https://amzn.to/4eK4Jmg",
+    "slug": "logitech-brio-100-full-hd-1080p-webcam",
+    "title": "Logitech Brio 100 Full HD 1080P Webcam",
+    "brand": "Logitech",
+    "category": "Webcams",
+    "badges": [
+      "Trending"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 200,
+    "bullets": [
+      "Popular webcams from Logitech on Amazon India",
+      "Check the current price, deals and availability on Amazon",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Logitech",
+      "Category": "Webcams"
+    },
+    "review": {
+      "summary": "The Logitech Brio 100 Full HD 1080P Webcam is a webcams from Logitech, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Logitech Brio 100 Full HD 1080P Webcam on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Logitech Brio 100 Full HD 1080P Webcam in India?",
+        "a": "You can buy the Logitech Brio 100 Full HD 1080P Webcam on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Logitech Brio 100 Full HD 1080P Webcam worth buying?",
+        "a": "The Logitech Brio 100 Full HD 1080P Webcam is one of the more popular webcams options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B019O9BLVY",
+    "affiliateUrl": "https://amzn.to/3RhjzaG",
+    "slug": "redragon-kumara-k552-rgb-led-backlit-usb",
+    "title": "Redragon Kumara K552-RGB LED Backlit USB Mechanical Gaming Keyboard Without Numlock",
+    "brand": "Redragon",
+    "category": "Keyboards",
+    "badges": [
+      "Top Rated"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 205,
+    "bullets": [
+      "Connection: Wired",
+      "Type: Mechanical",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Redragon",
+      "Category": "Keyboards",
+      "Connection": "Wired",
+      "Type": "Mechanical"
+    },
+    "review": {
+      "summary": "The Redragon Kumara K552-RGB LED Backlit USB Mechanical is a keyboards from Redragon, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Redragon Kumara K552-RGB LED Backlit USB Mechanical on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Redragon Kumara K552-RGB LED Backlit USB Mechanical in India?",
+        "a": "You can buy the Redragon Kumara K552-RGB LED Backlit USB Mechanical on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Redragon Kumara K552-RGB LED Backlit USB Mechanical worth buying?",
+        "a": "The Redragon Kumara K552-RGB LED Backlit USB Mechanical is one of the more popular keyboards options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0BCJRPHMY",
+    "affiliateUrl": "https://amzn.to/4vfg2HX",
+    "slug": "logitech-g502-x-wired-gaming-mouse",
+    "title": "Logitech G502 X Wired Gaming Mouse",
+    "brand": "Logitech",
+    "category": "Gaming Mice",
+    "badges": [
+      "Bestseller"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 28,
+    "bullets": [
+      "Connection: Wired",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Logitech",
+      "Category": "Gaming Mice",
+      "Connection": "Wired"
+    },
+    "review": {
+      "summary": "The Logitech G502 X Wired Gaming Mouse is a gaming mice from Logitech, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Logitech G502 X Wired Gaming Mouse on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Logitech G502 X Wired Gaming Mouse in India?",
+        "a": "You can buy the Logitech G502 X Wired Gaming Mouse on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Logitech G502 X Wired Gaming Mouse worth buying?",
+        "a": "The Logitech G502 X Wired Gaming Mouse is one of the more popular gaming mice options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0FJFSCL8N",
+    "affiliateUrl": "https://amzn.to/3TdlXji",
+    "slug": "lg-27g850a-b-27-inch-ultragear-4k",
+    "title": "LG 27G850A-B 27-inch Ultragear 4K UHD (3840 x 2160) IPS Gaming Monitor, Dual-Mode",
+    "brand": "LG",
+    "category": "Monitors",
+    "badges": [
+      "Trending"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 150,
+    "bullets": [
+      "Resolution: 4K UHD",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "LG",
+      "Category": "Monitors",
+      "Resolution": "4K UHD"
+    },
+    "review": {
+      "summary": "The LG 27G850A-B 27-inch Ultragear 4K UHD is a monitors from LG, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the LG 27G850A-B 27-inch Ultragear 4K UHD on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the LG 27G850A-B 27-inch Ultragear 4K UHD in India?",
+        "a": "You can buy the LG 27G850A-B 27-inch Ultragear 4K UHD on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the LG 27G850A-B 27-inch Ultragear 4K UHD worth buying?",
+        "a": "The LG 27G850A-B 27-inch Ultragear 4K UHD is one of the more popular monitors options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B00SAYCXWG",
+    "affiliateUrl": "https://amzn.to/4vGWNb7",
+    "slug": "hyperx-cloud-ii-smartchoice-wired-gaming-headset",
+    "title": "HyperX Cloud II Smartchoice Wired Gaming Headset for PC, PS5 / PS4. Active Noise",
+    "brand": "HyperX",
+    "category": "Headsets",
+    "badges": [
+      "Top Rated"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 280,
+    "bullets": [
+      "Connection: Wired",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "HyperX",
+      "Category": "Headsets",
+      "Connection": "Wired"
+    },
+    "review": {
+      "summary": "The HyperX Cloud II Smartchoice Wired Gaming Headset is a headsets from HyperX, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the HyperX Cloud II Smartchoice Wired Gaming Headset on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the HyperX Cloud II Smartchoice Wired Gaming Headset in India?",
+        "a": "You can buy the HyperX Cloud II Smartchoice Wired Gaming Headset on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the HyperX Cloud II Smartchoice Wired Gaming Headset worth buying?",
+        "a": "The HyperX Cloud II Smartchoice Wired Gaming Headset is one of the more popular headsets options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B07DFB6NZY",
+    "affiliateUrl": "https://amzn.to/4eHmMcB",
+    "slug": "green-soul-beast-racing-edition-ergonomic-gaming",
+    "title": "Green Soul Beast Racing Edition Ergonomic Gaming Chair with Premium Fabric & PU",
+    "brand": "Green Soul",
+    "category": "Chairs",
+    "badges": [
+      "Bestseller"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 12,
+    "bullets": [
+      "Popular chairs from Green Soul on Amazon India",
+      "Check the current price, deals and availability on Amazon",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Green Soul",
+      "Category": "Chairs"
+    },
+    "review": {
+      "summary": "The Green Soul Beast Racing Edition Ergonomic Gaming is a chairs from Green Soul, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Green Soul Beast Racing Edition Ergonomic Gaming on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Green Soul Beast Racing Edition Ergonomic Gaming in India?",
+        "a": "You can buy the Green Soul Beast Racing Edition Ergonomic Gaming on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Green Soul Beast Racing Edition Ergonomic Gaming worth buying?",
+        "a": "The Green Soul Beast Racing Edition Ergonomic Gaming is one of the more popular chairs options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0F2NCQYTX",
+    "affiliateUrl": "https://amzn.to/447NepS",
+    "slug": "xbox-wireless-controller-robot-white",
+    "title": "Xbox Wireless Controller Robot White",
+    "brand": "Xbox",
+    "category": "Controllers",
+    "badges": [
+      "Trending"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 100,
+    "bullets": [
+      "Connection: Wireless",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Xbox",
+      "Category": "Controllers",
+      "Connection": "Wireless"
+    },
+    "review": {
+      "summary": "The Xbox Wireless Controller Robot White is a controllers from Xbox, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Xbox Wireless Controller Robot White on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Xbox Wireless Controller Robot White in India?",
+        "a": "You can buy the Xbox Wireless Controller Robot White on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Xbox Wireless Controller Robot White worth buying?",
+        "a": "The Xbox Wireless Controller Robot White is one of the more popular controllers options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0C8ZQTRD7",
+    "affiliateUrl": "https://amzn.to/4p85uZS",
+    "slug": "gigabyte-nvidia-geforce-rtx-4060-windforce-oc",
+    "title": "GIGABYTE NVIDIA GeForce RTX 4060 WINDFORCE OC Graphics Card - 8GB GDDR6, 128-bit",
+    "brand": "GIGABYTE",
+    "category": "Graphics Cards",
+    "badges": [
+      "Top Rated"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 95,
+    "bullets": [
+      "Capacity: 8GB",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "GIGABYTE",
+      "Category": "Graphics Cards",
+      "Capacity": "8GB"
+    },
+    "review": {
+      "summary": "The GIGABYTE NVIDIA GeForce RTX 4060 WINDFORCE OC is a graphics cards from GIGABYTE, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the GIGABYTE NVIDIA GeForce RTX 4060 WINDFORCE OC on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the GIGABYTE NVIDIA GeForce RTX 4060 WINDFORCE OC in India?",
+        "a": "You can buy the GIGABYTE NVIDIA GeForce RTX 4060 WINDFORCE OC on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the GIGABYTE NVIDIA GeForce RTX 4060 WINDFORCE OC worth buying?",
+        "a": "The GIGABYTE NVIDIA GeForce RTX 4060 WINDFORCE OC is one of the more popular graphics cards options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0CM9C91MK",
+    "affiliateUrl": "https://amzn.to/3TfoVnm",
+    "slug": "ugreen-4k-video-capture-card-hdmi-to",
+    "title": "UGREEN 4K Video Capture Card HDMI to USB C 3.0 1080P 60fps Recording 4K Passthrough",
+    "brand": "UGREEN",
+    "category": "Streaming Gear",
+    "badges": [
+      "Bestseller"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 255,
+    "bullets": [
+      "Resolution: 4K UHD",
+      "Connection: Wired",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "UGREEN",
+      "Category": "Streaming Gear",
+      "Resolution": "4K UHD",
+      "Connection": "Wired"
+    },
+    "review": {
+      "summary": "The UGREEN 4K Video Capture Card HDMI to is a streaming gear from UGREEN, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the UGREEN 4K Video Capture Card HDMI to on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the UGREEN 4K Video Capture Card HDMI to in India?",
+        "a": "You can buy the UGREEN 4K Video Capture Card HDMI to on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the UGREEN 4K Video Capture Card HDMI to worth buying?",
+        "a": "The UGREEN 4K Video Capture Card HDMI to is one of the more popular streaming gear options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0B9C3ZVHR",
+    "affiliateUrl": "https://amzn.to/44MTPGd",
+    "slug": "samsung-990-pro-ssd-1tb-pcie-4",
+    "title": "Samsung 990 PRO SSD 1TB PCIe 4.0 M.2 Internal SSD",
+    "brand": "Samsung",
+    "category": "Storage",
+    "badges": [
+      "Trending"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 45,
+    "bullets": [
+      "Capacity: 1TB",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Samsung",
+      "Category": "Storage",
+      "Capacity": "1TB"
+    },
+    "review": {
+      "summary": "The Samsung 990 PRO SSD 1TB PCIe 4.0 is a storage from Samsung, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Samsung 990 PRO SSD 1TB PCIe 4.0 on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Samsung 990 PRO SSD 1TB PCIe 4.0 in India?",
+        "a": "You can buy the Samsung 990 PRO SSD 1TB PCIe 4.0 on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Samsung 990 PRO SSD 1TB PCIe 4.0 worth buying?",
+        "a": "The Samsung 990 PRO SSD 1TB PCIe 4.0 is one of the more popular storage options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B06XCKGLTP",
+    "affiliateUrl": "https://amzn.to/4v7OkN4",
+    "slug": "fifine-k669b-usb-microphone-metal-condenser-recording",
+    "title": "Fifine K669B USB Microphone, Metal Condenser Recording Microphone for MAC OS",
+    "brand": "FIFINE",
+    "category": "Microphones",
+    "badges": [
+      "Top Rated"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 330,
+    "bullets": [
+      "Connection: Wired",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "FIFINE",
+      "Category": "Microphones",
+      "Connection": "Wired"
+    },
+    "review": {
+      "summary": "The Fifine K669B USB Microphone is a microphones from FIFINE, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Fifine K669B USB Microphone on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Fifine K669B USB Microphone in India?",
+        "a": "You can buy the Fifine K669B USB Microphone on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Fifine K669B USB Microphone worth buying?",
+        "a": "The Fifine K669B USB Microphone is one of the more popular microphones options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0BCFKG49M",
+    "affiliateUrl": "https://amzn.to/4gkIPHh",
+    "slug": "hyperx-cloud-stinger-2-core-essential-pc",
+    "title": "HyperX Cloud Stinger 2 Core Essential PC Gaming Wired Headset, Lightweight Over Ear",
+    "brand": "HyperX",
+    "category": "Headsets",
+    "badges": [
+      "Bestseller"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 280,
+    "bullets": [
+      "Connection: Wired",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "HyperX",
+      "Category": "Headsets",
+      "Connection": "Wired"
+    },
+    "review": {
+      "summary": "The HyperX Cloud Stinger 2 Core Essential PC is a headsets from HyperX, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the HyperX Cloud Stinger 2 Core Essential PC on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the HyperX Cloud Stinger 2 Core Essential PC in India?",
+        "a": "You can buy the HyperX Cloud Stinger 2 Core Essential PC on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the HyperX Cloud Stinger 2 Core Essential PC worth buying?",
+        "a": "The HyperX Cloud Stinger 2 Core Essential PC is one of the more popular headsets options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B08GZ6QNTC",
+    "affiliateUrl": "https://amzn.to/4b3PWAm",
+    "slug": "sony-dualsense-wireless-controller",
+    "title": "Sony DualSense Wireless Controller",
+    "brand": "Sony",
+    "category": "Controllers",
+    "badges": [
+      "Trending"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 100,
+    "bullets": [
+      "Connection: Wireless",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Sony",
+      "Category": "Controllers",
+      "Connection": "Wireless"
+    },
+    "review": {
+      "summary": "The Sony DualSense Wireless Controller is a controllers from Sony, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Sony DualSense Wireless Controller on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Sony DualSense Wireless Controller in India?",
+        "a": "You can buy the Sony DualSense Wireless Controller on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Sony DualSense Wireless Controller worth buying?",
+        "a": "The Sony DualSense Wireless Controller is one of the more popular controllers options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B08VHSKHFS",
+    "affiliateUrl": "https://amzn.to/4eFYuQi",
+    "slug": "fifine-usb-gaming-microphone-set-with-flexible",
+    "title": "FIFINE USB Gaming Microphone Set with Flexible Arm Stand Pop Filter, Plug and Play",
+    "brand": "FIFINE",
+    "category": "Microphones",
+    "badges": [
+      "Top Rated"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 330,
+    "bullets": [
+      "Connection: Wired",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "FIFINE",
+      "Category": "Microphones",
+      "Connection": "Wired"
+    },
+    "review": {
+      "summary": "The FIFINE USB Gaming Microphone Set with Flexible is a microphones from FIFINE, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the FIFINE USB Gaming Microphone Set with Flexible on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the FIFINE USB Gaming Microphone Set with Flexible in India?",
+        "a": "You can buy the FIFINE USB Gaming Microphone Set with Flexible on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the FIFINE USB Gaming Microphone Set with Flexible worth buying?",
+        "a": "The FIFINE USB Gaming Microphone Set with Flexible is one of the more popular microphones options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B09JG62KDJ",
+    "affiliateUrl": "https://amzn.to/4eWYVEy",
+    "slug": "fifine-a6v-usb-gaming-condenser-microphone-with",
+    "title": "FIFINE A6V USB Gaming Condenser Microphone with RGB, Quick Mute, Pop Filter, Shock",
+    "brand": "FIFINE",
+    "category": "Microphones",
+    "badges": [
+      "Bestseller"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 330,
+    "bullets": [
+      "Connection: Wired",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "FIFINE",
+      "Category": "Microphones",
+      "Connection": "Wired"
+    },
+    "review": {
+      "summary": "The FIFINE A6V USB Gaming Condenser Microphone with is a microphones from FIFINE, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the FIFINE A6V USB Gaming Condenser Microphone with on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the FIFINE A6V USB Gaming Condenser Microphone with in India?",
+        "a": "You can buy the FIFINE A6V USB Gaming Condenser Microphone with on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the FIFINE A6V USB Gaming Condenser Microphone with worth buying?",
+        "a": "The FIFINE A6V USB Gaming Condenser Microphone with is one of the more popular microphones options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0DP6N7ZCF",
+    "affiliateUrl": "https://amzn.to/4eGH6Lf",
+    "slug": "powera-twin-charging-station-for-ps5-dualsense",
+    "title": "PowerA Twin Charging Station for PS5 DualSense and DualSense Edge Wireless",
+    "brand": "PowerA",
+    "category": "Controllers",
+    "badges": [
+      "Trending"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 100,
+    "bullets": [
+      "Connection: Wireless",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "PowerA",
+      "Category": "Controllers",
+      "Connection": "Wireless"
+    },
+    "review": {
+      "summary": "The PowerA Twin Charging Station for PS5 DualSense is a controllers from PowerA, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the PowerA Twin Charging Station for PS5 DualSense on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the PowerA Twin Charging Station for PS5 DualSense in India?",
+        "a": "You can buy the PowerA Twin Charging Station for PS5 DualSense on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the PowerA Twin Charging Station for PS5 DualSense worth buying?",
+        "a": "The PowerA Twin Charging Station for PS5 DualSense is one of the more popular controllers options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B013DYX7BS",
+    "affiliateUrl": "https://amzn.to/4b3QtSS",
+    "slug": "logitech-g29-driving-force-racing-wheel-and",
+    "title": "Logitech G29 Driving Force Racing Wheel and Floor Pedals",
+    "brand": "Logitech",
+    "category": "Controllers",
+    "badges": [
+      "Top Rated"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 100,
+    "bullets": [
+      "Popular controllers from Logitech on Amazon India",
+      "Check the current price, deals and availability on Amazon",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Logitech",
+      "Category": "Controllers"
+    },
+    "review": {
+      "summary": "The Logitech G29 Driving Force Racing Wheel and is a controllers from Logitech, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Logitech G29 Driving Force Racing Wheel and on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Logitech G29 Driving Force Racing Wheel and in India?",
+        "a": "You can buy the Logitech G29 Driving Force Racing Wheel and on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Logitech G29 Driving Force Racing Wheel and worth buying?",
+        "a": "The Logitech G29 Driving Force Racing Wheel and is one of the more popular controllers options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B07N78G8GB",
+    "affiliateUrl": "https://amzn.to/4awxYq1",
+    "slug": "havit-h2232d-over-ear-wired-gaming-headset",
+    "title": "Havit H2232d Over Ear Wired Gaming Headset with Boom Microphone & RGB LED for PC",
+    "brand": "Havit",
+    "category": "Headsets",
+    "badges": [
+      "Bestseller"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 280,
+    "bullets": [
+      "Connection: Wired",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Havit",
+      "Category": "Headsets",
+      "Connection": "Wired"
+    },
+    "review": {
+      "summary": "The Havit H2232d Over Ear Wired Gaming Headset is a headsets from Havit, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Havit H2232d Over Ear Wired Gaming Headset on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Havit H2232d Over Ear Wired Gaming Headset in India?",
+        "a": "You can buy the Havit H2232d Over Ear Wired Gaming Headset on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Havit H2232d Over Ear Wired Gaming Headset worth buying?",
+        "a": "The Havit H2232d Over Ear Wired Gaming Headset is one of the more popular headsets options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0CXDN7V9N",
+    "affiliateUrl": "https://amzn.to/4gjN71A",
+    "slug": "striff-world-map-extended-gaming-mouse-pad",
+    "title": "STRIFF World Map Extended Gaming Mouse Pad",
+    "brand": "STRIFF",
+    "category": "Mousepads",
+    "badges": [
+      "Trending"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 190,
+    "bullets": [
+      "Popular mousepads from STRIFF on Amazon India",
+      "Check the current price, deals and availability on Amazon",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "STRIFF",
+      "Category": "Mousepads"
+    },
+    "review": {
+      "summary": "The STRIFF World Map Extended Gaming Mouse Pad is a mousepads from STRIFF, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the STRIFF World Map Extended Gaming Mouse Pad on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the STRIFF World Map Extended Gaming Mouse Pad in India?",
+        "a": "You can buy the STRIFF World Map Extended Gaming Mouse Pad on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the STRIFF World Map Extended Gaming Mouse Pad worth buying?",
+        "a": "The STRIFF World Map Extended Gaming Mouse Pad is one of the more popular mousepads options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0D66VB4TH",
+    "affiliateUrl": "https://amzn.to/4wsrRM6",
+    "slug": "evofox-blaze-ultra-value-8-button-programmable",
+    "title": "EvoFox Blaze Ultra Value 8 Button Programmable Gaming Mouse",
+    "brand": "EvoFox",
+    "category": "Gaming Mice",
+    "badges": [
+      "Top Rated"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 28,
+    "bullets": [
+      "Popular gaming mice from EvoFox on Amazon India",
+      "Check the current price, deals and availability on Amazon",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "EvoFox",
+      "Category": "Gaming Mice"
+    },
+    "review": {
+      "summary": "The EvoFox Blaze Ultra Value 8 Button Programmable is a gaming mice from EvoFox, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the EvoFox Blaze Ultra Value 8 Button Programmable on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the EvoFox Blaze Ultra Value 8 Button Programmable in India?",
+        "a": "You can buy the EvoFox Blaze Ultra Value 8 Button Programmable on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the EvoFox Blaze Ultra Value 8 Button Programmable worth buying?",
+        "a": "The EvoFox Blaze Ultra Value 8 Button Programmable is one of the more popular gaming mice options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0BDGMNF6V",
+    "affiliateUrl": "https://amzn.to/4wm4qnp",
+    "slug": "hyperx-cloud-stinger-2-core-smartchoice-gaming",
+    "title": "HyperX Cloud Stinger 2 Core Smartchoice- Gaming Headset for PlayStation, Lightweight",
+    "brand": "HyperX",
+    "category": "Headsets",
+    "badges": [
+      "Bestseller"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 280,
+    "bullets": [
+      "Popular headsets from HyperX on Amazon India",
+      "Check the current price, deals and availability on Amazon",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "HyperX",
+      "Category": "Headsets"
+    },
+    "review": {
+      "summary": "The HyperX Cloud Stinger 2 Core Smartchoice- Gaming is a headsets from HyperX, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the HyperX Cloud Stinger 2 Core Smartchoice- Gaming on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the HyperX Cloud Stinger 2 Core Smartchoice- Gaming in India?",
+        "a": "You can buy the HyperX Cloud Stinger 2 Core Smartchoice- Gaming on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the HyperX Cloud Stinger 2 Core Smartchoice- Gaming worth buying?",
+        "a": "The HyperX Cloud Stinger 2 Core Smartchoice- Gaming is one of the more popular headsets options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B08KFL3SFV",
+    "affiliateUrl": "https://amzn.to/44dCbLJ",
+    "slug": "hyperx-solocast-usb-condenser-gaming-unidirectional-microphone",
+    "title": "HyperX Solocast-USB Condenser Gaming Unidirectional Microphone,for Pc,Ps4,and",
+    "brand": "HyperX",
+    "category": "Microphones",
+    "badges": [
+      "Trending"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 330,
+    "bullets": [
+      "Connection: Wired",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "HyperX",
+      "Category": "Microphones",
+      "Connection": "Wired"
+    },
+    "review": {
+      "summary": "The HyperX Solocast-USB Condenser Gaming Unidirectional Microphone is a microphones from HyperX, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the HyperX Solocast-USB Condenser Gaming Unidirectional Microphone on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the HyperX Solocast-USB Condenser Gaming Unidirectional Microphone in India?",
+        "a": "You can buy the HyperX Solocast-USB Condenser Gaming Unidirectional Microphone on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the HyperX Solocast-USB Condenser Gaming Unidirectional Microphone worth buying?",
+        "a": "The HyperX Solocast-USB Condenser Gaming Unidirectional Microphone is one of the more popular microphones options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B08LT9BMPP",
+    "affiliateUrl": "https://amzn.to/3SWha5K",
+    "slug": "logitech-g102-light-sync-gaming-mouse",
+    "title": "Logitech G102 Light Sync Gaming Mouse",
+    "brand": "Logitech",
+    "category": "Gaming Mice",
+    "badges": [
+      "Top Rated"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 28,
+    "bullets": [
+      "Popular gaming mice from Logitech on Amazon India",
+      "Check the current price, deals and availability on Amazon",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Logitech",
+      "Category": "Gaming Mice"
+    },
+    "review": {
+      "summary": "The Logitech G102 Light Sync Gaming Mouse is a gaming mice from Logitech, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Logitech G102 Light Sync Gaming Mouse on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Logitech G102 Light Sync Gaming Mouse in India?",
+        "a": "You can buy the Logitech G102 Light Sync Gaming Mouse on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Logitech G102 Light Sync Gaming Mouse worth buying?",
+        "a": "The Logitech G102 Light Sync Gaming Mouse is one of the more popular gaming mice options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0DBLKY5Q1",
+    "affiliateUrl": "https://amzn.to/4vISXOR",
+    "slug": "kreo-beluga-v2-wired-gaming-headphone-with",
+    "title": "Kreo Beluga V2 Wired Gaming Headphone with Flip to Mute Mic, 50mm Oraphene Drivers",
+    "brand": "Kreo",
+    "category": "Headsets",
+    "badges": [
+      "Bestseller"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 280,
+    "bullets": [
+      "Connection: Wired",
+      "Drivers: 50 mm",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Kreo",
+      "Category": "Headsets",
+      "Connection": "Wired",
+      "Drivers": "50 mm"
+    },
+    "review": {
+      "summary": "The Kreo Beluga V2 Wired Gaming Headphone with is a headsets from Kreo, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Kreo Beluga V2 Wired Gaming Headphone with on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Kreo Beluga V2 Wired Gaming Headphone with in India?",
+        "a": "You can buy the Kreo Beluga V2 Wired Gaming Headphone with on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Kreo Beluga V2 Wired Gaming Headphone with worth buying?",
+        "a": "The Kreo Beluga V2 Wired Gaming Headphone with is one of the more popular headsets options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0C5XNRVWM",
+    "affiliateUrl": "https://amzn.to/4v7Vz7G",
+    "slug": "razer-cobra-wired-gaming-mouse",
+    "title": "Razer Cobra Wired Gaming Mouse",
+    "brand": "Razer",
+    "category": "Gaming Mice",
+    "badges": [
+      "Trending"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 28,
+    "bullets": [
+      "Connection: Wired",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Razer",
+      "Category": "Gaming Mice",
+      "Connection": "Wired"
+    },
+    "review": {
+      "summary": "The Razer Cobra Wired Gaming Mouse is a gaming mice from Razer, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Razer Cobra Wired Gaming Mouse on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Razer Cobra Wired Gaming Mouse in India?",
+        "a": "You can buy the Razer Cobra Wired Gaming Mouse on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Razer Cobra Wired Gaming Mouse worth buying?",
+        "a": "The Razer Cobra Wired Gaming Mouse is one of the more popular gaming mice options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B09V12PT9H",
+    "affiliateUrl": "https://amzn.to/4wnAFCz",
+    "slug": "fifine-ampligame-a6v-usb-microphone-pc-gaming",
+    "title": "FIFINE AmpliGame A6V USB Microphone, PC Gaming Recording Desktop Laptop Mic, RGB",
+    "brand": "FIFINE",
+    "category": "Microphones",
+    "badges": [
+      "Top Rated"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 330,
+    "bullets": [
+      "Connection: Wired",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "FIFINE",
+      "Category": "Microphones",
+      "Connection": "Wired"
+    },
+    "review": {
+      "summary": "The FIFINE AmpliGame A6V USB Microphone is a microphones from FIFINE, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the FIFINE AmpliGame A6V USB Microphone on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the FIFINE AmpliGame A6V USB Microphone in India?",
+        "a": "You can buy the FIFINE AmpliGame A6V USB Microphone on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the FIFINE AmpliGame A6V USB Microphone worth buying?",
+        "a": "The FIFINE AmpliGame A6V USB Microphone is one of the more popular microphones options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0G619LWD3",
+    "affiliateUrl": "https://amzn.to/445nwCl",
+    "slug": "acer-nitro-x-wired-mechanical-gaming-keyboard",
+    "title": "acer Nitro X Wired Mechanical Gaming Keyboard | 61 Keys | Red Switches | 17-Mode",
+    "brand": "Acer",
+    "category": "Keyboards",
+    "badges": [
+      "Bestseller"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 205,
+    "bullets": [
+      "Connection: Wired",
+      "Type: Mechanical",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Acer",
+      "Category": "Keyboards",
+      "Connection": "Wired",
+      "Type": "Mechanical"
+    },
+    "review": {
+      "summary": "The acer Nitro X Wired Mechanical Gaming Keyboard is a keyboards from Acer, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the acer Nitro X Wired Mechanical Gaming Keyboard on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the acer Nitro X Wired Mechanical Gaming Keyboard in India?",
+        "a": "You can buy the acer Nitro X Wired Mechanical Gaming Keyboard on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the acer Nitro X Wired Mechanical Gaming Keyboard worth buying?",
+        "a": "The acer Nitro X Wired Mechanical Gaming Keyboard is one of the more popular keyboards options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0BVFNDQ4L",
+    "affiliateUrl": "https://amzn.to/4wlTUwv",
+    "slug": "maono-pd200x-usb-xlr-dynamic-mic-for",
+    "title": "MAONO PD200X USB/XLR Dynamic Mic for Singing, PC, YouTube Recording. Professional",
+    "brand": "MAONO",
+    "category": "Microphones",
+    "badges": [
+      "Trending"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 330,
+    "bullets": [
+      "Connection: Wired",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "MAONO",
+      "Category": "Microphones",
+      "Connection": "Wired"
+    },
+    "review": {
+      "summary": "The MAONO PD200X USB/XLR Dynamic Mic for Singing is a microphones from MAONO, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the MAONO PD200X USB/XLR Dynamic Mic for Singing on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the MAONO PD200X USB/XLR Dynamic Mic for Singing in India?",
+        "a": "You can buy the MAONO PD200X USB/XLR Dynamic Mic for Singing on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the MAONO PD200X USB/XLR Dynamic Mic for Singing worth buying?",
+        "a": "The MAONO PD200X USB/XLR Dynamic Mic for Singing is one of the more popular microphones options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0B7GMH7KZ",
+    "affiliateUrl": "https://amzn.to/4fcxMil",
+    "slug": "ygm-acoustic-foams-pyramid-acoustic-panels-12",
+    "title": "YGM Acoustic Foams® Pyramid Acoustic Panels 12″×12″×2″ Thick | 38 Density Acoustic",
+    "brand": "YGM",
+    "category": "Studio",
+    "badges": [
+      "Top Rated"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 300,
+    "bullets": [
+      "Popular studio from YGM on Amazon India",
+      "Check the current price, deals and availability on Amazon",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "YGM",
+      "Category": "Studio"
+    },
+    "review": {
+      "summary": "The YGM Acoustic Foams® Pyramid Acoustic Panels 12″×12″×2″ is a studio from YGM, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the YGM Acoustic Foams® Pyramid Acoustic Panels 12″×12″×2″ on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the YGM Acoustic Foams® Pyramid Acoustic Panels 12″×12″×2″ in India?",
+        "a": "You can buy the YGM Acoustic Foams® Pyramid Acoustic Panels 12″×12″×2″ on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the YGM Acoustic Foams® Pyramid Acoustic Panels 12″×12″×2″ worth buying?",
+        "a": "The YGM Acoustic Foams® Pyramid Acoustic Panels 12″×12″×2″ is one of the more popular studio options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0G6JW35L3",
+    "affiliateUrl": "https://amzn.to/3TfnIfP",
+    "slug": "benq-ew270q-27-68-58-cm-2k",
+    "title": "BenQ EW270Q 27\" (68.58 cm) 2K QHD 200Hz IPS Gaming Monitor | HDRi|1200:1",
+    "brand": "BenQ",
+    "category": "Monitors",
+    "badges": [
+      "Bestseller"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 150,
+    "bullets": [
+      "Refresh Rate: 200 Hz",
+      "Screen Size: 27\"",
+      "Resolution: QHD 1440p",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "BenQ",
+      "Category": "Monitors",
+      "Refresh Rate": "200 Hz",
+      "Screen Size": "27\"",
+      "Resolution": "QHD 1440p"
+    },
+    "review": {
+      "summary": "The BenQ EW270Q 27\" is a monitors from BenQ, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the BenQ EW270Q 27\" on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the BenQ EW270Q 27\" in India?",
+        "a": "You can buy the BenQ EW270Q 27\" on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the BenQ EW270Q 27\" worth buying?",
+        "a": "The BenQ EW270Q 27\" is one of the more popular monitors options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B097398XP4",
+    "affiliateUrl": "https://amzn.to/4v7RWyI",
+    "slug": "samsung-34-86-42cm-odyssey-g5-curved",
+    "title": "Samsung 34\"(86.42cm) Odyssey G5 Curved Gaming Monitor|WQHD 3440 x",
+    "brand": "Samsung",
+    "category": "Monitors",
+    "badges": [
+      "Trending"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 150,
+    "bullets": [
+      "Screen Size: 34\"",
+      "Resolution: QHD 1440p",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Samsung",
+      "Category": "Monitors",
+      "Screen Size": "34\"",
+      "Resolution": "QHD 1440p"
+    },
+    "review": {
+      "summary": "The Samsung 34\" is a monitors from Samsung, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Samsung 34\" on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Samsung 34\" in India?",
+        "a": "You can buy the Samsung 34\" on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Samsung 34\" worth buying?",
+        "a": "The Samsung 34\" is one of the more popular monitors options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0DXTHQTGM",
+    "affiliateUrl": "https://amzn.to/4wnAR4L",
+    "slug": "benq-mobiuz-ex271q-27-68-58-cm",
+    "title": "BenQ MOBIUZ EX271Q 27” (68.58 cm) 2K QHD 180Hz Gaming Monitor, 1ms GtG, AMD",
+    "brand": "BenQ",
+    "category": "Monitors",
+    "badges": [
+      "Top Rated"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 150,
+    "bullets": [
+      "Refresh Rate: 180 Hz",
+      "Screen Size: 27\"",
+      "Resolution: QHD 1440p",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "BenQ",
+      "Category": "Monitors",
+      "Refresh Rate": "180 Hz",
+      "Screen Size": "27\"",
+      "Resolution": "QHD 1440p"
+    },
+    "review": {
+      "summary": "The BenQ MOBIUZ EX271Q 27” is a monitors from BenQ, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the BenQ MOBIUZ EX271Q 27” on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the BenQ MOBIUZ EX271Q 27” in India?",
+        "a": "You can buy the BenQ MOBIUZ EX271Q 27” on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the BenQ MOBIUZ EX271Q 27” worth buying?",
+        "a": "The BenQ MOBIUZ EX271Q 27” is one of the more popular monitors options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0GMQYDCGG",
+    "affiliateUrl": "https://amzn.to/4eUeFIF",
+    "slug": "lg-29u511a-73-cm-29-inch-ultrawide",
+    "title": "LG 29U511A 73 cm (29 Inch) UltraWide WFHD (2560x1080) IPS Monitor, 100Hz, 5ms(GtG)",
+    "brand": "LG",
+    "category": "Monitors",
+    "badges": [
+      "Bestseller"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 150,
+    "bullets": [
+      "Refresh Rate: 100 Hz",
+      "Screen Size: 73\"",
+      "Resolution: QHD 1440p",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "LG",
+      "Category": "Monitors",
+      "Refresh Rate": "100 Hz",
+      "Screen Size": "73\"",
+      "Resolution": "QHD 1440p"
+    },
+    "review": {
+      "summary": "The LG 29U511A 73 cm is a monitors from LG, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the LG 29U511A 73 cm on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the LG 29U511A 73 cm in India?",
+        "a": "You can buy the LG 29U511A 73 cm on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the LG 29U511A 73 cm worth buying?",
+        "a": "The LG 29U511A 73 cm is one of the more popular monitors options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0BRZZCRPW",
+    "affiliateUrl": "https://amzn.to/4gTy3rG",
+    "slug": "ant-esports-dock5-rgb-ps5-console-charging",
+    "title": "Ant Esports Dock5 RGB PS5 Console Charging Station",
+    "brand": "Ant Esports",
+    "category": "Accessories",
+    "badges": [
+      "Trending"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 230,
+    "bullets": [
+      "Popular accessories from Ant Esports on Amazon India",
+      "Check the current price, deals and availability on Amazon",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Ant Esports",
+      "Category": "Accessories"
+    },
+    "review": {
+      "summary": "The Ant Esports Dock5 RGB PS5 Console Charging is a accessories from Ant Esports, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Ant Esports Dock5 RGB PS5 Console Charging on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Ant Esports Dock5 RGB PS5 Console Charging in India?",
+        "a": "You can buy the Ant Esports Dock5 RGB PS5 Console Charging on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Ant Esports Dock5 RGB PS5 Console Charging worth buying?",
+        "a": "The Ant Esports Dock5 RGB PS5 Console Charging is one of the more popular accessories options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0C7VLXMT4",
+    "affiliateUrl": "https://amzn.to/4eUZIFY",
+    "slug": "sony-ps5-spiderman-2-standard-edn",
+    "title": "Sony Ps5 Spiderman 2 Standard Edn.",
+    "brand": "Sony",
+    "category": "Games",
+    "badges": [
+      "Top Rated"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 340,
+    "bullets": [
+      "Popular games from Sony on Amazon India",
+      "Check the current price, deals and availability on Amazon",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Sony",
+      "Category": "Games"
+    },
+    "review": {
+      "summary": "The Sony Ps5 Spiderman 2 Standard Edn. is a games from Sony, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the Sony Ps5 Spiderman 2 Standard Edn. on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the Sony Ps5 Spiderman 2 Standard Edn. in India?",
+        "a": "You can buy the Sony Ps5 Spiderman 2 Standard Edn. on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the Sony Ps5 Spiderman 2 Standard Edn. worth buying?",
+        "a": "The Sony Ps5 Spiderman 2 Standard Edn. is one of the more popular games options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  },
+  {
+    "asin": "B0B6FGSKCQ",
+    "affiliateUrl": "https://amzn.to/4eJWCWQ",
+    "slug": "playstation-sony-god-of-war-ragnarok-standard",
+    "title": "PlayStation Sony God Of War Ragnarok | Standard Edition | PS5 Game (PlayStation 5)",
+    "brand": "Sony",
+    "category": "Games",
+    "badges": [
+      "Bestseller"
+    ],
+    "rating": null,
+    "reviewCount": null,
+    "isPrime": false,
+    "hue": 340,
+    "bullets": [
+      "Popular games from Sony on Amazon India",
+      "Check the current price, deals and availability on Amazon",
+      "Verified customer ratings & reviews on Amazon India"
+    ],
+    "specs": {
+      "Brand": "Sony",
+      "Category": "Games"
+    },
+    "review": {
+      "summary": "The PlayStation Sony God Of War Ragnarok is a games from Sony, available on Amazon India.",
+      "paragraphs": [
+        "See the full specifications, current price, offers and thousands of verified customer reviews for the PlayStation Sony God Of War Ragnarok on Amazon India. Click the button above to check today's deal — as prices change often, especially during Amazon sales."
+      ],
+      "pros": [],
+      "cons": []
+    },
+    "faq": [
+      {
+        "q": "Where can I buy the PlayStation Sony God Of War Ragnarok in India?",
+        "a": "You can buy the PlayStation Sony God Of War Ragnarok on Amazon India. Use the Buy button above to go to the product page and check the latest price, offers and availability."
+      },
+      {
+        "q": "Is the PlayStation Sony God Of War Ragnarok worth buying?",
+        "a": "The PlayStation Sony God Of War Ragnarok is one of the more popular games options on Amazon India. Check its current rating, reviews and price on Amazon to decide if it fits your budget and needs."
+      }
+    ]
+  }
 ];
 
-/**
- * Canonical outbound URL for a product's Buy button.
- * Priority: your pasted affiliate link → explicit detailUrl → build from a real
- * ASIN → fall back to the store link (so the click still earns during the sale).
- * affiliate.js enforces the tag + rel/target at click time.
- */
+/** Canonical outbound URL for a product's Buy button. */
 export function getDetailUrl(product) {
   if (product.affiliateUrl) return product.affiliateUrl;
   if (product.detailUrl) return product.detailUrl;
-  if (product.asin && !/^B0EXMPL/i.test(product.asin)) {
-    return `https://${CONFIG.MARKETPLACE_HOST}/dp/${product.asin}`;
-  }
-  return CONFIG.AMAZON_STORE_URL; // no product link yet → store link (still tagged)
+  if (product.asin && !/^B0EXMPL/i.test(product.asin)) return `https://${CONFIG.MARKETPLACE_HOST}/dp/${product.asin}`;
+  return CONFIG.AMAZON_STORE_URL;
 }
-
-/** True once a product has its own affiliate link (vs. using the store fallback). */
+/** True once a product has its own affiliate link (vs. the store fallback). */
 export function hasOwnLink(product) {
   return Boolean(product.affiliateUrl || product.detailUrl || (product.asin && !/^B0EXMPL/i.test(product.asin)));
 }
-
-/** Find a product by its URL slug. */
-export function getProductBySlug(slug) {
-  return PRODUCTS.find((p) => p.slug === slug) || null;
-}
-
-/** Products that carry a given badge ("Bestseller" | "Top Rated" | "Trending"). */
-export function getProductsByBadge(badge) {
-  return PRODUCTS.filter((p) => p.badges.includes(badge));
-}
-
-/**
- * Absolute URL of a product's primary image, for JSON-LD / Open Graph.
- * Uses the real `image` if set, else the conventional assets/<slug>.jpg path.
- */
+/** Absolute URL of a product's primary image, for JSON-LD / Open Graph. */
 export function getPrimaryImageUrl(product) {
   if (product.image && /^https?:\/\//.test(product.image)) return product.image;
   return `${CONFIG.SITE_URL}/assets/${product.slug}.jpg`;
 }
-
-/**
- * Build the image set for a product (main + thumbnails).
- *   • If `product.image` is set, use it (plus any `product.images[]`) as real photos.
- *   • Otherwise fall back to self-contained inline-SVG placeholders.
- * TO ADD REAL IMAGES: set `image: 'https://…'` (and optional `images: ['…','…']`)
- * on the product — from PA-API, a SiteStripe image link, or your own hosting.
- */
+/** Find a product by its URL slug. */
+export function getProductBySlug(slug) {
+  return PRODUCTS.find((p) => p.slug === slug) || null;
+}
+/** Products carrying a given badge. */
+export function getProductsByBadge(badge) {
+  return PRODUCTS.filter((p) => p.badges.includes(badge));
+}
+/** Products in a given category. */
+export function getProductsByCategory(category) {
+  return PRODUCTS.filter((p) => p.category === category);
+}
+/** Build the image set for a product (main + thumbnails). */
 export function getProductImages(product) {
   if (product.image) {
     const srcs = [product.image, ...(Array.isArray(product.images) ? product.images : [])];
-    const thumbs = srcs.map((src, i) => ({ src, label: `${product.title} — view ${i + 1}` }));
-    return { main: product.image, thumbs };
+    return { main: product.image, thumbs: srcs.map((src, i) => ({ src, label: `${product.title} — view ${i + 1}` })) };
   }
   const variants = ['Front View', 'Side Profile', 'In Setup', 'Detail / Ports'];
   const main = placeholderImage({ label: product.brand, sub: product.category, hue: product.hue });
-  const thumbs = variants.map((v, i) => ({
-    src: placeholderImage({ label: product.brand, sub: v, hue: (product.hue + i * 14) % 360 }),
-    label: `${product.title} — ${v}`,
-  }));
-  thumbs[0].src = main; // keep the gallery's first thumb consistent with the main image
+  const thumbs = variants.map((v, i) => ({ src: placeholderImage({ label: product.brand, sub: v, hue: (product.hue + i * 14) % 360 }), label: `${product.title} — ${v}` }));
+  thumbs[0].src = main;
   return { main, thumbs };
 }

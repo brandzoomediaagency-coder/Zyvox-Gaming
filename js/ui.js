@@ -122,9 +122,9 @@ export function renderProductCard(product, listName = '') {
       </h3>
 
       <div class="flex items-center gap-2 text-xs text-slate-300">
-        ${starsHtml(product.rating, product.reviewCount)}
-        <span class="font-semibold text-slate-200">${product.rating.toFixed(1)}</span>
-        <span class="text-slate-400">(${formatCount(product.reviewCount)})</span>
+        ${product.rating
+          ? `${starsHtml(product.rating, product.reviewCount)}<span class="font-semibold text-slate-200">${product.rating.toFixed(1)}</span>${product.reviewCount ? `<span class="text-slate-400">(${formatCount(product.reviewCount)})</span>` : ''}`
+          : `<span class="text-slate-400">★ Ratings &amp; reviews on Amazon</span>`}
       </div>
 
       <div class="mt-auto flex flex-col gap-2 pt-1">
