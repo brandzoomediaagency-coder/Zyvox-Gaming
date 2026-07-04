@@ -8,6 +8,7 @@ import { CONFIG } from './config.js';
 import { PRODUCTS, getProductsByBadge, getProductImages, getDetailUrl } from './data.js';
 import { escapeHtml, formatCount, starsHtml } from './util.js';
 import { mountSearch } from './search.js';
+import { mountCuelinks } from './cuelinks.js';
 
 /* ----- Shared header / nav / search behavior ----------------------------- */
 export function mountChrome() {
@@ -31,6 +32,9 @@ export function mountChrome() {
 
   // Real-time client-side product search on every header search box.
   mountSearch();
+
+  // CueLinks auto-affiliate loader (no-op unless a channel ID is configured).
+  mountCuelinks();
 
   // Wire every "Shop on Amazon" button to the store link from config, then let
   // affiliate.js tag + secure it (short links keep their baked-in tag; only

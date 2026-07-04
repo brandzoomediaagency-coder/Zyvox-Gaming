@@ -51,6 +51,11 @@ export const CONFIG = Object.freeze({
   // Log every click to the console. Auto-enabled on localhost regardless.
   TRACKING_DEBUG: false,
 
+  // CueLinks auto-affiliate channel ID (js/cuelinks.js). '' to disable.
+  // NOTE: CueLinks rewrites outbound links — exclude amazon.in / amzn.to in your
+  // CueLinks dashboard if you want to keep DIRECT Amazon commission on your tag.
+  CUELINKS_CHANNEL_ID: '236924',
+
   /* ----- Brand ----- */
   SITE_NAME: 'ZyvoxGaming',
   SITE_TAGLINE: 'Pro-Tested Gaming Gear, Curated For 2026',
