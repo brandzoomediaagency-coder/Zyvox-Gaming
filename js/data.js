@@ -5408,8 +5408,8 @@ export function getProductImages(product) {
     return { main: product.image, thumbs: srcs.map((src, i) => ({ src, label: `${product.title} — view ${i + 1}` })) };
   }
   const variants = ['Front View', 'Side Profile', 'In Setup', 'Detail / Ports'];
-  const main = placeholderImage({ label: product.brand, sub: product.category, hue: product.hue });
-  const thumbs = variants.map((v, i) => ({ src: placeholderImage({ label: product.brand, sub: v, hue: (product.hue + i * 14) % 360 }), label: `${product.title} — ${v}` }));
+  const main = placeholderImage({ label: product.brand, sub: product.category, hue: product.hue, category: product.category });
+  const thumbs = variants.map((v, i) => ({ src: placeholderImage({ label: product.brand, sub: v, hue: (product.hue + i * 14) % 360, category: product.category }), label: `${product.title} — ${v}` }));
   thumbs[0].src = main;
   return { main, thumbs };
 }
